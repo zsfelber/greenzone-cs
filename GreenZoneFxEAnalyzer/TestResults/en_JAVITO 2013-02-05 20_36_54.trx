@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cbc07d87-c1a0-4ff7-97eb-e76bf46a2a6a" name="en@JAVITO 2013-02-05 20:36:54" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-02-05 20_36_54">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-05T20:36:54.2343750+01:00" queuing="2013-02-05T20:36:54.2656250+01:00" start="2013-02-05T20:36:54.2812500+01:00" finish="2013-02-05T20:37:44.6875000+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinaryRWTest2" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="4742e815-c122-f259-96af-62b1d64fba4c">
+      <Execution id="6c34ea96-9d2a-4a84-a715-a0f9aef9594c" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4742e815-c122-f259-96af-62b1d64fba4c" executionId="6c34ea96-9d2a-4a84-a715-a0f9aef9594c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6c34ea96-9d2a-4a84-a715-a0f9aef9594c" testId="4742e815-c122-f259-96af-62b1d64fba4c" testName="BinaryRWTest2" computerName="JAVITO" duration="00:00:50.0544080" startTime="2013-02-05T20:36:54.2968750+01:00" endTime="2013-02-05T20:37:44.6718750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c34ea96-9d2a-4a84-a715-a0f9aef9594c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

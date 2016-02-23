@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/openthinking/mt4servervalidate/!svn/ver/14/servervalidatedll/obj/Release
+END
+main.o
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/openthinking/mt4servervalidate/!svn/ver/14/servervalidatedll/obj/Release/main.o
+END
+easyCurl.o
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/openthinking/mt4servervalidate/!svn/ver/6/servervalidatedll/obj/Release/easyCurl.o
+END
+xmlParser.o
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/14/servervalidatedll/obj/Release/xmlParser.o
+END
+SNMPAccess.o
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/6/servervalidatedll/obj/Release/SNMPAccess.o
+END

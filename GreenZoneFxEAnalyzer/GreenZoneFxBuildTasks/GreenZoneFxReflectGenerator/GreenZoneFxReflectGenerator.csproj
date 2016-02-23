@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28EECE18-8673-4875-9A16-DC933B4FB48B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneFxReflectGenerator</RootNamespace>
+    <AssemblyName>GreenZoneFxReflectGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GreenZoneFxReflectGenerator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GreenZoneFxBaseGenerator\GreenZoneFxBaseGenerator.csproj">
+      <Project>{AEF7F9AB-3613-4D03-9FE0-B482A80E795F}</Project>
+      <Name>GreenZoneFxBaseGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneFxBaseGEx\GreenZoneFxBaseGEx.csproj">
+      <Project>{6510EB83-837B-417B-A8B6-A34E5102A011}</Project>
+      <Name>GreenZoneFxBaseGEx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneFxBase\GreenZoneFxBase.csproj">
+      <Project>{934E7038-CA1F-4700-81BB-E6929602644B}</Project>
+      <Name>GreenZoneFxBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneFxClientGen\GreenZoneFxClient.csproj">
+      <Project>{814BCA67-3A87-42D2-810D-0DEEE84121A7}</Project>
+      <Name>GreenZoneFxClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneFxRobots\GreenZoneFxRobots.csproj">
+      <Project>{0371356D-94D3-4D0C-9C87-701448E9B175}</Project>
+      <Name>GreenZoneFxRobots</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneUtilsBase\GreenZoneUtilsBase.csproj">
+      <Project>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</Project>
+      <Name>GreenZoneUtilsBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneUtilsClient\GreenZoneUtilsClient.csproj">
+      <Project>{97AE3F8A-1E13-4199-96AE-761E154BC75B}</Project>
+      <Name>GreenZoneUtilsClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneUtils\GreenZoneUtils.csproj">
+      <Project>{507242C0-88E3-4FED-B7E8-BF64C80F00BE}</Project>
+      <Name>GreenZoneUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LZMA\LZMA.csproj">
+      <Project>{71497619-E95D-44EC-9ADA-B8719D71DC0E}</Project>
+      <Name>LZMA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GreenZoneParser\GreenZoneParser\GreenZoneParser.csproj">
+      <Project>{813CA4F8-7D52-4FB7-A05A-A799F6B4CBB1}</Project>
+      <Name>GreenZoneParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

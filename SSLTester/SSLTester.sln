@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SslTcpServer", "SslTcpServer\SslTcpServer.csproj", "{8869C17C-FFF2-4928-BA56-3212C3033602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SslTcpClient", "SslTcpClient\SslTcpClient.csproj", "{720CF8F7-EC50-4CDC-B274-0BAA6525FE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8869C17C-FFF2-4928-BA56-3212C3033602}.Debug|x86.ActiveCfg = Debug|x86
+		{8869C17C-FFF2-4928-BA56-3212C3033602}.Debug|x86.Build.0 = Debug|x86
+		{8869C17C-FFF2-4928-BA56-3212C3033602}.Release|x86.ActiveCfg = Release|x86
+		{8869C17C-FFF2-4928-BA56-3212C3033602}.Release|x86.Build.0 = Release|x86
+		{720CF8F7-EC50-4CDC-B274-0BAA6525FE14}.Debug|x86.ActiveCfg = Debug|x86
+		{720CF8F7-EC50-4CDC-B274-0BAA6525FE14}.Debug|x86.Build.0 = Debug|x86
+		{720CF8F7-EC50-4CDC-B274-0BAA6525FE14}.Release|x86.ActiveCfg = Release|x86
+		{720CF8F7-EC50-4CDC-B274-0BAA6525FE14}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

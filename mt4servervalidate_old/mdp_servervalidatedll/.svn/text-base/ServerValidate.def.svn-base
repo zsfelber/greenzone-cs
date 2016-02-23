@@ -1,0 +1,7 @@
+LIBRARY ServerValidate.dll
+EXPORTS
+ValidateUser
+CheckForBuy
+CheckForSell
+
+

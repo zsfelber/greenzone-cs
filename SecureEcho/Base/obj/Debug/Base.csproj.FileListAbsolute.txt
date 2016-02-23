@@ -1,0 +1,5 @@
+E:\downloads\SecureEcho\Base\bin\Debug\Base.dll
+E:\downloads\SecureEcho\Base\bin\Debug\Base.pdb
+E:\downloads\SecureEcho\Base\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\SecureEcho\Base\obj\Debug\Base.dll
+E:\downloads\SecureEcho\Base\obj\Debug\Base.pdb

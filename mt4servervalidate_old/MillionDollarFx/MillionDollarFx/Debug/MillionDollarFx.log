@@ -1,0 +1,31 @@
+﻿Build started 6/10/2013 8:57:15 AM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\MillionDollarFx\MillionDollarFx.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MillionDollarFx.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D _USRDLL /D MILLIONDOLLARFX_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MillionDollarFx.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt MillionDollarFx.cpp /clr:nostdlib 
+         MillionDollarFx.cpp
+     1>MillionDollarFx.cpp(102): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MillionDollarFx.cpp(103): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         All outputs are up-to-date.
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"MillionDollarFx.def" /MANIFEST /ManifestFile:"Debug\MillionDollarFx.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\MillionDollarFx.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.lib and object F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.exp
+         MillionDollarFx.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\Debug\MillionDollarFx.dll;#2" /manifest Debug\MillionDollarFx.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MillionDollarFx.unsuccessfulbuild".
+         Touching "Debug\MillionDollarFx.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate_old\MillionDollarFx\MillionDollarFx\MillionDollarFx.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68

@@ -1,0 +1,310 @@
+﻿<assembly n="GreenZoneFxBaseGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<type n="TGreenZoneFxBaseGenerator" ns="GreenZoneFxBaseGenerator" id="33554434" mod="P" t="cl">
+		<type n="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" ns="GreenZoneFxBaseGenerator" id="33554435" mod="0" t="cl">
+			<field n="rmiInterface" id="67108877" t="t" mod="i">
+			</field>
+			<field n="Props_header" id="67108878" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_propertyConstants" id="67108879" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_rmiGet" id="67108880" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_rmiSet" id="67108881" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_init" id="67108882" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_deps" id="67108883" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_serial_r" id="67108884" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Props_serial_w" id="67108885" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_header" id="67108886" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_events" id="67108887" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_constructors" id="67108888" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_methods" id="67108889" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_serial_r" id="67108890" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_serial_w" id="67108891" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_rmiGet" id="67108892" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_rmiSet" id="67108893" t="TSystem.Text.StringBuilder" mod="i">
+			</field>
+			<field n="Bean_properties" id="67108894" t="G2XTSystem.Text.StringBuilder;System.Collections.Generic.Dictionary" mod="i">
+			</field>
+			<field n="lastPropertyId" id="67108895" t="n" mod="i">
+			</field>
+			<field n="usedNamespaces" id="67108896" t="G1XSystem.Collections.Generic.SortedSet" mod="i">
+			</field>
+			<field n="parentType" id="67108897" t="t" mod="i">
+			</field>
+			<field n="parent" id="67108898" t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" mod="i">
+			</field>
+			<field n="baseConstructors" id="67108899" t="A1TSystem.Reflection.ConstructorInfo;" mod="i">
+			</field>
+			<field n="customBaseEx" id="67108900" t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TSourceInfo" mod="i">
+			</field>
+			<constr id="100663313" mod="P">
+			</constr>
+		</type>
+		<type n="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TSourceInfo" ns="GreenZoneFxBaseGenerator" id="33554436" mod="0" t="cl">
+			<field n="classDefBlock" id="67108901" t="TGreenZoneParser.Parsers.Cs.BlockNode" mod="i">
+			</field>
+			<constr id="100663314" mod="P">
+			</constr>
+		</type>
+		<field n="NEWLINE" id="67108865" t="X" const="\r\n" mod="s0">
+		</field>
+		<field n="GEN_FOLDER" id="67108866" t="X" const="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/GreenZoneFxBaseGEx/generated/" mod="s0">
+		</field>
+		<field n="EX_BASE_FOLDER" id="67108867" t="X" const="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/GreenZoneFxBaseGEx/GreenZoneFxEngine/" mod="s0">
+		</field>
+		<field n="tab1" id="67108868" t="X" const="\t" mod="s0">
+		</field>
+		<field n="tab2" id="67108869" t="X" const="\t\t" mod="s0">
+		</field>
+		<field n="tab3" id="67108870" t="X" const="\t\t\t" mod="s0">
+		</field>
+		<field n="tab4" id="67108871" t="X" const="\t\t\t\t" mod="s0">
+		</field>
+		<field n="tab5" id="67108872" t="X" const="\t\t\t\t\t" mod="s0">
+		</field>
+		<field n="tab6" id="67108873" t="X" const="\t\t\t\t\t\t" mod="s0">
+		</field>
+		<method n="TGenerate" id="100663297" rt="v" mod="sP">
+		</method>
+		<method n="Tbuild" id="100663298" rt="v" mod="s0">
+			<param t="TSystem.Reflection.Assembly" n="asm">
+			</param>
+			<param t="t" n="rmiInterface">
+			</param>
+			<param t="G2XTGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo;System.Collections.Generic.Dictionary" n="buildInfos">
+			</param>
+			<param t="G2XTGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TSourceInfo;System.Collections.Generic.Dictionary" n="sourceInfos">
+			</param>
+		</method>
+		<method n="TGenerateCosntructor" id="100663299" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="G1TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo;System.Collections.Generic.List" n="additionalParents">
+			</param>
+			<param t="TSystem.Text.StringBuilder" n="buffer">
+			</param>
+			<param t="TSystem.Reflection.ConstructorInfo" n="ci">
+			</param>
+			<param t="X" n="cName">
+			</param>
+		</method>
+		<method n="TGenerateCosntructor" id="100663300" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="G1TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo;System.Collections.Generic.List" n="additionalParents">
+			</param>
+			<param t="TSystem.Text.StringBuilder" n="buffer">
+			</param>
+			<param t="TGreenZoneParser.Parsers.Cs.BlockNode" n="consBlock">
+			</param>
+			<param t="TGreenZoneParser.Parsers.Cs.ConstructorDefStatementNode" n="ci">
+			</param>
+			<param t="X" n="cName">
+			</param>
+		</method>
+		<method n="TGenerateCosntructorHeader" id="100663301" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="TSystem.Text.StringBuilder" n="buffer">
+			</param>
+			<param t="TSystem.Reflection.ConstructorInfo" n="ci">
+			</param>
+			<param t="X" n="cName">
+			</param>
+		</method>
+		<method n="TGenerateCosntructorHeader" id="100663302" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="TSystem.Text.StringBuilder" n="buffer">
+			</param>
+			<param t="TGreenZoneParser.Parsers.Cs.BlockNode" n="consBlock">
+			</param>
+			<param t="TGreenZoneParser.Parsers.Cs.ConstructorDefStatementNode" n="consDefNode">
+			</param>
+			<param t="X" n="cName">
+			</param>
+		</method>
+		<method n="TGenerateCosntructorFooter" id="100663303" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="G1TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo;System.Collections.Generic.List" n="additionalParents">
+			</param>
+			<param t="TSystem.Text.StringBuilder" n="buffer">
+			</param>
+			<param t="X" n="cName">
+			</param>
+			<param t="b" n="nowarn">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TAddTypeNamespace" id="100663304" rt="v" mod="s0">
+			<param t="TGreenZoneFxBaseGenerator.GreenZoneFxBaseGenerator+TBuildInfo" n="bi">
+			</param>
+			<param t="t" n="type">
+			</param>
+		</method>
+		<method n="TPrettyFullName" id="100663305" rt="X" mod="s0">
+			<param t="t" n="type">
+			</param>
+		</method>
+		<method n="TPrettyName" id="100663306" rt="X" mod="s0">
+			<param t="t" n="type">
+			</param>
+		</method>
+		<method n="TPrettyName" id="100663307" rt="X" mod="s0">
+			<param t="t" n="type">
+			</param>
+			<param t="b" n="isOut">
+			</param>
+		</method>
+		<method n="TIsParams" id="100663308" rt="b" mod="s0">
+			<param t="TSystem.Reflection.ParameterInfo" n="param">
+			</param>
+		</method>
+		<constr id="100663309" mod="P">
+		</constr>
+	</type>
+	<type n="TGreenZoneFxReflectGenerator" ns="GreenZoneFxReflectGenerator" id="33554437" mod="P" t="cl">
+		<field n="GEN_FOLDER" id="67108902" t="X" const="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/GreenZoneFxBaseGEx/generated/" mod="s0">
+		</field>
+		<field n="NEWLINE" id="67108903" t="X" const="\r\n" mod="s0">
+		</field>
+		<field n="tab1" id="67108904" t="X" const="\t" mod="s0">
+		</field>
+		<field n="tab2" id="67108905" t="X" const="\t\t" mod="s0">
+		</field>
+		<field n="tab3" id="67108906" t="X" const="\t\t\t" mod="s0">
+		</field>
+		<field n="tab4" id="67108907" t="X" const="\t\t\t\t" mod="s0">
+		</field>
+		<field n="tab5" id="67108908" t="X" const="\t\t\t\t\t" mod="s0">
+		</field>
+		<field n="tab6" id="67108909" t="X" const="\t\t\t\t\t\t" mod="s0">
+		</field>
+		<method n="TGenerate" id="100663315" rt="v" mod="sP">
+		</method>
+		<method n="TGenerateMember" id="100663316" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="A1TSystem.Reflection.PropertyInfo;" n="allProps">
+			</param>
+			<param t="TSystem.Reflection.MemberInfo" n="member">
+			</param>
+			<param t="b" n="nonpublic">
+			</param>
+		</method>
+		<method n="TGenerateType" id="100663317" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="b" n="hasParent">
+			</param>
+			<param t="b" n="nonpublic">
+			</param>
+		</method>
+		<method n="TGenerateConstructor" id="100663318" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="TSystem.Reflection.ConstructorInfo" n="constructor">
+			</param>
+		</method>
+		<method n="TGenerateMethod" id="100663319" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="A1TSystem.Reflection.PropertyInfo;" n="allProps">
+			</param>
+			<param t="TSystem.Reflection.MethodInfo" n="method">
+			</param>
+		</method>
+		<method n="TGenerateProperty" id="100663320" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="TSystem.Reflection.PropertyInfo" n="property">
+			</param>
+		</method>
+		<method n="TGenerateField" id="100663321" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="TSystem.Reflection.FieldInfo" n="field">
+			</param>
+		</method>
+		<method n="TGenerateEvent" id="100663322" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="TSystem.Reflection.EventInfo" n="evt">
+			</param>
+		</method>
+		<method n="TGenerateAttributes" id="100663323" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="TSystem.Reflection.MemberInfo" n="member">
+			</param>
+		</method>
+		<method n="TGenerateAttributes" id="100663324" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="X" n="tag">
+			</param>
+			<param t="G1TSystem.Reflection.CustomAttributeData;System.Collections.Generic.IList" n="attrs">
+			</param>
+		</method>
+		<method n="TGenerateGenericConstraints" id="100663325" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="A1t" n="genericArguments">
+			</param>
+		</method>
+		<method n="TGenerateParameters" id="100663326" rt="v" mod="s0">
+			<param t="TSystem.Text.StringBuilder" n="xml">
+			</param>
+			<param t="X" n="tabs0">
+			</param>
+			<param t="b" n="isExtension">
+			</param>
+			<param t="G1TSystem.Reflection.ParameterInfo;System.Collections.Generic.IList" n="parameters">
+			</param>
+		</method>
+		<method n="TGenerateMethodName" id="100663327" rt="X" mod="s0">
+			<param t="TSystem.Reflection.MethodInfo" n="method">
+			</param>
+		</method>
+		<constr id="100663328" mod="P">
+		</constr>
+	</type>
+</assembly>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="AbstractCodeInfo.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="AbstractCodeInfo.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="CURLRetriever.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="GenComputerString.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="121" topLine="0" />
+	</File>
+	<File name="GenComputerString.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="194" topLine="0" />
+	</File>
+	<File name="HTTPRspCodeDescription.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="HTTPRspCodeString.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="disphelper.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="961" topLine="24" />
+	</File>
+	<File name="disphelper.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="353" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="355" topLine="9" />
+	</File>
+	<File name="xmlParser.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="31934" topLine="48" />
+	</File>
+	<File name="xmlParser.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="235" />
+	</File>
+</CodeBlocks_layout_file>

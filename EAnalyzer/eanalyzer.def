@@ -1,0 +1,8 @@
+LIBRARY "eanalyzer"
+
+EXPORTS
+InitializeRobot
+DeinitializeRobot
+tick
+
+

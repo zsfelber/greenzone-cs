@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d27afe73-25ac-4a56-bfaa-ce32593cb6e3" name="en@JAVITO 2013-02-28 13:02:56" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-02-28 13_02_56">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-28T13:02:56.3125000+01:00" queuing="2013-02-28T13:02:59.5000000+01:00" start="2013-02-28T13:02:59.7656250+01:00" finish="2013-02-28T13:03:00.5781250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinarySeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="624d876a-01b6-5ac5-df80-e8d9c50d4500">
+      <Execution id="48366002-78b4-4f45-813c-b559a2635c1f" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest2" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="4742e815-c122-f259-96af-62b1d64fba4c">
+      <Execution id="1ac3fdae-06b0-47bf-a660-5a6da5a11f05" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest2" />
+    </UnitTest>
+    <UnitTest name="CsvSeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb">
+      <Execution id="553bb218-1efe-4ca3-88aa-d77b6dcfb677" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvSeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest1" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="a7785222-8bf0-85bd-0721-ed354a9eff36">
+      <Execution id="ae9e6a95-1013-4181-94c5-de35787f471e" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest1" />
+    </UnitTest>
+    <UnitTest name="CsvRWTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="51176f26-fc54-5355-1438-b0cd8241af1f">
+      <Execution id="bd33045e-236b-4c3d-9f7b-6bcd5ba45db9" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvRWTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4742e815-c122-f259-96af-62b1d64fba4c" executionId="1ac3fdae-06b0-47bf-a660-5a6da5a11f05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51176f26-fc54-5355-1438-b0cd8241af1f" executionId="bd33045e-236b-4c3d-9f7b-6bcd5ba45db9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" executionId="48366002-78b4-4f45-813c-b559a2635c1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7785222-8bf0-85bd-0721-ed354a9eff36" executionId="ae9e6a95-1013-4181-94c5-de35787f471e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" executionId="553bb218-1efe-4ca3-88aa-d77b6dcfb677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1ac3fdae-06b0-47bf-a660-5a6da5a11f05" testId="4742e815-c122-f259-96af-62b1d64fba4c" testName="BinaryRWTest2" computerName="JAVITO" duration="00:00:00.1891601" startTime="2013-02-28T13:02:59.8437500+01:00" endTime="2013-02-28T13:03:00.5000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ac3fdae-06b0-47bf-a660-5a6da5a11f05">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinaryRWTest2 threw exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.</Message>
+          <StackTrace>    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerCache..ctor(SeriesManagerRuntime parent, SymbolPeriodId symbolPeriod, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 227
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerRuntime..ctor(ChartRuntime parent, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 30
+   at GreenZoneFxEAnalyzer.Mt4.UserRuntime..ctor(ChartRuntime parent, SeriesManagerRuntime seriesManager) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\UserRuntime.cs:line 29
+   at UnitTests.Mt4FileUtilTest.BinaryRWTest2() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 446
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd33045e-236b-4c3d-9f7b-6bcd5ba45db9" testId="51176f26-fc54-5355-1438-b0cd8241af1f" testName="CsvRWTest" computerName="JAVITO" duration="00:00:00.0062358" startTime="2013-02-28T13:03:00.5000000+01:00" endTime="2013-02-28T13:03:00.5156250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd33045e-236b-4c3d-9f7b-6bcd5ba45db9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.CsvRWTest threw exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.</Message>
+          <StackTrace>    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerCache..ctor(SeriesManagerRuntime parent, SymbolPeriodId symbolPeriod, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 227
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerRuntime..ctor(ChartRuntime parent, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 30
+   at GreenZoneFxEAnalyzer.Mt4.UserRuntime..ctor(ChartRuntime parent, SeriesManagerRuntime seriesManager) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\UserRuntime.cs:line 29
+   at UnitTests.Mt4FileUtilTest.CsvRWTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48366002-78b4-4f45-813c-b559a2635c1f" testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" testName="BinarySeekAppendTest" computerName="JAVITO" duration="00:00:00.0074911" startTime="2013-02-28T13:03:00.5156250+01:00" endTime="2013-02-28T13:03:00.5312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48366002-78b4-4f45-813c-b559a2635c1f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinarySeekAppendTest threw exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.</Message>
+          <StackTrace>    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerCache..ctor(SeriesManagerRuntime parent, SymbolPeriodId symbolPeriod, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 227
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerRuntime..ctor(ChartRuntime parent, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 30
+   at GreenZoneFxEAnalyzer.Mt4.UserRuntime..ctor(ChartRuntime parent, SeriesManagerRuntime seriesManager) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\UserRuntime.cs:line 29
+   at UnitTests.Mt4FileUtilTest.BinarySeekAppendTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 509
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae9e6a95-1013-4181-94c5-de35787f471e" testId="a7785222-8bf0-85bd-0721-ed354a9eff36" testName="BinaryRWTest1" computerName="JAVITO" duration="00:00:00.0029758" startTime="2013-02-28T13:03:00.5312500+01:00" endTime="2013-02-28T13:03:00.5468750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae9e6a95-1013-4181-94c5-de35787f471e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinaryRWTest1 threw exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.</Message>
+          <StackTrace>    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerCache..ctor(SeriesManagerRuntime parent, SymbolPeriodId symbolPeriod, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 227
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerRuntime..ctor(ChartRuntime parent, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 30
+   at GreenZoneFxEAnalyzer.Mt4.UserRuntime..ctor(ChartRuntime parent, SeriesManagerRuntime seriesManager) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\UserRuntime.cs:line 29
+   at UnitTests.Mt4FileUtilTest.BinaryRWTest1() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 380
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="553bb218-1efe-4ca3-88aa-d77b6dcfb677" testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" testName="CsvSeekAppendTest" computerName="JAVITO" duration="00:00:00.0056975" startTime="2013-02-28T13:03:00.5468750+01:00" endTime="2013-02-28T13:03:00.5625000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="553bb218-1efe-4ca3-88aa-d77b6dcfb677">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.CsvSeekAppendTest threw exception: 
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.</Message>
+          <StackTrace>    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerCache..ctor(SeriesManagerRuntime parent, SymbolPeriodId symbolPeriod, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 227
+   at GreenZoneFxEAnalyzer.Mt4.SeriesManagerRuntime..ctor(ChartRuntime parent, datetime focusedTime) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\SeriesManagerRuntime.cs:line 30
+   at GreenZoneFxEAnalyzer.Mt4.UserRuntime..ctor(ChartRuntime parent, SeriesManagerRuntime seriesManager) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\Mt4\UserRuntime.cs:line 29
+   at UnitTests.Mt4FileUtilTest.CsvSeekAppendTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

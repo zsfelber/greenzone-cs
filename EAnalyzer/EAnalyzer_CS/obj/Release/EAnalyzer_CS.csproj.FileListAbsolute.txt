@@ -1,0 +1,12 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\BasicUtil_CS.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\ZsfTraderLib_CS.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\BasicUtil_CS.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\ZsfTraderLib_CS.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\EAnalyzer_CS.EAForm.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\GenerateResource.read.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\GenerateResource.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\EAnalyzer_CS.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\obj\Release\EAnalyzer_CS.pdb

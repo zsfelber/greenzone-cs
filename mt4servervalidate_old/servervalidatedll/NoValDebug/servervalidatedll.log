@@ -1,0 +1,138 @@
+﻿Build started 8/4/2012 2:24:23 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate\servervalidatedll\servervalidatedll.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\NoValDebug\".
+       InitializeBuildStatus:
+         Creating "NoValDebug\ServerValidateDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\CustomLibs\include /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D CURL_STATICLIB /D NO_VALIDATE_ZSF_ONLY /D _MBCS /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"NoValDebug\\" /Fd"NoValDebug\vc100.pdb" /TP /analyze- /errorReport:prompt AbstractCodeInfo.cpp base64.cpp CURLRetriever.cpp disphelper.cpp GenComputerString.cpp HTTPRspCodeClassString.cpp HTTPRspCodeDescription.cpp HTTPRspCodeString.cpp main.cpp xmlParser.cpp /clr:nostdlib 
+         AbstractCodeInfo.cpp
+         base64.cpp
+         CURLRetriever.cpp
+         disphelper.cpp
+     1>disphelper.cpp(899): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>disphelper.cpp(911): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>disphelper.cpp(914): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>disphelper.cpp(1123): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>disphelper.cpp(1151): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>disphelper.cpp(1156): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>disphelper.cpp(1162): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>disphelper.cpp(1177): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>disphelper.cpp(1205): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>disphelper.cpp(1213): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(488) : see declaration of '_snwprintf'
+         GenComputerString.cpp
+         HTTPRspCodeClassString.cpp
+         HTTPRspCodeDescription.cpp
+         HTTPRspCodeString.cpp
+         main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>main.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>main.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>main.cpp(168): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         xmlParser.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Generating Code...
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(616): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(621): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(626): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(631): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(635): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(645): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(650): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(663): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(669): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(674): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(679): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(684): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(689): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(694): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(700): warning C4793: '`anonymous namespace'::ExtractArgument' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(219): warning C4793: 'dhInvoke' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(225): warning C4793: 'dhInvoke' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(229): warning C4793: 'dhInvoke' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(799): warning C4793: 'dhEnumBegin' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(805): warning C4793: 'dhEnumBegin' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(809): warning C4793: 'dhEnumBegin' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(155): warning C4793: 'dhCallMethod' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(161): warning C4793: 'dhCallMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(165): warning C4793: 'dhCallMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(171): warning C4793: 'dhPutValue' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(177): warning C4793: 'dhPutValue' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(181): warning C4793: 'dhPutValue' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(187): warning C4793: 'dhPutRef' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(193): warning C4793: 'dhPutRef' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(197): warning C4793: 'dhPutRef' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(203): warning C4793: 'dhGetValue' : function compiled as native :
+         	varargs not supported under /clr
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(209): warning C4793: 'dhGetValue' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(213): warning C4793: 'dhGetValue' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\CustomLibs\include /Zi /clr /nologo /W3 /WX- /Od /Oy- /D CURL_STATICLIB /D NO_VALIDATE_ZSF_ONLY /D _MBCS /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"NoValDebug\\" /Fd"NoValDebug\vc100.pdb" /TP /analyze- /errorReport:prompt "L:\Documents and Settings\en\Local Settings\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Lib:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\NoValDebug\ServerValidate.lib" /LIBPATH:..\CustomLibs\lib /NOLOGO NoValDebug\AbstractCodeInfo.obj
+         NoValDebug\base64.obj
+         NoValDebug\CURLRetriever.obj
+         NoValDebug\disphelper.obj
+         NoValDebug\GenComputerString.obj
+         NoValDebug\HTTPRspCodeClassString.obj
+         NoValDebug\HTTPRspCodeDescription.obj
+         NoValDebug\HTTPRspCodeString.obj
+         NoValDebug\main.obj
+         NoValDebug\xmlParser.obj
+         "NoValDebug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>.NETFramework,Version=v4.0.AssemblyAttributes.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         servervalidatedll.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\NoValDebug\ServerValidate.lib
+       FinalizeBuildStatus:
+         Deleting file "NoValDebug\ServerValidateDLL.unsuccessfulbuild".
+         Touching "NoValDebug\ServerValidateDLL.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate\servervalidatedll\servervalidatedll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.20

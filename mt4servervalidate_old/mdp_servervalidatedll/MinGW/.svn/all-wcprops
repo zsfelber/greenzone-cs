@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/MinGW
+END
+libServerValidate.dll.a
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/MinGW/libServerValidate.dll.a
+END
+ServerValidate.dll
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/6/servervalidatedll/MinGW/ServerValidate.dll
+END
+libServerValidate.dll.def
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/MinGW/libServerValidate.dll.def
+END

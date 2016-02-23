@@ -1,0 +1,42 @@
+﻿Build started 3/15/2013 4:32:58 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\LauncherDll\LauncherDll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\LauncherDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GreenZoneFxLauncherDll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxRobots.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GreenZoneFxLauncherDll.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxRobots.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp LauncherDll.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         LauncherDll.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.dll" /INCREMENTAL:NO /NOLOGO /DEF:"greenzonefxanalyzer.def" /MANIFEST /ManifestFile:"Release\GreenZoneFxLauncherDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\app.res
+         Release\AssemblyInfo.obj
+         Release\LauncherDll.obj
+         Release\Stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.lib and object F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.exp
+         LauncherDll.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxLauncherDll.dll;#2" /manifest Release\GreenZoneFxLauncherDll.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxRobots.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxRobots.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxEngine.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxEngine.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxEAnalyzer.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxEAnalyzer.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\EnvironmentAssistant.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\EnvironmentAssistant.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxRobots.pdb" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxRobots.pdb".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxEngine.pdb" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxEngine.pdb".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxRobots\bin\Release\GreenZoneFxEAnalyzer.pdb" to "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Release\GreenZoneFxEAnalyzer.pdb".
+       FinalizeBuildStatus:
+         Deleting file "Release\LauncherDll.unsuccessfulbuild".
+         Touching "Release\LauncherDll.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\LauncherDll\LauncherDll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62

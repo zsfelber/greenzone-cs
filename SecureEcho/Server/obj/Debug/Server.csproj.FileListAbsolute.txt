@@ -1,0 +1,16 @@
+E:\downloads\SecureEcho\SecureEcho\Server\bin\Debug\Server.exe
+E:\downloads\SecureEcho\SecureEcho\Server\bin\Debug\Server.pdb
+E:\downloads\SecureEcho\SecureEcho\Server\bin\Debug\Base.dll
+E:\downloads\SecureEcho\SecureEcho\Server\bin\Debug\Base.pdb
+E:\downloads\SecureEcho\SecureEcho\Server\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\SecureEcho\SecureEcho\Server\obj\Debug\Server.exe
+E:\downloads\SecureEcho\SecureEcho\Server\obj\Debug\Server.pdb
+E:\downloads\SecureEcho\SecureEcho\Server\bin\Debug\Server.exe.config
+E:\downloads\SecureEcho\Server\bin\Debug\Server.exe.config
+E:\downloads\SecureEcho\Server\obj\Debug\Server.exe
+E:\downloads\SecureEcho\Server\obj\Debug\Server.pdb
+E:\downloads\SecureEcho\Server\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\SecureEcho\Server\bin\Debug\Server.exe
+E:\downloads\SecureEcho\Server\bin\Debug\Server.pdb
+E:\downloads\SecureEcho\Server\bin\Debug\Base.dll
+E:\downloads\SecureEcho\Server\bin\Debug\Base.pdb

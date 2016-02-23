@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicUtil", "..\BasicUtil\BasicUtil.vcxproj", "{C05002EE-759A-4BF2-8A5D-6D873A32D3B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT4LogDLL", "MT4LogDLL\MT4LogDLL.vcxproj", "{31962A41-316D-44ED-81D5-2C76EC4994CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05002EE-759A-4BF2-8A5D-6D873A32D3B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C05002EE-759A-4BF2-8A5D-6D873A32D3B2}.Debug|Win32.Build.0 = Debug|Win32
+		{C05002EE-759A-4BF2-8A5D-6D873A32D3B2}.Release|Win32.ActiveCfg = Release|Win32
+		{C05002EE-759A-4BF2-8A5D-6D873A32D3B2}.Release|Win32.Build.0 = Release|Win32
+		{31962A41-316D-44ED-81D5-2C76EC4994CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31962A41-316D-44ED-81D5-2C76EC4994CF}.Debug|Win32.Build.0 = Debug|Win32
+		{31962A41-316D-44ED-81D5-2C76EC4994CF}.Release|Win32.ActiveCfg = Release|Win32
+		{31962A41-316D-44ED-81D5-2C76EC4994CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

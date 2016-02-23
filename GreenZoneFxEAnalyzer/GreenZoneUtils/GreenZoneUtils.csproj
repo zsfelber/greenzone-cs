@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{507242C0-88E3-4FED-B7E8-BF64C80F00BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneUtil</RootNamespace>
+    <AssemblyName>GreenZoneUtils</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gui\Controls\ContextMenuStripWTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Controls\CoolTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Controls\NonselButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Controls\WormSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Controls\ProgressTrackBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\PropertyGrid\BufferedPropertyGrid.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ComboBoxVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\BaseButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\CheckBoxVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ContextMenuStripMenuVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripComboBoxVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\RadioButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripChbuttonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripDDItemVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripMenuCheckCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripMenuVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\LabelButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\PanelButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripSplitButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripDdButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripButtonVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Buttons\ToolStripMenuItemVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\CoolTabControlVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\FolderBrowserVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\FileDialogVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\FormVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\SimpleControlVCBinder.cs" />
+    <Compile Include="Gui\ViewController\ControlVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\TabPageControlVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\TabControlVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\SplitterPanelVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\WormSplitContainerVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Containers\SplitContainerVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Etc\ErrorProviderVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\CheckBoxListVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\ListVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\ProgressBarVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\TrackBarVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\ProgressTrackBarVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\ToolStripLabelVCBinder1.cs" />
+    <Compile Include="Gui\ViewController\Fields\ToolStripLabelVCBinder2.cs" />
+    <Compile Include="Gui\ViewController\Fields\LabelVCBinder2.cs" />
+    <Compile Include="Gui\ViewController\Fields\LabelVCBinder1.cs" />
+    <Compile Include="Gui\ViewController\Fields\NumericUpDownVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Fields\TextBoxVCBinder2.cs" />
+    <Compile Include="Gui\ViewController\Fields\TextBoxVCBinder1.cs" />
+    <Compile Include="Gui\ViewController\Fields\DateTimePickerVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Etc\ToolTipVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\BufferedPropertyGridVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\TreeNodeVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\TreeViewVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\DataGridCellVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\DataGridRowVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\DataGridViewVCBinder.cs" />
+    <Compile Include="Gui\ViewController\Viewers\DataGridColumnVCBinder.cs" />
+    <Compile Include="Gui\ViewController\WinFormsMVContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\BinaryReaderBE.cs" />
+    <Compile Include="Util\ModifyRegistry.cs" />
+    <Compile Include="Util\PropertyBag.cs" />
+    <Compile Include="Util\Utils.cs" />
+    <Compile Include="Util\WindowsMessages.cs" />
+    <EmbeddedResource Include="Gui\Controls\CoolTabControl.resx">
+      <DependentUpon>CoolTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Controls\ProgressTrackBar.resx">
+      <DependentUpon>ProgressTrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downthumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uphumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddMark_105801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewController\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\GreenZoneUtilsBase\GreenZoneUtilsBase.csproj">
+      <Project>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</Project>
+      <Name>GreenZoneUtilsBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

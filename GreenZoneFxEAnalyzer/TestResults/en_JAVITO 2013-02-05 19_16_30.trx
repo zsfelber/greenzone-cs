@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0093e437-60f3-4518-b706-b20d89065d8d" name="en@JAVITO 2013-02-05 19:16:30" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-02-05 19_16_30">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-05T19:16:30.1250000+01:00" queuing="2013-02-05T19:16:30.1562500+01:00" start="2013-02-05T19:16:30.1718750+01:00" finish="2013-02-05T19:16:30.7343750+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinarySeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="624d876a-01b6-5ac5-df80-e8d9c50d4500">
+      <Execution id="96cfa591-7df9-4582-bdfb-d0f7d33e9281" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySeekAppendTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" executionId="96cfa591-7df9-4582-bdfb-d0f7d33e9281" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96cfa591-7df9-4582-bdfb-d0f7d33e9281" testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" testName="BinarySeekAppendTest" computerName="JAVITO" duration="00:00:00.1879692" startTime="2013-02-05T19:16:30.1718750+01:00" endTime="2013-02-05T19:16:30.7031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96cfa591-7df9-4582-bdfb-d0f7d33e9281">
+    </UnitTestResult>
+  </Results>
+</TestRun>

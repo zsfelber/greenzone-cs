@@ -1,0 +1,16 @@
+E:\downloads\SecureEcho\SecureEcho\Client\bin\Debug\Client.exe
+E:\downloads\SecureEcho\SecureEcho\Client\bin\Debug\Client.pdb
+E:\downloads\SecureEcho\SecureEcho\Client\bin\Debug\Base.dll
+E:\downloads\SecureEcho\SecureEcho\Client\bin\Debug\Base.pdb
+E:\downloads\SecureEcho\SecureEcho\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\SecureEcho\SecureEcho\Client\obj\Debug\Client.exe
+E:\downloads\SecureEcho\SecureEcho\Client\obj\Debug\Client.pdb
+E:\downloads\SecureEcho\SecureEcho\Client\bin\Debug\Client.exe.config
+E:\downloads\SecureEcho\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\SecureEcho\Client\obj\Debug\Client.pdb
+E:\downloads\SecureEcho\Client\bin\Debug\Client.exe.config
+E:\downloads\SecureEcho\Client\bin\Debug\Client.exe
+E:\downloads\SecureEcho\Client\bin\Debug\Client.pdb
+E:\downloads\SecureEcho\Client\bin\Debug\Base.dll
+E:\downloads\SecureEcho\Client\bin\Debug\Base.pdb
+E:\downloads\SecureEcho\Client\obj\Debug\Client.exe

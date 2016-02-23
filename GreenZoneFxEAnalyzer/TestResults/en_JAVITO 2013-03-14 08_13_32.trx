@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7afb31ff-6eb8-4389-9efa-a600d92e7c32" name="en@JAVITO 2013-03-14 08:13:32" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-03-14 08_13_32">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.dll" />
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\bin\Debug\GreenZoneFxEngine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-14T08:13:32.9218750+01:00" queuing="2013-03-14T08:13:32.9687500+01:00" start="2013-03-14T08:13:32.9843750+01:00" finish="2013-03-14T08:13:34.0468750+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="datetime" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="3ece3637-02f2-b9a7-cf44-8cad9965f457">
+      <Execution id="1729c432-7101-4913-9baf-e89c7f371d1e" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TypesTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="datetime" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" executionId="1729c432-7101-4913-9baf-e89c7f371d1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1729c432-7101-4913-9baf-e89c7f371d1e" testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" testName="datetime" computerName="JAVITO" duration="00:00:00.8089417" startTime="2013-03-14T08:13:32.9843750+01:00" endTime="2013-03-14T08:13:34.0312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1729c432-7101-4913-9baf-e89c7f371d1e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;0&gt;. Actual:&lt;0&gt;. d0.Millisecond == 0</Message>
+          <StackTrace>   at UnitTests.TypesTest.datetime() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\TypesTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

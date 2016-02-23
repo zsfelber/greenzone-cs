@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneUtilBase</RootNamespace>
+    <AssemblyName>GreenZoneUtilsBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GreenRmi\GreenRmiNetworkLayer.cs" />
+    <Compile Include="GreenRmi\GreenRmiSerializer.cs" />
+    <Compile Include="GreenRmi\GreenRmi.cs" />
+    <Compile Include="Gui\CharMapDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\CharMapDialog.Designer.cs">
+      <DependentUpon>CharMapDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Editors.cs" />
+    <Compile Include="Gui\StringDrawer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Types\BasicTypes.cs" />
+    <Compile Include="Util\IParams.cs" />
+    <Compile Include="Util\ListItem.cs" />
+    <Compile Include="Util\Property.cs" />
+    <Compile Include="Util\Utils.cs" />
+    <Compile Include="ViewController\AssistantFormController.cs" />
+    <Compile Include="ViewController\AssistantPageController.cs" />
+    <Compile Include="ViewController\BufferedPropertyGridController.cs" />
+    <Compile Include="ViewController\ButtonController.cs" />
+    <Compile Include="ViewController\ChildControlMap.cs" />
+    <Compile Include="ViewController\Client\ClientController.cs" />
+    <Compile Include="ViewController\Client\ClientControllerEvents.cs" />
+    <Compile Include="ViewController\Client\GraphicsController.cs" />
+    <Compile Include="ViewController\ComboController.cs" />
+    <Compile Include="ViewController\Controller.cs" />
+    <Compile Include="ViewController\ControllerEvents.cs" />
+    <Compile Include="ViewController\RmiBase.cs" />
+    <Compile Include="ViewController\DialogController.cs" />
+    <Compile Include="ViewController\FieldController.cs" />
+    <Compile Include="ViewController\FileDialogController.cs" />
+    <Compile Include="ViewController\FolderBrowserController.cs" />
+    <Compile Include="ViewController\FormController.cs" />
+    <Compile Include="ViewController\GridCellController.cs" />
+    <Compile Include="ViewController\GridColumnController.cs" />
+    <Compile Include="ViewController\GridController.cs" />
+    <Compile Include="ViewController\GridRowController.cs" />
+    <Compile Include="ViewController\LabelledController.cs" />
+    <Compile Include="ViewController\LabelledFieldController.cs" />
+    <Compile Include="ViewController\ListController.cs" />
+    <Compile Include="ViewController\MessageBoxController.cs" />
+    <Compile Include="ViewController\MultiSplitController.cs" />
+    <Compile Include="ViewController\ProgressTrackController.cs" />
+    <Compile Include="ViewController\PropertyPanelController.cs" />
+    <Compile Include="ViewController\RadioButtonController.cs" />
+    <Compile Include="ViewController\SeparatorButtonController.cs" />
+    <Compile Include="ViewController\SplitController.cs" />
+    <Compile Include="ViewController\TabController.cs" />
+    <Compile Include="ViewController\TabPageController.cs" />
+    <Compile Include="ViewController\ToggleButtonController.cs" />
+    <Compile Include="ViewController\TreeController.cs" />
+    <Compile Include="ViewController\TreeNodeController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Gui\CharMapDialog.resx">
+      <DependentUpon>CharMapDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+LIBRARY "mdpanalyzer"
+
+EXPORTS
+InitializeRobot
+DeinitializeRobot
+analyze

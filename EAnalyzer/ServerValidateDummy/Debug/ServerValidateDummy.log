@@ -1,0 +1,35 @@
+﻿Build started 8/4/2012 2:24:17 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\ServerValidateDummy\ServerValidateDummy.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ServerValidateDummy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ServerValidateDummy.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ServerValidateDummy.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp ServerValidateDummy.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         ServerValidateDummy.cpp
+         Generating Code...
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "L:\Documents and Settings\en\Local Settings\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Lib:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\ServerValidateDummy.lib" /NOLOGO Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\ServerValidateDummy.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+     1>.NETFramework,Version=v4.0.AssemblyAttributes.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>AssemblyInfo.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         ServerValidateDummy.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\ServerValidateDummy.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ServerValidateDummy.unsuccessfulbuild".
+         Touching "Debug\ServerValidateDummy.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\ServerValidateDummy\ServerValidateDummy.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.81

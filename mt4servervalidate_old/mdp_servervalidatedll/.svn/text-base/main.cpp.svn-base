@@ -1,0 +1,215 @@
+/*=============================================================================
+ServerValidate
+=============================================================================*/
+
+// This dll handles the communication to the web interface
+//
+//
+
+
+
+#define CURL_STATICLIB
+
+#define WIN32_LEAN_AND_MEAN
+
+#include <string>
+
+#include <windows.h>
+#include "xmlParser.h"
+#include "convert.h"
+#include "CURLRetriever.h"
+#include "HTTPRspCodeString.h"
+#include "HTTPRspCodeClassString.h"
+#include "HTTPRspCodeDescription.h"
+#include "GenComputerString.h"
+
+#define MT4_EXPFUNC __declspec(dllexport)
+
+#define export extern "C" __declspec( dllexport )
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+	static bool isValidate;
+
+    //+------------------------------------------------------------------+
+    //|                                                                  |
+    //+------------------------------------------------------------------+
+    MT4_EXPFUNC void  __stdcall ValidateUser(const char *server, const char *username, const int metatraderid, const int debug, int validated[], int statusCode[], char* statusText)
+    {
+		isValidate = false;
+
+        std::string aOpenRequest;
+        std::string requestResult;
+        //std::string macAddr = GetMACAddr();
+		std::string compID;
+		try {
+			compID = GetComputerString(25);
+		} catch (std::wstring *exception) {
+			compID = "12345";
+			delete exception;
+		}
+
+        CURLRetriever::InitializeCURL();
+
+        aOpenRequest = server;
+        aOpenRequest += "/checkStatus.php?username=";
+
+        aOpenRequest += username;
+        aOpenRequest += "&compid=";
+        aOpenRequest += compID;
+        aOpenRequest += "&mt4acctid=";
+        aOpenRequest += stringify(metatraderid);
+
+        CURLRetriever urlRetriever;
+		if (debug == 1)
+			MessageBox(GetActiveWindow(),aOpenRequest.c_str(),"Request",MB_OK);
+
+        HRESULT hResult = urlRetriever.Initialize(aOpenRequest.c_str());
+
+        LONG lResponseCode = 0;
+        std::string sRetrievedContent;
+        std::string sRetrievingErrorDescription;
+        unsigned int codeClass;
+        int retries = 0;
+        do
+        {
+
+
+            hResult = urlRetriever.Retrieve(lResponseCode, sRetrievedContent, sRetrievingErrorDescription);
+            codeClass = lResponseCode / 100;
+            retries++;
+        }
+        while (codeClass == 5 && retries < 10);
+
+        if (codeClass > 2)
+        {
+            HTTPRspCodeDescription codeDescr;
+            std::string codeStringText = "Communications problem with server.  Description: ";
+            codeStringText += codeDescr.getInfo( lResponseCode );
+            //strcpy(statusText,codeStringText.c_str());
+        }
+
+
+
+        if (hResult != S_OK)
+        {
+            std::string codeStringText = "Communications problem with server.  Description: ";
+            codeStringText += sRetrievingErrorDescription.c_str();
+            //strcpy(statusText,codeStringText.c_str());
+        }
+
+        urlRetriever.Uninitialize();
+        CURLRetriever::UninitializeCURL();
+
+		if (debug == 1)
+			MessageBox(GetActiveWindow(),sRetrievedContent.c_str(),"Response",MB_OK);
+
+        XMLNode xMainNode=XMLNode::parseString(sRetrievedContent.c_str(),"validateStatus");
+
+        XMLNode xStatusCodeNode=xMainNode.getChildNode("status");
+
+        if (xStatusCodeNode.getText() != NULL)
+        {
+            statusCode[0] = convertToInt(xStatusCodeNode.getText());
+			if (statusCode[0]== 1)
+				isValidate = true;
+			else
+				isValidate = false;
+        }
+        else
+        {
+            statusCode[0] = 0;
+			isValidate = false;
+        }
+
+
+        XMLNode xStatusTextNode=xMainNode.getChildNode("statustext");
+
+        if (xStatusTextNode.getText() != NULL)
+        {
+            strcpy(statusText,xStatusTextNode.getText());
+        }
+        else
+        {
+            strcpy(statusText," ");
+        }
+
+
+        XMLNode xValidatedNode=xMainNode.getChildNode("validated");
+
+        if (xValidatedNode.getText() != NULL)
+        {
+            validated[0] = convertToInt(xValidatedNode.getText());
+        }
+        else
+        {
+            validated[0] = 0;
+        }
+
+		aOpenRequest.resize(0);
+        std::string().swap(aOpenRequest);
+
+        sRetrievedContent.resize(0);
+        std::string().swap(sRetrievedContent);
+
+        sRetrievingErrorDescription.resize(0);
+        std::string().swap(sRetrievingErrorDescription);
+    }
+
+	MT4_EXPFUNC int __stdcall CheckForBuy(double dAsk, double dBid ,double dADX, double dMA62, double dMA144,double dMA169, double dRange, double dtenkan_A, double dtenkan_B , double dtenkan_red , double dtenkan_blue )
+{
+
+	if (isValidate == false) return(0);
+   int result = 0;
+ 
+   if(dAsk>dMA144 && (dAsk-dMA144)<dRange  && dtenkan_A >  dtenkan_B  && dtenkan_red>dtenkan_blue && dMA62>dMA144 && dMA144>dMA169) result = 1;
+     
+   if(dADX>40 && dMA144>dBid && (dMA144-dBid)>dRange  && dtenkan_A >= dtenkan_B  && dtenkan_red<dtenkan_blue) result = 1;
+     
+	return(result);
+}
+
+
+MT4_EXPFUNC int __stdcall CheckForSell(double dAsk, double dBid ,double dADX, double dMA62, double dMA144,double dMA169, double dRange, double dtenkan_A, double dtenkan_B , double dtenkan_red , double dtenkan_blue )
+{
+
+   if (isValidate == false) return(0);
+	int result = 0;
+ 
+   if(dMA144>dBid && (dMA144-dBid)<dRange && dtenkan_red<dtenkan_blue && dtenkan_A < dtenkan_B && dMA62<dMA144 && dMA144<dMA169) result = 1;
+     
+   if(dADX>40 && dAsk>dMA144 && (dAsk-dMA144)>dRange && dtenkan_red>dtenkan_blue  && dtenkan_A <= dtenkan_B) result = 1;
+     
+	return(result);
+}
+
+
+    BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+    {
+        switch (fdwReason)
+        {
+        case DLL_PROCESS_ATTACH:
+            // attach to process
+            // return FALSE to fail DLL load
+            break;
+
+        case DLL_PROCESS_DETACH:
+            // detach from process
+            break;
+
+        case DLL_THREAD_ATTACH:
+            // attach to thread
+            break;
+
+        case DLL_THREAD_DETACH:
+            // detach from thread
+            break;
+        }
+        return TRUE; // succesful
+    }
+#ifdef __cplusplus
+}
+#endif

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="78da5926-8a5b-48f9-a2be-f334b051d6a7" name="en@JAVITO 2013-04-04 22:35:24" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-04-04 22_35_24">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.dll" />
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\bin\Debug\GreenZoneFxEngine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-04T22:35:24.9218750+02:00" queuing="2013-04-04T22:35:33.1250000+02:00" start="2013-04-04T22:35:33.8437500+02:00" finish="2013-04-04T22:35:47.2968750+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="6" error="1" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinarySeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="624d876a-01b6-5ac5-df80-e8d9c50d4500">
+      <Execution id="3ad0ef05-2ea0-47ea-81fe-751f0785a22b" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="CsvRWTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="51176f26-fc54-5355-1438-b0cd8241af1f">
+      <Execution id="dbe8303e-e672-464e-9d9c-74018c67b92b" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvRWTest" />
+    </UnitTest>
+    <UnitTest name="datetime" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="3ece3637-02f2-b9a7-cf44-8cad9965f457">
+      <Execution id="245e567f-7b66-449c-af3c-693daf92cf30" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TypesTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="datetime" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest1" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="a7785222-8bf0-85bd-0721-ed354a9eff36">
+      <Execution id="913598cc-6bdb-4bb0-84a4-9aac0725c6ba" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest1" />
+    </UnitTest>
+    <UnitTest name="CsvSeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb">
+      <Execution id="2437c098-78cd-453b-b99c-f10dcf239b27" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvSeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest2" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="4742e815-c122-f259-96af-62b1d64fba4c">
+      <Execution id="3b39c469-c894-4ada-a309-c69a660d6cd4" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" executionId="245e567f-7b66-449c-af3c-693daf92cf30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4742e815-c122-f259-96af-62b1d64fba4c" executionId="3b39c469-c894-4ada-a309-c69a660d6cd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51176f26-fc54-5355-1438-b0cd8241af1f" executionId="dbe8303e-e672-464e-9d9c-74018c67b92b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" executionId="3ad0ef05-2ea0-47ea-81fe-751f0785a22b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7785222-8bf0-85bd-0721-ed354a9eff36" executionId="913598cc-6bdb-4bb0-84a4-9aac0725c6ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" executionId="2437c098-78cd-453b-b99c-f10dcf239b27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="245e567f-7b66-449c-af3c-693daf92cf30" testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" testName="datetime" computerName="JAVITO" startTime="2013-04-04T22:35:34.0000000+02:00" endTime="2013-04-04T22:35:45.5937500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="245e567f-7b66-449c-af3c-693daf92cf30">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b39c469-c894-4ada-a309-c69a660d6cd4" testId="4742e815-c122-f259-96af-62b1d64fba4c" testName="BinaryRWTest2" computerName="JAVITO" duration="00:00:00.8397684" startTime="2013-04-04T22:35:45.5937500+02:00" endTime="2013-04-04T22:35:47.0625000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b39c469-c894-4ada-a309-c69a660d6cd4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinaryRWTest2 threw exception: 
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.</Message>
+          <StackTrace>    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at GreenZoneUtil.Util.GreenZoneUtils.GetNamespaceClasses(Assembly _asm, String nameSpace, Type[] attributeTypes) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\Util\Utils.cs:line 260
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime.registerSystemExecutables() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 74
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime..ctor(String envId) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 55
+   at UnitTests.Mt4FileUtilTest.BinaryRWTest2() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 442
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dbe8303e-e672-464e-9d9c-74018c67b92b" testId="51176f26-fc54-5355-1438-b0cd8241af1f" testName="CsvRWTest" computerName="JAVITO" duration="00:00:00.0410582" startTime="2013-04-04T22:35:47.0781250+02:00" endTime="2013-04-04T22:35:47.1250000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbe8303e-e672-464e-9d9c-74018c67b92b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.CsvRWTest threw exception: 
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.</Message>
+          <StackTrace>    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at GreenZoneUtil.Util.GreenZoneUtils.GetNamespaceClasses(Assembly _asm, String nameSpace, Type[] attributeTypes) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\Util\Utils.cs:line 260
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime.registerSystemExecutables() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 74
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime..ctor(String envId) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 55
+   at UnitTests.Mt4FileUtilTest.CsvRWTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ad0ef05-2ea0-47ea-81fe-751f0785a22b" testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" testName="BinarySeekAppendTest" computerName="JAVITO" duration="00:00:00.0439431" startTime="2013-04-04T22:35:47.1250000+02:00" endTime="2013-04-04T22:35:47.1718750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ad0ef05-2ea0-47ea-81fe-751f0785a22b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinarySeekAppendTest threw exception: 
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.</Message>
+          <StackTrace>    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at GreenZoneUtil.Util.GreenZoneUtils.GetNamespaceClasses(Assembly _asm, String nameSpace, Type[] attributeTypes) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\Util\Utils.cs:line 260
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime.registerSystemExecutables() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 74
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime..ctor(String envId) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 55
+   at UnitTests.Mt4FileUtilTest.BinarySeekAppendTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 505
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="913598cc-6bdb-4bb0-84a4-9aac0725c6ba" testId="a7785222-8bf0-85bd-0721-ed354a9eff36" testName="BinaryRWTest1" computerName="JAVITO" duration="00:00:00.0385034" startTime="2013-04-04T22:35:47.1718750+02:00" endTime="2013-04-04T22:35:47.2187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="913598cc-6bdb-4bb0-84a4-9aac0725c6ba">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.BinaryRWTest1 threw exception: 
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.</Message>
+          <StackTrace>    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at GreenZoneUtil.Util.GreenZoneUtils.GetNamespaceClasses(Assembly _asm, String nameSpace, Type[] attributeTypes) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\Util\Utils.cs:line 260
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime.registerSystemExecutables() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 74
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime..ctor(String envId) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 55
+   at UnitTests.Mt4FileUtilTest.BinaryRWTest1() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 376
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2437c098-78cd-453b-b99c-f10dcf239b27" testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" testName="CsvSeekAppendTest" computerName="JAVITO" duration="00:00:00.0443905" startTime="2013-04-04T22:35:47.2187500+02:00" endTime="2013-04-04T22:35:47.2656250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2437c098-78cd-453b-b99c-f10dcf239b27">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.Mt4FileUtilTest.CsvSeekAppendTest threw exception: 
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.</Message>
+          <StackTrace>    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at GreenZoneUtil.Util.GreenZoneUtils.GetNamespaceClasses(Assembly _asm, String nameSpace, Type[] attributeTypes) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\Util\Utils.cs:line 260
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime.registerSystemExecutables() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 74
+   at GreenZoneFxEngine.Trading.EnvironmentRuntime..ctor(String envId) in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\Trading\EnvironmentRuntime.cs:line 55
+   at UnitTests.Mt4FileUtilTest.CsvSeekAppendTest() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 195
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

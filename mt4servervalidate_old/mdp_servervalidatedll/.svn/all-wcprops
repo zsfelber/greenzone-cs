@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/openthinking/mt4servervalidate/!svn/ver/24/servervalidatedll
+END
+disphelper.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/openthinking/mt4servervalidate/!svn/ver/22/servervalidatedll/disphelper.c
+END
+servervalidatedll.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/servervalidatedll.vcxproj.user
+END
+CURLRetriever.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/openthinking/mt4servervalidate/!svn/ver/19/servervalidatedll/CURLRetriever.h
+END
+ServerValidate.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/ServerValidate.cbp
+END
+disphelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/disphelper.h
+END
+HTTPRspCodeDescription.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeDescription.h
+END
+AbstractCodeInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/AbstractCodeInfo.cpp
+END
+ServerValidate.layout
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/ServerValidate.layout
+END
+HTTPRspCodeClassString.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeClassString.cpp
+END
+GenComputerString.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/openthinking/mt4servervalidate/!svn/ver/22/servervalidatedll/GenComputerString.cpp
+END
+xmlParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/xmlParser.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/openthinking/mt4servervalidate/!svn/ver/24/servervalidatedll/main.cpp
+END
+base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/base64.cpp
+END
+ServerValidateDLL.sln
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/ServerValidateDLL.sln
+END
+libMT4SignalEntry.def
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/openthinking/mt4servervalidate/!svn/ver/2/servervalidatedll/libMT4SignalEntry.def
+END
+HTTPRspCodeString.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeString.h
+END
+ServerValidate.def
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/openthinking/mt4servervalidate/!svn/ver/21/servervalidatedll/ServerValidate.def
+END
+CURLRetriever.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/openthinking/mt4servervalidate/!svn/ver/19/servervalidatedll/CURLRetriever.cpp
+END
+ServerValidate.depend
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/openthinking/mt4servervalidate/!svn/ver/15/servervalidatedll/ServerValidate.depend
+END
+HTTPRspCodeDescription.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeDescription.cpp
+END
+xmlParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/xmlParser.cpp
+END
+AbstractCodeInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/AbstractCodeInfo.h
+END
+HTTPRspCodeClassString.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeClassString.h
+END
+xmlParser.sbr
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/openthinking/mt4servervalidate/!svn/ver/2/servervalidatedll/xmlParser.sbr
+END
+GenComputerString.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/GenComputerString.h
+END
+servervalidatedll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/openthinking/mt4servervalidate/!svn/ver/21/servervalidatedll/servervalidatedll.vcxproj
+END
+convert.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/openthinking/mt4servervalidate/!svn/ver/9/servervalidatedll/convert.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/openthinking/mt4servervalidate/!svn/ver/2/servervalidatedll/log.h
+END
+HTTPRspCodeString.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/HTTPRspCodeString.cpp
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/openthinking/mt4servervalidate/!svn/ver/14/servervalidatedll/base64.h
+END
+servervalidatedll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/openthinking/mt4servervalidate/!svn/ver/7/servervalidatedll/servervalidatedll.vcproj
+END

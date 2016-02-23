@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f09393fe-841f-4874-b86b-ee8cd03c4dbe" name="en@JAVITO 2013-02-14 13:15:06" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-02-14 13_15_06">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-14T13:15:06.2812500+01:00" queuing="2013-02-14T13:15:06.3125000+01:00" start="2013-02-14T13:15:06.3125000+01:00" finish="2013-02-14T13:15:22.3437500+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinaryRWTest1" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="a7785222-8bf0-85bd-0721-ed354a9eff36">
+      <Execution id="a7626ecf-5fcb-48a4-8b78-7b15e13dde07" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a7785222-8bf0-85bd-0721-ed354a9eff36" executionId="a7626ecf-5fcb-48a4-8b78-7b15e13dde07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a7626ecf-5fcb-48a4-8b78-7b15e13dde07" testId="a7785222-8bf0-85bd-0721-ed354a9eff36" testName="BinaryRWTest1" computerName="JAVITO" duration="00:00:15.6247406" startTime="2013-02-14T13:15:06.3125000+01:00" endTime="2013-02-14T13:15:22.3125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7626ecf-5fcb-48a4-8b78-7b15e13dde07">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Time,Ask,Bid,AskVolume,BidVolume &gt;. Actual:&lt;Time,Ask,Bid,AskVolume,Bi&gt;. Content mismatch  col1 != col2   R:35 R2:25</Message>
+          <StackTrace>   at UnitTests.Mt4FileUtilTest.BinaryRWTest1() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 420
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

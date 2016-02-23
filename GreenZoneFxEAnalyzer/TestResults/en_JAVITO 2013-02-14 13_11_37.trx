@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="410183a5-4e60-4411-b493-044a4a8810f6" name="en@JAVITO 2013-02-14 13:11:37" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-02-14 13_11_37">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-14T13:11:37.8750000+01:00" queuing="2013-02-14T13:11:43.7187500+01:00" start="2013-02-14T13:11:44.0937500+01:00" finish="2013-02-14T13:12:49.4531250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinarySeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="624d876a-01b6-5ac5-df80-e8d9c50d4500">
+      <Execution id="2b75ab0d-0906-4488-9f79-dcb1196d6b81" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest2" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="4742e815-c122-f259-96af-62b1d64fba4c">
+      <Execution id="11f6ace7-1119-4c69-9f58-37bdd4e5eeba" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest2" />
+    </UnitTest>
+    <UnitTest name="CsvSeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb">
+      <Execution id="383f6690-f986-403a-987b-7257b6f488d2" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvSeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest1" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="a7785222-8bf0-85bd-0721-ed354a9eff36">
+      <Execution id="e91fd03a-8bc5-4efa-9aa0-338ccda31a44" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest1" />
+    </UnitTest>
+    <UnitTest name="CsvRWTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="51176f26-fc54-5355-1438-b0cd8241af1f">
+      <Execution id="929fba79-2c6f-4406-a0b4-121c3df2c81a" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvRWTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4742e815-c122-f259-96af-62b1d64fba4c" executionId="11f6ace7-1119-4c69-9f58-37bdd4e5eeba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51176f26-fc54-5355-1438-b0cd8241af1f" executionId="929fba79-2c6f-4406-a0b4-121c3df2c81a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" executionId="2b75ab0d-0906-4488-9f79-dcb1196d6b81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7785222-8bf0-85bd-0721-ed354a9eff36" executionId="e91fd03a-8bc5-4efa-9aa0-338ccda31a44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" executionId="383f6690-f986-403a-987b-7257b6f488d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="11f6ace7-1119-4c69-9f58-37bdd4e5eeba" testId="4742e815-c122-f259-96af-62b1d64fba4c" testName="BinaryRWTest2" computerName="JAVITO" duration="00:00:39.6735049" startTime="2013-02-14T13:11:44.1250000+01:00" endTime="2013-02-14T13:12:24.5781250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f6ace7-1119-4c69-9f58-37bdd4e5eeba">
+    </UnitTestResult>
+    <UnitTestResult executionId="929fba79-2c6f-4406-a0b4-121c3df2c81a" testId="51176f26-fc54-5355-1438-b0cd8241af1f" testName="CsvRWTest" computerName="JAVITO" duration="00:00:09.1736981" startTime="2013-02-14T13:12:24.5781250+01:00" endTime="2013-02-14T13:12:33.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="929fba79-2c6f-4406-a0b4-121c3df2c81a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b75ab0d-0906-4488-9f79-dcb1196d6b81" testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" testName="BinarySeekAppendTest" computerName="JAVITO" duration="00:00:00.0355875" startTime="2013-02-14T13:12:33.7656250+01:00" endTime="2013-02-14T13:12:33.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b75ab0d-0906-4488-9f79-dcb1196d6b81">
+    </UnitTestResult>
+    <UnitTestResult executionId="e91fd03a-8bc5-4efa-9aa0-338ccda31a44" testId="a7785222-8bf0-85bd-0721-ed354a9eff36" testName="BinaryRWTest1" computerName="JAVITO" duration="00:00:15.5529155" startTime="2013-02-14T13:12:33.7968750+01:00" endTime="2013-02-14T13:12:49.3906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e91fd03a-8bc5-4efa-9aa0-338ccda31a44">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Time,Ask,Bid,AskVolume,BidVolume &gt;. Actual:&lt;Time,Ask,Bid,AskVolume,Bi&gt;. Content mismatch  col1 != col2   R:35 R2:25</Message>
+          <StackTrace>   at UnitTests.Mt4FileUtilTest.BinaryRWTest1() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\Mt4FileUtilTest.cs:line 420
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="383f6690-f986-403a-987b-7257b6f488d2" testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" testName="CsvSeekAppendTest" computerName="JAVITO" duration="00:00:00.0114096" startTime="2013-02-14T13:12:49.3906250+01:00" endTime="2013-02-14T13:12:49.4062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="383f6690-f986-403a-987b-7257b6f488d2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

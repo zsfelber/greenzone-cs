@@ -1,0 +1,36 @@
+﻿Build started 9/22/2013 8:24:30 AM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanel\Mt4ControlPanel.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Mt4ControlPanel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Mt4ControlPanel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Mt4ControlPanel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Mt4ControlPanel.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Mt4ControlPanel.cpp
+     1>Mt4ControlPanel.cpp(36): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "L:\Documents and Settings\en\Local Settings\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.dll" /INCREMENTAL /NOLOGO /DEF:"Mt4ControlPanel.def" /MANIFEST /ManifestFile:"Debug\Mt4ControlPanel.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Mt4ControlPanel.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.lib and object F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.exp
+         Mt4ControlPanel.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.dll;#2" /manifest Debug\Mt4ControlPanel.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Mt4ControlPanel.unsuccessfulbuild".
+         Touching "Debug\Mt4ControlPanel.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanel\Mt4ControlPanel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.42

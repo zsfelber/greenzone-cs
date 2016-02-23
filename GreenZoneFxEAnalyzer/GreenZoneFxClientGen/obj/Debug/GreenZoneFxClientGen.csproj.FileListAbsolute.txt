@@ -1,0 +1,15 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\obj\Debug\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxClientGen.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxClientGen.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBase.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBaseGen.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBaseGEx.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneUtilsBase.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneUtilsClient.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBaseGen.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBaseGEx.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneFxBase.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneUtilsBase.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\bin\Debug\GreenZoneUtilsClient.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\obj\Debug\GreenZoneFxClientGen.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxClientGen\obj\Debug\GreenZoneFxClientGen.pdb

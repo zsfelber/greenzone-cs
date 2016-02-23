@@ -1,0 +1,415 @@
+# depslib dependency file v1.0
+1252939662 source:c:\projects\servervalidatedll\xmlparser.cpp
+	"xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
+1252939662 c:\projects\servervalidatedll\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1252874159 source:c:\projects\servervalidatedll\easycurl.cpp
+	"easyCurl.h"
+	<iostream>
+	"curl/curl.h"
+
+1252874159 c:\projects\servervalidatedll\easycurl.h
+	<string>
+
+1240942750 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\curl.h
+	"curlver.h"
+	"curl/curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<types.h>
+	<time.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1242655690 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\curlver.h
+
+1242655690 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1241106364 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\curlrules.h
+
+1210653808 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\easy.h
+
+1211311336 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\multi.h
+	"curl.h"
+
+1232951192 c:\projects\curl-7.19.5\curl-7.19.5\include\curl\typecheck-gcc.h
+
+1256089586 source:c:\projects\servervalidatedll\main.cpp
+	<string>
+	<sstream>
+	<time.h>
+	<iostream>
+	<fstream>
+	"convert.h"
+	"easyCurl.h"
+	<windows.h>
+	<windows.h>
+	"xmlParser.h"
+	"SNMPAccess.h"
+
+1252874159 c:\projects\servervalidatedll\main.h
+	<string>
+	<sstream>
+	<time.h>
+	<iostream>
+	<fstream>
+	"convert.h"
+	"easyCurl.h"
+	<windows.h>
+
+1252874159 c:\projects\servervalidatedll\convert.h
+	<iostream>
+	<sstream>
+	<string>
+	<stdexcept>
+
+1252875238 c:\projects\servervalidatedll\snmpaccess.h
+
+1252875552 c:\projects\servervalidatedll\log.h
+	<stdio.h>
+
+1256008322 source:c:\projects\servervalidatedll\snmpaccess.cpp
+	<windows.h>
+	<string>
+	<stdio.h>
+	<iphlpapi.h>
+
+1252878215 source:c:\projects\servervalidatedll\base64.cpp
+	"base64.h"
+	<iostream>
+
+1252878236 c:\projects\servervalidatedll\base64.h
+	<string>
+
+1250050948 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\curl.h
+	"curlver.h"
+	"curl/curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1250092834 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\curlver.h
+
+1250092834 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1241106364 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\curlrules.h
+
+1210653808 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\easy.h
+
+1211311336 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\multi.h
+	"curl.h"
+
+1232951192 c:\tools\curl-7.19.6\curl-7.19.6\include\curl\typecheck-gcc.h
+
+1252874160 source:c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\easycurl.cpp
+	"easyCurl.h"
+	<iostream>
+	"curl/curl.h"
+
+1252874160 c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\easycurl.h
+	<string>
+
+1250054548 c:\tools\curl-7.19.6\include\curl\curl.h
+	"curlver.h"
+	"curl/curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1250096434 c:\tools\curl-7.19.6\include\curl\curlver.h
+
+1250096434 c:\tools\curl-7.19.6\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1241109964 c:\tools\curl-7.19.6\include\curl\curlrules.h
+
+1210657408 c:\tools\curl-7.19.6\include\curl\easy.h
+
+1211314936 c:\tools\curl-7.19.6\include\curl\multi.h
+	"curl.h"
+
+1232954792 c:\tools\curl-7.19.6\include\curl\typecheck-gcc.h
+
+1256093394 source:c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\main.cpp
+	<string>
+	"easyCurl.h"
+	<windows.h>
+	"xmlParser.h"
+	"SNMPAccess.h"
+
+1252939662 c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1252875240 c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\snmpaccess.h
+
+1252939662 source:c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\xmlparser.cpp
+	"xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
+1256008324 source:c:\documents and settings\administrator\desktop\servervalidatedll\servervalidatedll\snmpaccess.cpp
+	<windows.h>
+	<string>
+	<stdio.h>
+	<iphlpapi.h>
+
+1277360006 source:c:\projects\mt4servervalidate\servervalidatedll\easycurl.cpp
+	"easyCurl.h"
+	<iostream>
+	"curl/curl.h"
+
+1277360006 c:\projects\mt4servervalidate\servervalidatedll\easycurl.h
+	<string>
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\curlver.h
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\curlrules.h
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\easy.h
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\multi.h
+	"curl.h"
+
+1277360003 c:\projects\mt4servervalidate\curl-7.20.1\include\curl\typecheck-gcc.h
+
+1307070484 source:c:\projects\mt4servervalidate\servervalidatedll\main.cpp
+	<string>
+	<windows.h>
+	"xmlParser.h"
+	"convert.h"
+	"CURLRetriever.h"
+	"HTTPRspCodeString.h"
+	"HTTPRspCodeClassString.h"
+	"HTTPRspCodeDescription.h"
+	"GenComputerString.h"
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1277360006 c:\projects\mt4servervalidate\servervalidatedll\snmpaccess.h
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\xmlparser.cpp
+	"xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
+1298242599 source:c:\projects\mt4servervalidate\servervalidatedll\snmpaccess.cpp
+	<windows.h>
+	<string>
+	<stdio.h>
+	<iphlpapi.h>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\base64.cpp
+	"base64.h"
+	<iostream>
+
+1307070467 c:\projects\mt4servervalidate\servervalidatedll\base64.h
+	<string>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\disphelper.c
+	"disphelper.h"
+	<math.h>
+	<assert.h>
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\disphelper.h
+	<objbase.h>
+	<time.h>
+	<stdio.h>
+	<stdarg.h>
+	<wchar.h>
+	<iostream>
+	<string>
+	<comdef.h>
+
+1307070452 source:c:\projects\mt4servervalidate\servervalidatedll\gencomputerstring.cpp
+	"disphelper.h"
+	"base64.h"
+	"GenComputerString.h"
+	<wchar.h>
+	<string.h>
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\gencomputerstring.h
+	<string>
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1298244253 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\curlver.h
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\curlrules.h
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\easy.h
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\multi.h
+	"curl.h"
+
+1298244254 c:\projects\mt4servervalidate\curl-7.21.4\include\curl\typecheck-gcc.h
+
+1298247107 source:c:\projects\mt4servervalidate\servervalidatedll\gencomputerstring.c
+	"disphelper.h"
+	"base64.h"
+	"GenComputerString.h"
+	<wchar.h>
+	<string.h>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\abstractcodeinfo.cpp
+	"AbstractCodeInfo.h"
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\abstractcodeinfo.h
+	<string>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\curlretriever.cpp
+	"CURLRetriever.h"
+	<iostream>
+	<sstream>
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\curlretriever.h
+	<string>
+	<curl/curl.h>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\httprspcodeclassstring.cpp
+	"HTTPRspCodeClassString.h"
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\httprspcodeclassstring.h
+	"AbstractCodeInfo.h"
+	<string>
+	<map>
+
+1307069437 source:c:\projects\mt4servervalidate\servervalidatedll\httprspcodedescription.cpp
+	"HTTPRspCodeDescription.h"
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\httprspcodedescription.h
+	"abstractcodeinfo.h"
+	<string>
+	<map>
+
+1307069438 source:c:\projects\mt4servervalidate\servervalidatedll\httprspcodestring.cpp
+	"HTTPRspCodeString.h"
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\httprspcodestring.h
+	"AbstractCodeInfo.h"
+	<string>
+	<map>
+
+1307069437 c:\projects\mt4servervalidate\servervalidatedll\convert.h
+	<iostream>
+	<sstream>
+	<string>
+	<stdexcept>
+

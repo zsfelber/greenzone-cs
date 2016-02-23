@@ -1,0 +1,4188 @@
+﻿<assembly n="GreenZoneUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<type n="G2gC;gK;ControlVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554434" mod="P" t="cl">
+		<field n="context" id="67108865" t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" mod="rp">
+		</field>
+		<field n="control" id="67108866" t="gC" mod="rp">
+		</field>
+		<field n="controller" id="67108867" t="gK" mod="rp">
+		</field>
+		<constr id="100663297" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<prop n="Context" id="385875969" t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Control" id="385875970" t="gC" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Controller" id="385875971" t="gK" r="True" w="False" mod="P">
+		</prop>
+	</type>
+	<type n="TToolTipVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554435" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolTip;G1XGreenZoneUtil.ViewController.ChildControlMap;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<constr id="100663301" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolTip" n="control">
+			</param>
+			<param t="G1XGreenZoneUtil.ViewController.ChildControlMap" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_ChildAdded" id="100663302" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildRemoved" id="100663303" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TWindowsMessages" ns="" id="33554436" mod="eP" t="en">
+		<base n="N" id="33554817"/>
+		<item n="NULL" v="0"/>
+		<item n="CREATE" v="1"/>
+		<item n="DESTROY" v="2"/>
+		<item n="MOVE" v="3"/>
+		<item n="SIZE" v="5"/>
+		<item n="ACTIVATE" v="6"/>
+		<item n="SETFOCUS" v="7"/>
+		<item n="KILLFOCUS" v="8"/>
+		<item n="ENABLE" v="10"/>
+		<item n="SETREDRAW" v="11"/>
+		<item n="SETTEXT" v="12"/>
+		<item n="GETTEXT" v="13"/>
+		<item n="GETTEXTLENGTH" v="14"/>
+		<item n="PAINT" v="15"/>
+		<item n="CLOSE" v="16"/>
+		<item n="QUERYENDSESSION" v="17"/>
+		<item n="QUIT" v="18"/>
+		<item n="QUERYOPEN" v="19"/>
+		<item n="ERASEBKGND" v="20"/>
+		<item n="SYSCOLORCHANGE" v="21"/>
+		<item n="ENDSESSION" v="22"/>
+		<item n="SHOWWINDOW" v="24"/>
+		<item n="SETTINGCHANGE" v="26"/>
+		<item n="WININICHANGE" v="26"/>
+		<item n="DEVMODECHANGE" v="27"/>
+		<item n="ACTIVATEAPP" v="28"/>
+		<item n="FONTCHANGE" v="29"/>
+		<item n="TIMECHANGE" v="30"/>
+		<item n="CANCELMODE" v="31"/>
+		<item n="SETCURSOR" v="32"/>
+		<item n="MOUSEACTIVATE" v="33"/>
+		<item n="CHILDACTIVATE" v="34"/>
+		<item n="QUEUESYNC" v="35"/>
+		<item n="GETMINMAXINFO" v="36"/>
+		<item n="PAINTICON" v="38"/>
+		<item n="ICONERASEBKGND" v="39"/>
+		<item n="NEXTDLGCTL" v="40"/>
+		<item n="SPOOLERSTATUS" v="42"/>
+		<item n="DRAWITEM" v="43"/>
+		<item n="MEASUREITEM" v="44"/>
+		<item n="DELETEITEM" v="45"/>
+		<item n="VKEYTOITEM" v="46"/>
+		<item n="CHARTOITEM" v="47"/>
+		<item n="SETFONT" v="48"/>
+		<item n="GETFONT" v="49"/>
+		<item n="SETHOTKEY" v="50"/>
+		<item n="GETHOTKEY" v="51"/>
+		<item n="QUERYDRAGICON" v="55"/>
+		<item n="COMPAREITEM" v="57"/>
+		<item n="GETOBJECT" v="61"/>
+		<item n="COMPACTING" v="65"/>
+		<item n="COMMNOTIFY" v="68"/>
+		<item n="WINDOWPOSCHANGING" v="70"/>
+		<item n="WINDOWPOSCHANGED" v="71"/>
+		<item n="POWER" v="72"/>
+		<item n="COPYDATA" v="74"/>
+		<item n="CANCELJOURNAL" v="75"/>
+		<item n="NOTIFY" v="78"/>
+		<item n="INPUTLANGCHANGEREQUEST" v="80"/>
+		<item n="INPUTLANGCHANGE" v="81"/>
+		<item n="TCARD" v="82"/>
+		<item n="HELP" v="83"/>
+		<item n="USERCHANGED" v="84"/>
+		<item n="NOTIFYFORMAT" v="85"/>
+		<item n="CONTEXTMENU" v="123"/>
+		<item n="STYLECHANGING" v="124"/>
+		<item n="STYLECHANGED" v="125"/>
+		<item n="DISPLAYCHANGE" v="126"/>
+		<item n="GETICON" v="127"/>
+		<item n="SETICON" v="128"/>
+		<item n="NCCREATE" v="129"/>
+		<item n="NCDESTROY" v="130"/>
+		<item n="NCCALCSIZE" v="131"/>
+		<item n="NCHITTEST" v="132"/>
+		<item n="NCPAINT" v="133"/>
+		<item n="NCACTIVATE" v="134"/>
+		<item n="GETDLGCODE" v="135"/>
+		<item n="SYNCPAINT" v="136"/>
+		<item n="NCMOUSEMOVE" v="160"/>
+		<item n="NCLBUTTONDOWN" v="161"/>
+		<item n="NCLBUTTONUP" v="162"/>
+		<item n="NCLBUTTONDBLCLK" v="163"/>
+		<item n="NCRBUTTONDOWN" v="164"/>
+		<item n="NCRBUTTONUP" v="165"/>
+		<item n="NCRBUTTONDBLCLK" v="166"/>
+		<item n="NCMBUTTONDOWN" v="167"/>
+		<item n="NCMBUTTONUP" v="168"/>
+		<item n="NCMBUTTONDBLCLK" v="169"/>
+		<item n="NCXBUTTONDOWN" v="171"/>
+		<item n="NCXBUTTONUP" v="172"/>
+		<item n="NCXBUTTONDBLCLK" v="173"/>
+		<item n="INPUT_DEVICE_CHANGE" v="254"/>
+		<item n="INPUT" v="255"/>
+		<item n="KEYFIRST" v="256"/>
+		<item n="KEYDOWN" v="256"/>
+		<item n="KEYUP" v="257"/>
+		<item n="CHAR" v="258"/>
+		<item n="DEADCHAR" v="259"/>
+		<item n="SYSKEYDOWN" v="260"/>
+		<item n="SYSKEYUP" v="261"/>
+		<item n="SYSCHAR" v="262"/>
+		<item n="SYSDEADCHAR" v="263"/>
+		<item n="KEYLAST" v="265"/>
+		<item n="UNICHAR" v="265"/>
+		<item n="IME_STARTCOMPOSITION" v="269"/>
+		<item n="IME_ENDCOMPOSITION" v="270"/>
+		<item n="IME_KEYLAST" v="271"/>
+		<item n="IME_COMPOSITION" v="271"/>
+		<item n="INITDIALOG" v="272"/>
+		<item n="COMMAND" v="273"/>
+		<item n="SYSCOMMAND" v="274"/>
+		<item n="TIMER" v="275"/>
+		<item n="HSCROLL" v="276"/>
+		<item n="VSCROLL" v="277"/>
+		<item n="INITMENU" v="278"/>
+		<item n="INITMENUPOPUP" v="279"/>
+		<item n="SYSTIMER" v="280"/>
+		<item n="MENUSELECT" v="287"/>
+		<item n="MENUCHAR" v="288"/>
+		<item n="ENTERIDLE" v="289"/>
+		<item n="MENURBUTTONUP" v="290"/>
+		<item n="MENUDRAG" v="291"/>
+		<item n="MENUGETOBJECT" v="292"/>
+		<item n="UNINITMENUPOPUP" v="293"/>
+		<item n="MENUCOMMAND" v="294"/>
+		<item n="CHANGEUISTATE" v="295"/>
+		<item n="UPDATEUISTATE" v="296"/>
+		<item n="QUERYUISTATE" v="297"/>
+		<item n="CTLCOLORMSGBOX" v="306"/>
+		<item n="CTLCOLOREDIT" v="307"/>
+		<item n="CTLCOLORLISTBOX" v="308"/>
+		<item n="CTLCOLORBTN" v="309"/>
+		<item n="CTLCOLORDLG" v="310"/>
+		<item n="CTLCOLORSCROLLBAR" v="311"/>
+		<item n="CTLCOLORSTATIC" v="312"/>
+		<item n="MOUSEMOVE" v="512"/>
+		<item n="MOUSEFIRST" v="512"/>
+		<item n="LBUTTONDOWN" v="513"/>
+		<item n="LBUTTONUP" v="514"/>
+		<item n="LBUTTONDBLCLK" v="515"/>
+		<item n="RBUTTONDOWN" v="516"/>
+		<item n="RBUTTONUP" v="517"/>
+		<item n="RBUTTONDBLCLK" v="518"/>
+		<item n="MBUTTONDOWN" v="519"/>
+		<item n="MBUTTONUP" v="520"/>
+		<item n="MBUTTONDBLCLK" v="521"/>
+		<item n="MOUSEWHEEL" v="522"/>
+		<item n="XBUTTONDOWN" v="523"/>
+		<item n="XBUTTONUP" v="524"/>
+		<item n="XBUTTONDBLCLK" v="525"/>
+		<item n="MOUSEHWHEEL" v="526"/>
+		<item n="MOUSELAST" v="526"/>
+		<item n="PARENTNOTIFY" v="528"/>
+		<item n="ENTERMENULOOP" v="529"/>
+		<item n="EXITMENULOOP" v="530"/>
+		<item n="NEXTMENU" v="531"/>
+		<item n="SIZING" v="532"/>
+		<item n="CAPTURECHANGED" v="533"/>
+		<item n="MOVING" v="534"/>
+		<item n="POWERBROADCAST" v="536"/>
+		<item n="DEVICECHANGE" v="537"/>
+		<item n="MDICREATE" v="544"/>
+		<item n="MDIDESTROY" v="545"/>
+		<item n="MDIACTIVATE" v="546"/>
+		<item n="MDIRESTORE" v="547"/>
+		<item n="MDINEXT" v="548"/>
+		<item n="MDIMAXIMIZE" v="549"/>
+		<item n="MDITILE" v="550"/>
+		<item n="MDICASCADE" v="551"/>
+		<item n="MDIICONARRANGE" v="552"/>
+		<item n="MDIGETACTIVE" v="553"/>
+		<item n="MDISETMENU" v="560"/>
+		<item n="ENTERSIZEMOVE" v="561"/>
+		<item n="EXITSIZEMOVE" v="562"/>
+		<item n="DROPFILES" v="563"/>
+		<item n="MDIREFRESHMENU" v="564"/>
+		<item n="IME_SETCONTEXT" v="641"/>
+		<item n="IME_NOTIFY" v="642"/>
+		<item n="IME_CONTROL" v="643"/>
+		<item n="IME_COMPOSITIONFULL" v="644"/>
+		<item n="IME_SELECT" v="645"/>
+		<item n="IME_CHAR" v="646"/>
+		<item n="IME_REQUEST" v="648"/>
+		<item n="IME_KEYDOWN" v="656"/>
+		<item n="IME_KEYUP" v="657"/>
+		<item n="NCMOUSEHOVER" v="672"/>
+		<item n="MOUSEHOVER" v="673"/>
+		<item n="NCMOUSELEAVE" v="674"/>
+		<item n="MOUSELEAVE" v="675"/>
+		<item n="WTSSESSION_CHANGE" v="689"/>
+		<item n="TABLET_FIRST" v="704"/>
+		<item n="TABLET_LAST" v="735"/>
+		<item n="CUT" v="768"/>
+		<item n="COPY" v="769"/>
+		<item n="PASTE" v="770"/>
+		<item n="CLEAR" v="771"/>
+		<item n="UNDO" v="772"/>
+		<item n="RENDERFORMAT" v="773"/>
+		<item n="RENDERALLFORMATS" v="774"/>
+		<item n="DESTROYCLIPBOARD" v="775"/>
+		<item n="DRAWCLIPBOARD" v="776"/>
+		<item n="PAINTCLIPBOARD" v="777"/>
+		<item n="VSCROLLCLIPBOARD" v="778"/>
+		<item n="SIZECLIPBOARD" v="779"/>
+		<item n="ASKCBFORMATNAME" v="780"/>
+		<item n="CHANGECBCHAIN" v="781"/>
+		<item n="HSCROLLCLIPBOARD" v="782"/>
+		<item n="QUERYNEWPALETTE" v="783"/>
+		<item n="PALETTEISCHANGING" v="784"/>
+		<item n="PALETTECHANGED" v="785"/>
+		<item n="HOTKEY" v="786"/>
+		<item n="PRINT" v="791"/>
+		<item n="PRINTCLIENT" v="792"/>
+		<item n="APPCOMMAND" v="793"/>
+		<item n="THEMECHANGED" v="794"/>
+		<item n="CLIPBOARDUPDATE" v="797"/>
+		<item n="DWMCOMPOSITIONCHANGED" v="798"/>
+		<item n="DWMNCRENDERINGCHANGED" v="799"/>
+		<item n="DWMCOLORIZATIONCOLORCHANGED" v="800"/>
+		<item n="DWMWINDOWMAXIMIZEDCHANGE" v="801"/>
+		<item n="GETTITLEBARINFOEX" v="831"/>
+		<item n="HANDHELDFIRST" v="856"/>
+		<item n="HANDHELDLAST" v="863"/>
+		<item n="AFXFIRST" v="864"/>
+		<item n="AFXLAST" v="895"/>
+		<item n="PENWINFIRST" v="896"/>
+		<item n="PENWINLAST" v="911"/>
+		<item n="USER" v="1024"/>
+		<item n="CPL_LAUNCH" v="5120"/>
+		<item n="CPL_LAUNCHED" v="5121"/>
+		<item n="APP" v="32768"/>
+	</type>
+	<type n="G2gC;gK;ControlVCBinder1" ns="GreenZoneUtil.Gui.ViewController" id="33554437" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.Control"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.Controller"/>
+		</gc>
+		<field n="_vis" id="67109100" t="b" mod="0">
+		</field>
+		<constr id="100663304" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_EnabledChanged" id="100663305" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ForeColorChanged" id="100663306" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_BackColorChanged" id="100663307" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_VisibleChanged" id="100663308" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_FontChanged" id="100663309" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_Updated" id="100663310" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ControllerEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_VisibleChanged" id="100663311" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_Layout" id="100663312" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.LayoutEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SizeChanged" id="100663313" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_LocationChanged" id="100663314" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_MouseClick" id="100663315" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_MouseDoubleClick" id="100663316" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_MouseDown" id="100663317" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TNumericUpDownVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554438" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.NumericUpDown;G1nGreenZoneUtil.ViewController.FieldController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663318" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.NumericUpDown" n="control">
+			</param>
+			<param t="G1nGreenZoneUtil.ViewController.FieldController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663319" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663320" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TLabelVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554439" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Label;G1XGreenZoneUtil.ViewController.FieldController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663321" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Label" n="control">
+			</param>
+			<param t="G1XGreenZoneUtil.ViewController.FieldController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663322" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TSplitterPanelVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554440" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.SplitterPanel;TGreenZoneUtil.ViewController.Controller;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663323" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.SplitterPanel" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.Controller" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TTabPageVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554441" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TabPage;TGreenZoneUtil.ViewController.TabPageController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663324" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TabPage" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.TabPageController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663325" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="G2gC;gK;ControlVCBinder4" ns="GreenZoneUtil.Gui.ViewController" id="33554442" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.DataGridViewCell"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.GridCellController"/>
+		</gc>
+		<constr id="100663326" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TDataGridCellVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554443" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.DataGridViewCell;TGreenZoneUtil.ViewController.GridCellController;GreenZoneUtil.Gui.ViewController.ControlVCBinder4" id="33554442"/>
+		<constr id="100663327" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.DataGridViewCell" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridCellController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_ValueChanged" id="100663328" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TBufferedPropertyGridVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554444" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.PropertyGrid;TGreenZoneUtil.ViewController.BufferedPropertyGridController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="_sel" id="67109101" t="b" mod="0">
+		</field>
+		<field n="_sort" id="67109102" t="b" mod="0">
+		</field>
+		<constr id="100663329" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.PropertyGrid" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.BufferedPropertyGridController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_SelectedObjectChanged" id="100663330" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_PropertySortChanged" id="100663331" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_PropertySortChanged" id="100663332" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TLabelVCBinder1" ns="GreenZoneUtil.Gui.ViewController" id="33554445" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Label;TGreenZoneUtil.ViewController.LabelledController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663333" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Label" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.LabelledController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663334" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TTrackBarVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554446" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TrackBar;TGreenZoneUtil.ViewController.ProgressTrackController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663335" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TrackBar" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ProgressTrackController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663336" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ValueChanged" id="100663337" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_MinimumChanged" id="100663338" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_MaximumChanged" id="100663339" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663340" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_ValueChanged" id="100663341" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TErrorProviderVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554447" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ErrorProvider;G1XGreenZoneUtil.ViewController.ChildControlMap;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<constr id="100663342" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ErrorProvider" n="control">
+			</param>
+			<param t="G1XGreenZoneUtil.ViewController.ChildControlMap" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_ChildAdded" id="100663343" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildRemoved" id="100663344" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="G2gC;gK;ControlVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554448" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.ToolStripItem"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.Controller"/>
+		</gc>
+		<constr id="100663345" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_EnabledChanged" id="100663346" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ForeColorChanged" id="100663347" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_BackColorChanged" id="100663348" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_VisibleChanged" id="100663349" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_FontChanged" id="100663350" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="G2gC;gK;BaseButtonVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554449" mod="aP" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder2" id="33554448"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.ToolStripItem"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.ButtonController"/>
+		</gc>
+		<constr id="100663351" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663352" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ImageChanged" id="100663353" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_Click" id="100663356" rt="v" mod="vp">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385875972" t="TSystem.Drawing.Image" r="True" w="True" mod="aP">
+		</prop>
+	</type>
+	<type n="TToolStripButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554450" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripButton;TGreenZoneUtil.ViewController.ButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder2" id="33554449"/>
+		<constr id="100663357" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripButton" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ButtonController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385875973" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TWormSplitContainer" ns="GreenZoneUtil.Gui" id="33554451" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.Panel" id="33555458"/>
+		<field n="orientation" id="67109103" t="TSystem.Windows.Forms.Orientation" mod="0">
+		</field>
+		<field n="splitterWidth" id="67109104" t="n" mod="0">
+		</field>
+		<field n="first" id="67109105" t="TGreenZoneUtil.Gui.SplitContainerEx" mod="0">
+		</field>
+		<field n="last" id="67109106" t="TGreenZoneUtil.Gui.SplitContainerEx" mod="0">
+		</field>
+		<constr id="100663360" mod="P">
+		</constr>
+		<method n="TCreate1Split" id="100663361" rt="v" mod="0">
+		</method>
+		<method n="TClear" id="100663362" rt="v" mod="P">
+		</method>
+		<method n="TAdd" id="100663371" rt="v" mod="P">
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+		</method>
+		<method n="TRemove" id="100663372" rt="v" mod="P">
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+		</method>
+		<method n="TRemoveFrom" id="100663373" rt="v" mod="P">
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+		</method>
+		<method n="Tremove" id="100663374" rt="v" mod="P">
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+			<param t="b" n="removeAll">
+			</param>
+		</method>
+		<method n="TFind" id="100663375" rt="TGreenZoneUtil.Gui.FoundContainer" mod="P">
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+		</method>
+		<method n="TCreateSplitContainerEx" id="100663376" rt="TGreenZoneUtil.Gui.SplitContainerEx" mod="0">
+		</method>
+		<prop n="ChildControls" id="385875974" t="G1TSystem.Windows.Forms.Control;System.Collections.Generic.List" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Orientation" id="385875975" t="TSystem.Windows.Forms.Orientation" r="True" w="True" mod="P">
+		</prop>
+		<prop n="SplitterWidth" id="385875976" t="n" r="True" w="True" mod="P">
+		</prop>
+		<prop n="WormSize" id="385875977" t="n" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Ratio" id="385875978" t="G1dSystem.Collections.Generic.List" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TFoundContainer" ns="GreenZoneUtil.Gui" id="33554452" mod="P" t="cl">
+		<field n="index" id="67109107" t="n" mod="rP">
+		</field>
+		<field n="splitContainer" id="67109108" t="TGreenZoneUtil.Gui.SplitContainerEx" mod="rP">
+		</field>
+		<constr id="100663377" mod="i">
+			<param t="n" n="index">
+			</param>
+			<param t="TGreenZoneUtil.Gui.SplitContainerEx" n="splitContainer">
+			</param>
+		</constr>
+	</type>
+	<type n="TTabControlVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554453" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TabControl;TGreenZoneUtil.ViewController.TabController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="nosel" id="67109109" t="n" mod="0">
+		</field>
+		<constr id="100663378" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TabControl" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.TabController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddChild" id="100663379" rt="v" mod="vp">
+			<param t="TGreenZoneUtil.ViewController.TabPageController" n="child1">
+			</param>
+			<param t="n" n="index">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlInserted" id="100663380" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlRemovedAt" id="100663381" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ControlsChanged" id="100663382" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedIndexChanged" id="100663383" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SelectedIndexChanged" id="100663384" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TCoolTabControlVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554454" mod="P" t="cl">
+		<base-t n="TGreenZoneUtil.Gui.ViewController.TabControlVCBinder" id="33554453"/>
+		<constr id="100663385" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TGreenZoneUtil.Gui.CoolTabControl" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.TabController" n="controller">
+			</param>
+		</constr>
+		<method n="TCoolTabControlVCBinder_AddTabClick" id="100663386" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TBufferedPropertyGrid" ns="GreenZoneUtil.Gui.PropertyGrid" id="33554455" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.PropertyGrid" id="33555910"/>
+		<field n="original" id="67109110" t="TSystem.ICloneable" mod="0">
+		</field>
+		<constr id="100663387" mod="P">
+		</constr>
+		<method n="TSave" id="100663392" rt="v" mod="P">
+		</method>
+		<method n="TReset" id="100663393" rt="v" mod="P">
+		</method>
+		<prop n="OriginalSelectedObject" id="385875979" t="TSystem.ICloneable" r="True" w="False" mod="P">
+		</prop>
+		<prop n="SelectedObject" id="385875980" t="TSystem.ICloneable" r="True" w="True" mod="P">
+		</prop>
+		<prop n="IsChanged" id="385875981" t="b" r="True" w="False" mod="P">
+		</prop>
+	</type>
+	<type n="TWinFormsMVContext" ns="GreenZoneUtil.Gui.ViewController" id="33554456" mod="aP" t="cl">
+		<constr id="100663394" mod="P">
+		</constr>
+		<method n="TDialogController_ShowDialogInvoked" id="100663395" rt="v" mod="vp">
+			<param t="TGreenZoneUtil.ViewController.ShowDialogEventArgs" n="args">
+			</param>
+		</method>
+		<method n="TGetImage" id="100663396" rt="TSystem.Drawing.Image" mod="aP">
+			<param t="n" n="imageId">
+			</param>
+		</method>
+		<method n="TLockMainWindow" id="100663397" rt="v" mod="aP">
+		</method>
+		<method n="TUnlockMainWindow" id="100663398" rt="v" mod="aP">
+		</method>
+	</type>
+	<type n="G2gC;gK;BaseButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554457" mod="aP" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.Control"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.ButtonController"/>
+		</gc>
+		<constr id="100663399" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663400" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ImageChanged" id="100663401" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_Click" id="100663404" rt="v" mod="vp">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385875982" t="TSystem.Drawing.Image" r="True" w="True" mod="aP">
+		</prop>
+	</type>
+	<type n="TCheckBoxVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554458" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.CheckBox;TGreenZoneUtil.ViewController.ToggleButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<constr id="100663405" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.CheckBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ToggleButtonController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_CheckedChanged" id="100663408" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385875983" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="G2gC;gK;ControlVCBinder5" ns="GreenZoneUtil.Gui.ViewController" id="33554459" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.TreeNode"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.TreeNodeController"/>
+		</gc>
+		<constr id="100663409" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TTreeNodeVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554460" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TreeNode;TGreenZoneUtil.ViewController.TreeNodeController;GreenZoneUtil.Gui.ViewController.ControlVCBinder5" id="33554459"/>
+		<constr id="100663410" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TreeNode" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.TreeNodeController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663411" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ImageChanged" id="100663412" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ExpandedChanged" id="100663413" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TAddChild" id="100663414" rt="v" mod="vp">
+			<param t="TGreenZoneUtil.ViewController.TreeNodeController" n="child1">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildAdded" id="100663415" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildRemovedAt" id="100663416" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildsChanged" id="100663417" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TLabelButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554461" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Label;TGreenZoneUtil.ViewController.ButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<constr id="100663418" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Label" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ButtonController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385875984" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TToolStripComboBoxVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554462" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripComboBox;TGreenZoneUtil.ViewController.ComboController;GreenZoneUtil.Gui.ViewController.ControlVCBinder2" id="33554448"/>
+		<constr id="100663421" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripComboBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddItem" id="100663422" rt="v" mod="0">
+			<param t="O" n="item">
+			</param>
+			<param t="n" n="index">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedItemChanged" id="100663423" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ItemsChanged" id="100663424" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ItemAdded" id="100663425" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SelectedIndexChanged" id="100663426" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TMemory" ns="GreenZoneFxEngine.Util" id="33554463" mod="P" t="cl">
+		<field n="HEAP_ZERO_MEMORY" id="67109111" t="n" const="8" mod="s0">
+		</field>
+		<field n="ph" id="67109112" t="n" mod="s0">
+		</field>
+		<constr id="100663427" mod="0">
+		</constr>
+		<method n="TAlloc" id="100663428" rt="*v" mod="sP">
+			<param t="n" n="size">
+			</param>
+		</method>
+		<method n="TCopy" id="100663429" rt="v" mod="sP">
+			<param t="*v" n="src">
+			</param>
+			<param t="*v" n="dst">
+			</param>
+			<param t="n" n="count">
+			</param>
+		</method>
+		<method n="TClear" id="100663430" rt="v" mod="sP">
+			<param t="*v" n="src">
+			</param>
+			<param t="n" n="count">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TFree" id="100663431" rt="v" mod="sP">
+			<param t="*v" n="block">
+			</param>
+		</method>
+		<method n="TReAlloc" id="100663432" rt="*v" mod="sP">
+			<param t="*v" n="block">
+			</param>
+			<param t="n" n="size">
+			</param>
+		</method>
+		<method n="TSizeOf" id="100663433" rt="n" mod="sP">
+			<param t="*v" n="block">
+			</param>
+		</method>
+		<method n="TGetProcessHeap" id="100663434" rt="n" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="kernel32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="GetProcessHeap" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+		</method>
+		<method n="THeapAlloc" id="100663435" rt="*v" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="kernel32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="HeapAlloc" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+			<param t="n" n="hHeap">
+			</param>
+			<param t="n" n="flags">
+			</param>
+			<param t="n" n="size">
+			</param>
+		</method>
+		<method n="THeapFree" id="100663436" rt="b" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="kernel32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="HeapFree" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+			<param t="n" n="hHeap">
+			</param>
+			<param t="n" n="flags">
+			</param>
+			<param t="*v" n="block">
+			</param>
+		</method>
+		<method n="THeapReAlloc" id="100663437" rt="*v" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="kernel32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="HeapReAlloc" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+			<param t="n" n="hHeap">
+			</param>
+			<param t="n" n="flags">
+			</param>
+			<param t="*v" n="block">
+			</param>
+			<param t="n" n="size">
+			</param>
+		</method>
+		<method n="THeapSize" id="100663438" rt="n" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="kernel32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="HeapSize" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+			<param t="n" n="hHeap">
+			</param>
+			<param t="n" n="flags">
+			</param>
+			<param t="*v" n="block">
+			</param>
+		</method>
+		<constr id="100663439" mod="s0">
+		</constr>
+	</type>
+	<type n="TVArr" ns="GreenZoneFxEngine.Util" id="33554464" mod="aP" t="cl">
+		<base-i n="TGreenZoneFxEngine.Util.IVArr" id="33554519"/>
+		<method n="TSetLengthAndDetachChildren" id="100663441" rt="v" mod="aP">
+			<param t="n" n="value">
+			</param>
+		</method>
+		<method n="TClear" id="100663444" rt="v" mod="aP">
+		</method>
+		<method n="TSearchMinimum" id="100663445" rt="n" mod="aP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMaximum" id="100663446" rt="n" mod="aP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<constr id="100663447" mod="p">
+		</constr>
+		<prop n="HasChild" id="385875985" t="b" r="False" w="True" mod="ai">
+		</prop>
+		<prop n="Length" id="385875986" t="n" r="True" w="True" mod="aP">
+		</prop>
+	</type>
+	<type n="G2gT;gSELF;VArr" ns="GreenZoneFxEngine.Util" id="33554465" mod="aP" t="cl">
+		<attrs>
+			<attr t="aSystem.Reflection.DefaultMemberAttribute" constr="100673552">
+				<args>
+					<arg t="X" v="Item"/>
+				</args>
+			</attr>
+		</attrs>
+		<base-t n="TGreenZoneFxEngine.Util.VArr" id="33554464"/>
+		<base-i n="G2gT;gSELF;GreenZoneFxEngine.Util.IVArr" id="33554520"/>
+		<gc type-is="1">
+			<rule n="G2gT;gSELF;GreenZoneFxEngine.Util.IVArr"/>
+		</gc>
+		<field n="Parent" id="67109113" t="TGreenZoneFxEngine.Util.VArr" mod="ri">
+		</field>
+		<field n="size" id="67109114" t="n" mod="0">
+		</field>
+		<field n="length" id="67109115" t="n" mod="p">
+		</field>
+		<field n="StartIndex" id="67109116" t="n" mod="rP">
+		</field>
+		<field n="Writable" id="67109117" t="b" mod="ri">
+		</field>
+		<field n="arr" id="67109118" t="*y" mod="p">
+		</field>
+		<field n="hasChild" id="67109119" t="b" mod="0">
+		</field>
+		<constr id="100663448" mod="P">
+			<param t="n" n="size">
+			</param>
+		</constr>
+		<constr id="100663449" mod="P">
+			<param t="n" n="size">
+			</param>
+			<param t="n" n="length">
+			</param>
+		</constr>
+		<constr id="100663450" mod="p">
+			<param t="n" n="size">
+			</param>
+			<param t="TGreenZoneFxEngine.Util.VArr" n="parent">
+			</param>
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</constr>
+		<method n="TFinalize" id="100663451" rt="v" mod="op">
+		</method>
+		<method n="TSetLengthAndDetachChildren" id="100663460" rt="v" mod="oP">
+			<param t="n" n="value">
+			</param>
+		</method>
+		<method n="TClear" id="100663461" rt="v" mod="oP">
+		</method>
+		<method n="TSubArr" id="100663462" rt="gSELF" mod="vP">
+			<param t="n" n="from">
+			</param>
+			<param t="n" n="startIndex">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="b" n="Writable">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSubArr" id="100663463" rt="gSELF" mod="vP">
+			<param t="n" n="from">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="b" n="Writable">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TCreateReference" id="100663464" rt="gSELF" mod="vP">
+			<param t="n" n="from">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="b" n="Writable">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TGetEnumerator" id="100663465" rt="G1gT;System.Collections.Generic.IEnumerator" mod="vP">
+		</method>
+		<method n="TSystem.Collections.IEnumerable.GetEnumerator" id="100663466" rt="TSystem.Collections.IEnumerator" mod="v0">
+		</method>
+		<method n="TGetPointedValue" id="100663467" rt="gT" mod="aP">
+			<param t="*y" n="p">
+			</param>
+		</method>
+		<method n="TSetPointedValue" id="100663468" rt="v" mod="aP">
+			<param t="*y" n="p">
+			</param>
+			<param t="gT" n="value">
+			</param>
+		</method>
+		<method n="TCreateChild" id="100663469" rt="gSELF" mod="aP">
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</method>
+		<method n="TBinarySearch" id="100663470" rt="n" mod="aP">
+			<param t="gT" n="item">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<prop n="Arr" id="385875987" t="*y" r="True" w="False" mod="i">
+		</prop>
+		<prop n="HasChild" id="385875988" t="b" r="False" w="True" mod="oi">
+		</prop>
+		<prop n="Length" id="385875989" t="n" r="True" w="True" mod="oP">
+		</prop>
+		<prop n="StartIndexP" id="385875990" t="n" r="True" w="False" mod="vP">
+		</prop>
+		<prop n="AsArray" id="385875991" t="A1gT;" r="True" w="False" mod="vP">
+		</prop>
+		<prop n="[]Item" id="385875992" t="gT" r="True" w="True" mod="vP">
+			<param t="n" n="index">
+			</param>
+		</prop>
+	</type>
+	<type n="TDArr" ns="GreenZoneFxEngine.Util" id="33554466" mod="P" t="cl">
+		<base-t n="G2dTGreenZoneFxEngine.Util.IDArr;GreenZoneFxEngine.Util.VArr" id="33554465"/>
+		<base-i n="TGreenZoneFxEngine.Util.IDArr" id="33554521"/>
+		<constr id="100663471" mod="P">
+		</constr>
+		<constr id="100663472" mod="P">
+			<param t="n" n="length">
+			</param>
+		</constr>
+		<constr id="100663473" mod="0">
+			<param t="TGreenZoneFxEngine.Util.DArr" n="parent">
+			</param>
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</constr>
+		<method n="TGetPointedValue" id="100663474" rt="d" mod="oP">
+			<param t="*y" n="p">
+			</param>
+		</method>
+		<method n="TSetPointedValue" id="100663475" rt="v" mod="oP">
+			<param t="*y" n="p">
+			</param>
+			<param t="d" n="value">
+			</param>
+		</method>
+		<method n="TCreateChild" id="100663476" rt="TGreenZoneFxEngine.Util.IDArr" mod="oP">
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</method>
+		<method n="TBinarySearch" id="100663477" rt="n" mod="oP">
+			<param t="d" n="item">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMinimum" id="100663478" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMaximum" id="100663479" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerBinarySearch" id="100663480" rt="n" mod="sP">
+			<param t="*d" n="array">
+			</param>
+			<param t="d" n="item">
+			</param>
+			<param t="n" n="len">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerSearchMinimum" id="100663481" rt="n" mod="sP">
+			<param t="*d" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+		<method n="TPointerSearchMaximum" id="100663482" rt="n" mod="sP">
+			<param t="*d" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+	</type>
+	<type n="TIArr" ns="GreenZoneFxEngine.Util" id="33554467" mod="P" t="cl">
+		<base-t n="G2nTGreenZoneFxEngine.Util.IIArr;GreenZoneFxEngine.Util.VArr" id="33554465"/>
+		<base-i n="TGreenZoneFxEngine.Util.IIArr" id="33554522"/>
+		<constr id="100663483" mod="P">
+		</constr>
+		<constr id="100663484" mod="P">
+			<param t="n" n="length">
+			</param>
+		</constr>
+		<constr id="100663485" mod="0">
+			<param t="TGreenZoneFxEngine.Util.IArr" n="parent">
+			</param>
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</constr>
+		<method n="TGetPointedValue" id="100663486" rt="n" mod="oP">
+			<param t="*y" n="p">
+			</param>
+		</method>
+		<method n="TSetPointedValue" id="100663487" rt="v" mod="oP">
+			<param t="*y" n="p">
+			</param>
+			<param t="n" n="value">
+			</param>
+		</method>
+		<method n="TCreateChild" id="100663488" rt="TGreenZoneFxEngine.Util.IIArr" mod="oP">
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</method>
+		<method n="TBinarySearch" id="100663489" rt="n" mod="oP">
+			<param t="n" n="item">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMinimum" id="100663490" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMaximum" id="100663491" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerBinarySearch" id="100663492" rt="n" mod="sP">
+			<param t="*n" n="array">
+			</param>
+			<param t="n" n="item">
+			</param>
+			<param t="n" n="len">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerSearchMinimum" id="100663493" rt="n" mod="sP">
+			<param t="*n" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+		<method n="TPointerSearchMaximum" id="100663494" rt="n" mod="sP">
+			<param t="*n" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+	</type>
+	<type n="TLArr" ns="GreenZoneFxEngine.Util" id="33554468" mod="P" t="cl">
+		<base-t n="G2lTGreenZoneFxEngine.Util.ILArr;GreenZoneFxEngine.Util.VArr" id="33554465"/>
+		<base-i n="TGreenZoneFxEngine.Util.ILArr" id="33554523"/>
+		<constr id="100663495" mod="P">
+		</constr>
+		<constr id="100663496" mod="P">
+			<param t="n" n="length">
+			</param>
+		</constr>
+		<constr id="100663497" mod="0">
+			<param t="TGreenZoneFxEngine.Util.LArr" n="parent">
+			</param>
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</constr>
+		<method n="TGetPointedValue" id="100663498" rt="l" mod="oP">
+			<param t="*y" n="p">
+			</param>
+		</method>
+		<method n="TSetPointedValue" id="100663499" rt="v" mod="oP">
+			<param t="*y" n="p">
+			</param>
+			<param t="l" n="value">
+			</param>
+		</method>
+		<method n="TCreateChild" id="100663500" rt="TGreenZoneFxEngine.Util.ILArr" mod="oP">
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</method>
+		<method n="TBinarySearch" id="100663501" rt="n" mod="oP">
+			<param t="l" n="item">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMinimum" id="100663502" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMaximum" id="100663503" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerBinarySearch" id="100663504" rt="n" mod="sP">
+			<param t="*l" n="array">
+			</param>
+			<param t="l" n="item">
+			</param>
+			<param t="n" n="len">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TPointerSearchMinimum" id="100663505" rt="n" mod="sP">
+			<param t="*l" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+		<method n="TPointerSearchMaximum" id="100663506" rt="n" mod="sP">
+			<param t="*l" n="array">
+			</param>
+			<param t="n" n="len">
+			</param>
+		</method>
+	</type>
+	<type n="TLArrAsIArr" ns="GreenZoneFxEngine.Util" id="33554469" mod="P" t="cl">
+		<base-t n="G2nTGreenZoneFxEngine.Util.ILArrAsIArr;GreenZoneFxEngine.Util.VArr" id="33554465"/>
+		<base-i n="TGreenZoneFxEngine.Util.ILArrAsIArr" id="33554524"/>
+		<constr id="100663507" mod="P">
+			<param t="TGreenZoneFxEngine.Util.LArr" n="parent">
+			</param>
+			<param t="b" n="Writable">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</constr>
+		<method n="TGetPointedValue" id="100663508" rt="n" mod="oP">
+			<param t="*y" n="p">
+			</param>
+		</method>
+		<method n="TSetPointedValue" id="100663509" rt="v" mod="oP">
+			<param t="*y" n="p">
+			</param>
+			<param t="n" n="value">
+			</param>
+		</method>
+		<method n="TCreateChild" id="100663510" rt="TGreenZoneFxEngine.Util.ILArrAsIArr" mod="oP">
+			<param t="*y" n="arr">
+			</param>
+			<param t="n" n="length">
+			</param>
+			<param t="n" n="startIndex">
+			</param>
+			<param t="b" n="Writable">
+			</param>
+		</method>
+		<method n="TBinarySearch" id="100663511" rt="n" mod="oP">
+			<param t="n" n="item">
+			</param>
+			<param t="n" n="arrayOrder">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMinimum" id="100663512" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TSearchMaximum" id="100663513" rt="n" mod="oP">
+			<param t="n" n="start">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+			<param t="n" n="len">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+	</type>
+	<type n="TDataGridViewVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554470" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.DataGridView;TGreenZoneUtil.ViewController.GridController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663514" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.DataGridView" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddRow" id="100663515" rt="v" mod="vp">
+			<param t="TGreenZoneUtil.ViewController.GridRowController" n="child1">
+			</param>
+		</method>
+		<method n="Tcontroller_RowAdded" id="100663516" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_RowRemovedAt" id="100663517" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_RowsChanged" id="100663518" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedRowsChanged" id="100663519" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedColumnsChanged" id="100663520" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_CurrentCellChanged" id="100663521" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SelectionChanged" id="100663522" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_CurrentCellChanged" id="100663523" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TResources" ns="GreenZoneUtil.Properties" id="33554471" mod="" t="cl">
+		<attrs>
+			<attr t="aSystem.CodeDom.Compiler.GeneratedCodeAttribute" constr="100667702">
+				<args>
+					<arg t="X" v="System.Resources.Tools.StronglyTypedResourceBuilder"/>
+					<arg t="X" v="4.0.0.0"/>
+				</args>
+			</attr>
+			<attr t="aSystem.Diagnostics.DebuggerNonUserCodeAttribute" constr="100672426">
+			</attr>
+			<attr t="aSystem.Runtime.CompilerServices.CompilerGeneratedAttribute" constr="100680591">
+			</attr>
+		</attrs>
+		<field n="resourceMan" id="67109120" t="TSystem.Resources.ResourceManager" mod="s0">
+		</field>
+		<field n="resourceCulture" id="67109121" t="TSystem.Globalization.CultureInfo" mod="s0">
+		</field>
+		<constr id="100663524" mod="i">
+		</constr>
+		<prop n="ResourceManager" id="385875993" t="TSystem.Resources.ResourceManager" r="True" w="False" mod="si">
+			<attrs>
+				<attr t="aSystem.ComponentModel.EditorBrowsableAttribute" constr="100665195">
+					<args>
+						<arg t="TSystem.ComponentModel.EditorBrowsableState" v="2"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="Culture" id="385875994" t="TSystem.Globalization.CultureInfo" r="True" w="True" mod="si">
+			<attrs>
+				<attr t="aSystem.ComponentModel.EditorBrowsableAttribute" constr="100665195">
+					<args>
+						<arg t="TSystem.ComponentModel.EditorBrowsableState" v="2"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="AddMark_10580" id="385875995" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="downthumb" id="385875996" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="fixsplit_down" id="385875997" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="fixsplit_left" id="385875998" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="fixsplit_right" id="385875999" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="fixsplit_up" id="385876000" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+		<prop n="uphumb" id="385876001" t="TSystem.Drawing.Bitmap" r="True" w="False" mod="si">
+		</prop>
+	</type>
+	<type n="TGreenZoneUtils" ns="GreenZoneUtil.Util" id="33554472" mod="P" t="cl">
+		<base-t n="TGreenZoneUtil.Util.GreenZoneUtilsBase" id="33554551"/>
+		<method n="TBuildVisibleColumnsPopup" id="100663535" rt="v" mod="sP">
+			<param t="TSystem.Windows.Forms.DataGridView" n="table">
+			</param>
+			<param t="TSystem.Windows.Forms.ContextMenuStrip" n="popup">
+			</param>
+			<param t="b" n="sortByName">
+			</param>
+		</method>
+		<method n="TBuildVisibleColumnsPopup_mi_CheckedChanged" id="100663536" rt="v" mod="s0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TBuildVisibleColumnsModel" id="100663537" rt="v" mod="sP">
+			<param t="TGreenZoneUtil.GreenRmi.GreenRmiManager" n="rmiManager">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridController" n="table">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="popup">
+			</param>
+			<param t="b" n="sortByName">
+			</param>
+		</method>
+		<method n="TBuildVisibleColumnsModel_mi_CheckedChanged" id="100663538" rt="v" mod="s0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ControllerEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TImageToIcon" id="100663539" rt="TSystem.Drawing.Icon" mod="sP">
+			<param t="TSystem.Drawing.Image" n="image">
+			</param>
+		</method>
+		<method n="TIconToImage" id="100663540" rt="TSystem.Drawing.Image" mod="sP">
+			<param t="TSystem.Drawing.Icon" n="icon">
+			</param>
+		</method>
+		<method n="TGetCategory" id="100663541" rt="X" mod="sP">
+			<param t="TSystem.Reflection.PropertyInfo" n="pi">
+			</param>
+		</method>
+		<method n="TGetDescription" id="100663542" rt="X" mod="sP">
+			<param t="TSystem.Reflection.PropertyInfo" n="pi">
+			</param>
+		</method>
+		<method n="TGetNamespaceClasses" id="100663543" rt="G1tSystem.Collections.Generic.List" mod="sP">
+			<param t="TSystem.Reflection.Assembly" n="_asm">
+			</param>
+			<param t="X" n="nameSpace">
+			</param>
+			<param t="A1t" n="attributeTypes" p="Params">
+				<attrs>
+					<attr t="aSystem.ParamArrayAttribute" constr="100667008">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="TFindTypeInAssemblies" id="100663544" rt="t" mod="sP">
+			<param t="X" n="fullName">
+			</param>
+		</method>
+		<constr id="100663545" mod="P">
+		</constr>
+	</type>
+	<type n="TTWinFct" ns="GreenZoneUtil.Util" id="33554473" mod="sP" t="cl">
+		<field n="stack" id="67109122" t="G1TSystem.Windows.Forms.Control;System.Collections.Generic.List" mod="s0">
+		</field>
+		<method n="TLockWindowUpdate" id="100663546" rt="n" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="user32"/>
+					</args>
+					<named-args>
+						<arg t="X" v="LockWindowUpdate" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+			<param t="p" n="hwndLock">
+			</param>
+		</method>
+		<method n="TLockControlUpdate" id="100663547" rt="n" mod="sP">
+			<param t="TSystem.Windows.Forms.Control" n="AControl">
+			</param>
+		</method>
+		<method n="TUnLockControlUpdate" id="100663548" rt="n" mod="sP">
+			<param t="TSystem.Windows.Forms.Control" n="AControl">
+			</param>
+		</method>
+		<constr id="100663549" mod="s0">
+		</constr>
+	</type>
+	<type n="G2gC;gK;ControlVCBinder3" ns="GreenZoneUtil.Gui.ViewController" id="33554474" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.DataGridViewBand"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.Controller"/>
+		</gc>
+		<constr id="100663550" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_VisibleChanged" id="100663551" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TDataGridRowVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554475" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.DataGridViewRow;TGreenZoneUtil.ViewController.GridRowController;GreenZoneUtil.Gui.ViewController.ControlVCBinder3" id="33554474"/>
+		<constr id="100663552" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.DataGridViewRow" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridRowController" n="controller">
+			</param>
+		</constr>
+		<method n="TBindCell" id="100663553" rt="v" mod="vp">
+			<param t="n" n="index">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridCellController" n="child1">
+			</param>
+		</method>
+		<method n="Tcontroller_CellInserted" id="100663554" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_CellRemovedAt" id="100663555" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TTreeViewVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554476" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TreeView;TGreenZoneUtil.ViewController.TreeController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="_sel" id="67109123" t="b" mod="0">
+		</field>
+		<constr id="100663556" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TreeView" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.TreeController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddChild" id="100663557" rt="v" mod="vp">
+			<param t="TGreenZoneUtil.ViewController.TreeNodeController" n="child1">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildAdded" id="100663558" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildRemovedAt" id="100663559" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildsChanged" id="100663560" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedNodeChanged" id="100663561" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_BeforeSelect" id="100663562" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.TreeViewCancelEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_AfterSelect" id="100663563" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.TreeViewEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TTextBoxVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554477" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TextBox;G1XGreenZoneUtil.ViewController.FieldController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663564" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TextBox" n="control">
+			</param>
+			<param t="G1XGreenZoneUtil.ViewController.FieldController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663565" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ReadOnlyChanged" id="100663566" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663567" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TToolStripLabelVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554478" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripLabel;G1XGreenZoneUtil.ViewController.FieldController;GreenZoneUtil.Gui.ViewController.ControlVCBinder2" id="33554448"/>
+		<constr id="100663568" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripLabel" n="control">
+			</param>
+			<param t="G1XGreenZoneUtil.ViewController.FieldController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663569" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TListVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554479" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ListBox;TGreenZoneUtil.ViewController.ListController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="_sel" id="67109124" t="b" mod="p">
+		</field>
+		<constr id="100663570" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ListBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddItem" id="100663573" rt="v" mod="vp">
+			<param t="O" n="item">
+			</param>
+		</method>
+		<method n="Tcontroller_RowAdded" id="100663574" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_RowRemovedAt" id="100663575" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_RowsChanged" id="100663576" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedRowsChanged" id="100663577" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SelectedIndexChanged" id="100663578" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<prop n="SelectedItems" id="385876002" t="TSystem.Collections.IList" r="True" w="True" mod="vP">
+		</prop>
+	</type>
+	<type n="TFormVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554480" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Form;TGreenZoneUtil.ViewController.FormController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="controller_AcceptButton_BoundControlChanged" id="67109125" t="TGreenZoneUtil.ViewController.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="controller_CancelButton_BoundControlChanged" id="67109126" t="TGreenZoneUtil.ViewController.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="_controller_FormClosed" id="67109127" t="b" mod="0">
+		</field>
+		<constr id="100663579" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Form" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.FormController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663580" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ImageChanged" id="100663581" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_FormClosed" id="100663582" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ControllerEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_AcceptButtonChanged" id="100663583" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_CancelButtonChanged" id="100663584" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TAcceptButton_BoundControlChanged" id="100663585" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_DialogResultChanged" id="100663586" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TCancelButton_BoundControlChanged" id="100663587" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_AllowMinimizeChanged" id="100663588" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_AllowMaximizeChanged" id="100663589" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ShowInTaskbarChanged" id="100663590" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_FormClosing" id="100663591" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.FormClosingEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_FormClosed" id="100663592" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.FormClosedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_Load" id="100663593" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="G2gC;gK;FormVCBinder2" ns="GreenZoneUtil.Gui.ViewController" id="33554481" mod="P" t="cl">
+		<base-t n="G2gC;gK;GreenZoneUtil.Gui.ViewController.ControlVCBinder" id="33554434"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.CommonDialog"/>
+		</gc>
+		<gc type-is="1">
+			<rule n="TGreenZoneUtil.ViewController.FormController"/>
+		</gc>
+		<constr id="100663594" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="gK" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="G1gC;ToolStripDDItemVCBinder0" ns="GreenZoneUtil.Gui.ViewController" id="33554482" mod="aP" t="cl">
+		<base-t n="G2gC;TGreenZoneUtil.ViewController.ComboController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder2" id="33554449"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.ToolStripItem"/>
+		</gc>
+		<constr id="100663595" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddChild" id="100663597" rt="v" mod="0">
+			<param t="TGreenZoneUtil.ViewController.Controller" n="child">
+			</param>
+			<param t="n" n="index">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlInserted" id="100663598" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlRemovedAt" id="100663599" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ControlsChanged" id="100663600" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="DdItems" id="385876003" t="TSystem.Windows.Forms.ToolStripItemCollection" r="True" w="False" mod="aP">
+		</prop>
+	</type>
+	<type n="G1gC;ToolStripDDItemVCBinder1" ns="GreenZoneUtil.Gui.ViewController" id="33554483" mod="aP" t="cl">
+		<base-t n="G2gC;TGreenZoneUtil.ViewController.ComboController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.Control"/>
+		</gc>
+		<constr id="100663601" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddChild" id="100663603" rt="v" mod="0">
+			<param t="TGreenZoneUtil.ViewController.Controller" n="child">
+			</param>
+			<param t="n" n="index">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlInserted" id="100663604" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlRemovedAt" id="100663605" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ControlsChanged" id="100663606" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="DdItems" id="385876004" t="TSystem.Windows.Forms.ToolStripItemCollection" r="True" w="False" mod="aP">
+		</prop>
+	</type>
+	<type n="G1gC;ToolStripDDItemVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554484" mod="P" t="cl">
+		<base-t n="G1gC;GreenZoneUtil.Gui.ViewController.ToolStripDDItemVCBinder0" id="33554482"/>
+		<gc type-is="0">
+			<rule n="TSystem.Windows.Forms.ToolStripDropDownItem"/>
+		</gc>
+		<constr id="100663607" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="gC" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385876005" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+		<prop n="DdItems" id="385876006" t="TSystem.Windows.Forms.ToolStripItemCollection" r="True" w="False" mod="oP">
+		</prop>
+	</type>
+	<type n="TTextBoxVCBinder1" ns="GreenZoneUtil.Gui.ViewController" id="33554485" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.TextBox;TGreenZoneUtil.ViewController.LabelledController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663611" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.TextBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.LabelledController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663612" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663613" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TToolStripLabelVCBinder1" ns="GreenZoneUtil.Gui.ViewController" id="33554486" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripLabel;TGreenZoneUtil.ViewController.LabelledController;GreenZoneUtil.Gui.ViewController.ControlVCBinder2" id="33554448"/>
+		<constr id="100663614" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripLabel" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.LabelledController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663615" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TCheckBoxListVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554487" mod="P" t="cl">
+		<base-t n="TGreenZoneUtil.Gui.ViewController.ListVCBinder" id="33554479"/>
+		<constr id="100663616" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.CheckedListBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListController" n="controller">
+			</param>
+		</constr>
+		<prop n="SelectedItems" id="385876007" t="TSystem.Collections.IList" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TFlagTabAlignments" ns="GreenZoneUtil.Gui" id="33554488" mod="eP" t="en">
+		<attrs>
+			<attr t="aSystem.FlagsAttribute" constr="100666440">
+			</attr>
+		</attrs>
+		<base n="n" id="33554686"/>
+		<item n="Top" v="1"/>
+		<item n="Left" v="2"/>
+		<item n="Bottom" v="4"/>
+		<item n="TopBottom" v="5"/>
+		<item n="Right" v="8"/>
+		<item n="LeftRight" v="10"/>
+		<item n="All" v="15"/>
+	</type>
+	<type n="TCoolTabControl" ns="GreenZoneUtil.Gui" id="33554489" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.TabControl" id="33556032"/>
+		<field n="components" id="67109136" t="TSystem.ComponentModel.Container" mod="0">
+		</field>
+		<field n="tabPage1" id="67109137" t="TSystem.Windows.Forms.TabPage" mod="0">
+		</field>
+		<field n="button5" id="67109138" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<field n="imageList1" id="67109139" t="TSystem.Windows.Forms.ImageList" mod="0">
+		</field>
+		<field n="AddTabClick" id="67109140" t="TSystem.EventHandler" mod="0">
+		</field>
+		<field n="initialized" id="67109141" t="b" mod="0">
+		</field>
+		<field n="enableAddTabButton" id="67109142" t="b" mod="0">
+		</field>
+		<field n="_MoveTab" id="67109143" t="b" mod="0">
+		</field>
+		<field n="_OnControlAdded" id="67109144" t="b" mod="0">
+		</field>
+		<method n="Tadd_AddTabClick" id="100663619" rt="v" mod="P">
+			<param t="TSystem.EventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_AddTabClick" id="100663620" rt="v" mod="P">
+			<param t="TSystem.EventHandler" n="value">
+			</param>
+		</method>
+		<constr id="100663621" mod="P">
+		</constr>
+		<method n="TDispose" id="100663622" rt="v" mod="op">
+			<param t="b" n="disposing">
+			</param>
+		</method>
+		<method n="TInitializeComponent" id="100663629" rt="v" mod="0">
+		</method>
+		<method n="TMoveTab" id="100663630" rt="v" mod="P">
+			<param t="TSystem.Windows.Forms.TabPage" n="drag_tab">
+			</param>
+			<param t="n" n="drop_location_index">
+			</param>
+		</method>
+		<method n="TOnDragOver" id="100663631" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.DragEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseDown" id="100663632" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TGetTabPageByTab" id="100663633" rt="TSystem.Windows.Forms.TabPage" mod="0">
+			<param t="TSystem.Drawing.Point" n="pt">
+			</param>
+		</method>
+		<method n="TFindIndex" id="100663634" rt="n" mod="0">
+			<param t="TSystem.Windows.Forms.TabPage" n="page">
+			</param>
+		</method>
+		<method n="TRefreshAddTabButton" id="100663635" rt="v" mod="0">
+		</method>
+		<method n="TOnSelectedIndexChanged" id="100663636" rt="v" mod="op">
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnControlAdded" id="100663637" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.ControlEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnControlRemoved" id="100663638" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.ControlEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tbutton5_Click" id="100663639" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<event n="AddTabClick" id="335544321" t="TSystem.EventHandler" mod="P">
+		</event>
+		<prop n="DraggableAlignments" id="385876008" t="TGreenZoneUtil.Gui.FlagTabAlignments" r="True" w="True" mod="P">
+		</prop>
+		<prop n="AddTabText" id="385876009" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="EnableAddTabButton" id="385876010" t="b" r="True" w="False" mod="P">
+		</prop>
+		<prop n="FixedLastTabs" id="385876011" t="n" r="True" w="False" mod="0">
+		</prop>
+	</type>
+	<type n="TDateTimePickerVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554490" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.DateTimePicker;G1TSystem.DateTime;GreenZoneUtil.ViewController.FieldController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663640" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.DateTimePicker" n="control">
+			</param>
+			<param t="G1TSystem.DateTime;GreenZoneUtil.ViewController.FieldController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663641" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663642" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TSplitContainerVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554491" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.SplitContainer;TGreenZoneUtil.ViewController.SplitController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<field n="panel1Binder" id="67109146" t="TGreenZoneUtil.Gui.ViewController.SplitterPanelVCBinder" mod="0">
+		</field>
+		<field n="panel2Binder" id="67109147" t="TGreenZoneUtil.Gui.ViewController.SplitterPanelVCBinder" mod="0">
+		</field>
+		<constr id="100663643" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.SplitContainer" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.SplitController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_Panel1Collapsed" id="100663644" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_Panel2Collapsed" id="100663645" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TSplitContainerVC_SplitterMoved" id="100663648" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.Windows.Forms.SplitterEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Panel1Binder" id="385876012" t="TGreenZoneUtil.Gui.ViewController.SplitterPanelVCBinder" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Panel2Binder" id="385876013" t="TGreenZoneUtil.Gui.ViewController.SplitterPanelVCBinder" r="True" w="False" mod="P">
+		</prop>
+	</type>
+	<type n="TToolStripChbuttonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554492" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripButton;TGreenZoneUtil.ViewController.ToggleButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder2" id="33554449"/>
+		<constr id="100663649" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripButton" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ToggleButtonController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_CheckedChanged" id="100663652" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385876014" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TContextMenuStripVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554493" mod="P" t="cl">
+		<base-t n="G1TSystem.Windows.Forms.ContextMenuStrip;GreenZoneUtil.Gui.ViewController.ToolStripDDItemVCBinder1" id="33554483"/>
+		<constr id="100663653" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ContextMenuStrip" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385876015" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+		<prop n="DdItems" id="385876016" t="TSystem.Windows.Forms.ToolStripItemCollection" r="True" w="False" mod="oP">
+		</prop>
+	</type>
+	<type n="TFolderBrowserVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554494" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.FolderBrowserDialog;TGreenZoneUtil.ViewController.FolderBrowserController;GreenZoneUtil.Gui.ViewController.FormVCBinder2" id="33554481"/>
+		<constr id="100663657" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.FolderBrowserDialog" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.FolderBrowserController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_SelectedPathChanged" id="100663658" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_RootFolderChanged" id="100663659" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TToolStripMenuItemVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554495" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripMenuItem;TGreenZoneUtil.ViewController.ButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder2" id="33554449"/>
+		<constr id="100663660" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripMenuItem" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ButtonController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385876017" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TComboBoxVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554496" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ComboBox;TGreenZoneUtil.ViewController.ComboController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663663" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ComboBox" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddItem" id="100663664" rt="v" mod="0">
+			<param t="O" n="item">
+			</param>
+			<param t="n" n="index">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OptionalAttribute" constr="100678646">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<method n="Tcontroller_SelectedItemChanged" id="100663665" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ItemsChanged" id="100663666" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ItemAdded" id="100663667" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_SelectedIndexChanged" id="100663668" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TDataGridColumnVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554497" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.DataGridViewColumn;TGreenZoneUtil.ViewController.GridColumnController;GreenZoneUtil.Gui.ViewController.ControlVCBinder3" id="33554474"/>
+		<constr id="100663669" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.DataGridViewColumn" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.GridColumnController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663670" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TProgressBarVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554498" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ProgressBar;TGreenZoneUtil.ViewController.ProgressTrackController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663671" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ProgressBar" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ProgressTrackController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663672" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ValueChanged" id="100663673" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_MinimumChanged" id="100663674" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_MaximumChanged" id="100663675" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663676" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TProgressTrackBar" ns="GreenZoneUtil.Gui" id="33554499" mod="P" t="cl">
+		<attrs>
+			<attr t="aSystem.ComponentModel.DefaultEventAttribute" constr="100665064">
+				<args>
+					<arg t="X" v="TickPositionChanged"/>
+				</args>
+			</attr>
+			<attr t="aSystem.ComponentModel.DefaultPropertyAttribute" constr="100665069">
+				<args>
+					<arg t="X" v="MaxValue"/>
+				</args>
+			</attr>
+		</attrs>
+		<base-t n="TSystem.Windows.Forms.UserControl" id="33556258"/>
+		<field n="TickPositionChanged" id="67109148" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="ProgressValueChanged" id="67109149" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="MaxValueChanged" id="67109150" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="MaxProgressChanged" id="67109151" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="SegmentSizeChanged" id="67109152" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="ProgressBarHeightChanged" id="67109153" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="DrawTicksChanged" id="67109154" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="DrawSegmentsChanged" id="67109155" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="0">
+		</field>
+		<field n="maxValue" id="67109156" t="n" mod="0">
+		</field>
+		<field n="currentTickPosition" id="67109157" t="n" mod="0">
+		</field>
+		<field n="maxProgress" id="67109158" t="n" mod="0">
+		</field>
+		<field n="currentProgressValue" id="67109159" t="n" mod="0">
+		</field>
+		<field n="segmentSize" id="67109160" t="n" mod="0">
+		</field>
+		<field n="progressBarHeight" id="67109161" t="n" mod="0">
+		</field>
+		<field n="drawTicks" id="67109162" t="b" mod="0">
+		</field>
+		<field n="drawSegments" id="67109163" t="b" mod="0">
+		</field>
+		<field n="trackRectangle" id="67109164" t="TSystem.Drawing.Rectangle" mod="0">
+		</field>
+		<field n="progressTrackRectangle" id="67109165" t="TSystem.Drawing.Rectangle" mod="0">
+		</field>
+		<field n="ticksRectangle" id="67109166" t="TSystem.Drawing.Rectangle" mod="0">
+		</field>
+		<field n="bigTicksRectangle" id="67109167" t="TSystem.Drawing.Rectangle" mod="0">
+		</field>
+		<field n="thumbRectangle" id="67109168" t="TSystem.Drawing.Rectangle" mod="0">
+		</field>
+		<field n="progressBarHeightForUse" id="67109169" t="n" mod="0">
+		</field>
+		<field n="maxValueBigTicks" id="67109170" t="n" mod="0">
+		</field>
+		<field n="thumbClicked" id="67109171" t="b" mod="0">
+		</field>
+		<field n="thumbState" id="67109172" t="TSystem.Windows.Forms.VisualStyles.TrackBarThumbState" mod="0">
+		</field>
+		<field n="pen" id="67109173" t="TSystem.Drawing.Pen" mod="0">
+		</field>
+		<field n="brush" id="67109174" t="TSystem.Drawing.Brush" mod="0">
+		</field>
+		<field n="brushColor" id="67109175" t="TSystem.Drawing.Color" mod="0">
+		</field>
+		<method n="Tadd_TickPositionChanged" id="100663677" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_TickPositionChanged" id="100663678" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_ProgressValueChanged" id="100663679" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_ProgressValueChanged" id="100663680" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_MaxValueChanged" id="100663681" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_MaxValueChanged" id="100663682" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_MaxProgressChanged" id="100663683" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_MaxProgressChanged" id="100663684" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_SegmentSizeChanged" id="100663685" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_SegmentSizeChanged" id="100663686" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_ProgressBarHeightChanged" id="100663687" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_ProgressBarHeightChanged" id="100663688" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_DrawTicksChanged" id="100663689" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_DrawTicksChanged" id="100663690" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_DrawSegmentsChanged" id="100663691" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_DrawSegmentsChanged" id="100663692" rt="v" mod="P">
+			<param t="TSystem.ComponentModel.PropertyChangedEventHandler" n="value">
+			</param>
+		</method>
+		<constr id="100663693" mod="P">
+		</constr>
+		<method n="TProgressTrackBar_SizeChanged" id="100663694" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TSetupTrackBar" id="100663715" rt="v" mod="0">
+		</method>
+		<method n="TCurrentTickXCoordinate" id="100663716" rt="n" mod="0">
+		</method>
+		<method n="TCurrentTickXCoordinate" id="100663717" rt="n" mod="0">
+			<param t="n" n="pos">
+			</param>
+		</method>
+		<method n="TOnPaint" id="100663718" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.PaintEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseDown" id="100663719" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseUp" id="100663720" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseMove" id="100663721" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseLeave" id="100663722" rt="v" mod="op">
+			<param t="TSystem.EventArgs" n="a">
+			</param>
+		</method>
+		<method n="TOnMouseWheel" id="100663723" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnKeyPress" id="100663724" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.KeyPressEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TIsInputKey" id="100663725" rt="b" mod="op">
+			<param t="TSystem.Windows.Forms.Keys" n="keyData">
+			</param>
+		</method>
+		<method n="TInitializeComponent" id="100663726" rt="v" mod="0">
+		</method>
+		<event n="TickPositionChanged" id="335544322" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="ProgressValueChanged" id="335544323" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="MaxValueChanged" id="335544324" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="MaxProgressChanged" id="335544325" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="SegmentSizeChanged" id="335544326" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="ProgressBarHeightChanged" id="335544327" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="DrawTicksChanged" id="335544328" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<event n="DrawSegmentsChanged" id="335544329" t="TSystem.ComponentModel.PropertyChangedEventHandler" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar events"/>
+					</args>
+				</attr>
+			</attrs>
+		</event>
+		<prop n="ForeColor" id="385876018" t="TSystem.Drawing.Color" r="True" w="True" mod="oP">
+		</prop>
+		<prop n="BrushColor" id="385876019" t="TSystem.Drawing.Color" r="True" w="True" mod="P">
+		</prop>
+		<prop n="MaxValue" id="385876020" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="TickPosition" id="385876021" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="MaxProgress" id="385876022" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="ProgressValue" id="385876023" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="SegmentSize" id="385876024" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="ProgressBarHeight" id="385876025" t="n" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="DrawTicks" id="385876026" t="b" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="DrawSegments" id="385876027" t="b" r="True" w="True" mod="P">
+			<attrs>
+				<attr t="aSystem.ComponentModel.CategoryAttribute" constr="100664893">
+					<args>
+						<arg t="X" v="Trackbar properties"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+	</type>
+	<type n="TSettings" ns="GreenZoneUtil.Properties" id="33554500" mod="e" t="cl">
+		<attrs>
+			<attr t="aSystem.Runtime.CompilerServices.CompilerGeneratedAttribute" constr="100680591">
+			</attr>
+			<attr t="aSystem.CodeDom.Compiler.GeneratedCodeAttribute" constr="100667702">
+				<args>
+					<arg t="X" v="Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator"/>
+					<arg t="X" v="10.0.0.0"/>
+				</args>
+			</attr>
+		</attrs>
+		<base-t n="TSystem.Configuration.ApplicationSettingsBase" id="33556288"/>
+		<field n="defaultInstance" id="67109176" t="TGreenZoneUtil.Properties.Settings" mod="s0">
+		</field>
+		<constr id="100663728" mod="P">
+		</constr>
+		<constr id="100663729" mod="s0">
+		</constr>
+		<prop n="Default" id="385876028" t="TGreenZoneUtil.Properties.Settings" r="True" w="False" mod="sP">
+		</prop>
+	</type>
+	<type n="TToolStripSplitButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554501" mod="P" t="cl">
+		<base-t n="G1TSystem.Windows.Forms.ToolStripSplitButton;GreenZoneUtil.Gui.ViewController.ToolStripDDItemVCBinder" id="33554484"/>
+		<constr id="100663730" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripSplitButton" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontrol_Click" id="100663731" rt="v" mod="op">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_ButtonClick" id="100663732" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TPanelButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554502" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Control;TGreenZoneUtil.ViewController.ButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<constr id="100663733" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ButtonController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385876029" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TRadioButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554503" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.RadioButton;TGreenZoneUtil.ViewController.RadioButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<constr id="100663736" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.RadioButton" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.RadioButtonController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_CheckedChanged" id="100663739" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385876030" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TPropertySpec" ns="Flobbster.Windows.Forms" id="33554504" mod="P" t="cl">
+		<field n="attributes" id="67109177" t="A1aSystem.Attribute;" mod="0">
+		</field>
+		<field n="category" id="67109178" t="X" mod="0">
+		</field>
+		<field n="defaultValue" id="67109179" t="O" mod="0">
+		</field>
+		<field n="description" id="67109180" t="X" mod="0">
+		</field>
+		<field n="editor" id="67109181" t="X" mod="0">
+		</field>
+		<field n="name" id="67109182" t="X" mod="0">
+		</field>
+		<field n="type" id="67109183" t="X" mod="0">
+		</field>
+		<field n="typeConverter" id="67109184" t="X" mod="0">
+		</field>
+		<constr id="100663740" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+		</constr>
+		<constr id="100663741" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+		</constr>
+		<constr id="100663742" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+		</constr>
+		<constr id="100663743" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+		</constr>
+		<constr id="100663744" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+		</constr>
+		<constr id="100663745" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+		</constr>
+		<constr id="100663746" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+		</constr>
+		<constr id="100663747" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+		</constr>
+		<constr id="100663748" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="X" n="editor">
+			</param>
+			<param t="X" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663749" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="X" n="editor">
+			</param>
+			<param t="X" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663750" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="t" n="editor">
+			</param>
+			<param t="X" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663751" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="t" n="editor">
+			</param>
+			<param t="X" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663752" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="X" n="editor">
+			</param>
+			<param t="t" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663753" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="X" n="editor">
+			</param>
+			<param t="t" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663754" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="X" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="t" n="editor">
+			</param>
+			<param t="t" n="typeConverter">
+			</param>
+		</constr>
+		<constr id="100663755" mod="P">
+			<param t="X" n="name">
+			</param>
+			<param t="t" n="type">
+			</param>
+			<param t="X" n="category">
+			</param>
+			<param t="X" n="description">
+			</param>
+			<param t="O" n="defaultValue">
+			</param>
+			<param t="t" n="editor">
+			</param>
+			<param t="t" n="typeConverter">
+			</param>
+		</constr>
+		<prop n="Attributes" id="385876031" t="A1aSystem.Attribute;" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Category" id="385876032" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="ConverterTypeName" id="385876033" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="DefaultValue" id="385876034" t="O" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Description" id="385876035" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="EditorTypeName" id="385876036" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Name" id="385876037" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="TypeName" id="385876038" t="X" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TPropertySpecEventArgs" ns="Flobbster.Windows.Forms" id="33554505" mod="P" t="cl">
+		<base-t n="TSystem.EventArgs" id="33554542"/>
+		<field n="property" id="67109185" t="TFlobbster.Windows.Forms.PropertySpec" mod="0">
+		</field>
+		<field n="val" id="67109186" t="O" mod="0">
+		</field>
+		<constr id="100663772" mod="P">
+			<param t="TFlobbster.Windows.Forms.PropertySpec" n="property">
+			</param>
+			<param t="O" n="val">
+			</param>
+		</constr>
+		<prop n="Property" id="385876039" t="TFlobbster.Windows.Forms.PropertySpec" r="True" w="False" mod="P">
+		</prop>
+		<prop n="Value" id="385876040" t="O" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TPropertySpecEventHandler" ns="Flobbster.Windows.Forms" id="33554506" mod="eP" t="de">
+		<base-t n="TSystem.MulticastDelegate" id="33554454"/>
+		<constr id="100663776" mod="P">
+			<param t="O" n="object">
+			</param>
+			<param t="p" n="method">
+			</param>
+		</constr>
+		<method n="TInvoke" id="100663777" rt="v" mod="vP">
+			<param t="O" n="sender">
+			</param>
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TBeginInvoke" id="100663778" rt="TSystem.IAsyncResult" mod="vP">
+			<param t="O" n="sender">
+			</param>
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+			<param t="TSystem.AsyncCallback" n="callback">
+			</param>
+			<param t="O" n="object">
+			</param>
+		</method>
+		<method n="TEndInvoke" id="100663779" rt="v" mod="vP">
+			<param t="TSystem.IAsyncResult" n="result">
+			</param>
+		</method>
+	</type>
+	<type n="TPropertyBag" ns="Flobbster.Windows.Forms" id="33554507" mod="P" t="cl">
+		<base-i n="TSystem.ComponentModel.ICustomTypeDescriptor" id="33554620"/>
+		<type n="TFlobbster.Windows.Forms.PropertyBag+TPropertySpecCollection" ns="Flobbster.Windows.Forms" id="33554508" mod="P" t="cl">
+			<attrs>
+				<attr t="aSystem.SerializableAttribute" constr="100667993">
+				</attr>
+				<attr t="aSystem.Reflection.DefaultMemberAttribute" constr="100673552">
+					<args>
+						<arg t="X" v="Item"/>
+					</args>
+				</attr>
+			</attrs>
+			<base-i n="TSystem.Collections.IList" id="33554478"/>
+			<base-i n="TSystem.ICloneable" id="33554452"/>
+			<field n="innerArray" id="67109191" t="TSystem.Collections.ArrayList" mod="0">
+			</field>
+			<constr id="100663802" mod="P">
+			</constr>
+			<method n="TAdd" id="100663810" rt="n" mod="P">
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="value">
+				</param>
+			</method>
+			<method n="TAddRange" id="100663811" rt="v" mod="P">
+				<param t="A1TFlobbster.Windows.Forms.PropertySpec;" n="array">
+				</param>
+			</method>
+			<method n="TClear" id="100663812" rt="v" mod="vP">
+			</method>
+			<method n="TContains" id="100663813" rt="b" mod="P">
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="item">
+				</param>
+			</method>
+			<method n="TContains" id="100663814" rt="b" mod="P">
+				<param t="X" n="name">
+				</param>
+			</method>
+			<method n="TCopyTo" id="100663815" rt="v" mod="P">
+				<param t="A1TFlobbster.Windows.Forms.PropertySpec;" n="array">
+				</param>
+			</method>
+			<method n="TCopyTo" id="100663816" rt="v" mod="P">
+				<param t="A1TFlobbster.Windows.Forms.PropertySpec;" n="array">
+				</param>
+				<param t="n" n="index">
+				</param>
+			</method>
+			<method n="TGetEnumerator" id="100663817" rt="TSystem.Collections.IEnumerator" mod="vP">
+			</method>
+			<method n="TIndexOf" id="100663818" rt="n" mod="P">
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="value">
+				</param>
+			</method>
+			<method n="TIndexOf" id="100663819" rt="n" mod="P">
+				<param t="X" n="name">
+				</param>
+			</method>
+			<method n="TInsert" id="100663820" rt="v" mod="P">
+				<param t="n" n="index">
+				</param>
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="value">
+				</param>
+			</method>
+			<method n="TRemove" id="100663821" rt="v" mod="P">
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="obj">
+				</param>
+			</method>
+			<method n="TRemove" id="100663822" rt="v" mod="P">
+				<param t="X" n="name">
+				</param>
+			</method>
+			<method n="TRemoveAt" id="100663823" rt="v" mod="vP">
+				<param t="n" n="index">
+				</param>
+			</method>
+			<method n="TToArray" id="100663824" rt="A1TFlobbster.Windows.Forms.PropertySpec;" mod="P">
+			</method>
+			<method n="TSystem.Collections.ICollection.CopyTo" id="100663825" rt="v" mod="v0">
+				<param t="TSystem.Array" n="array">
+				</param>
+				<param t="n" n="index">
+				</param>
+			</method>
+			<method n="TSystem.Collections.IList.Add" id="100663826" rt="n" mod="v0">
+				<param t="O" n="value">
+				</param>
+			</method>
+			<method n="TSystem.Collections.IList.Contains" id="100663827" rt="b" mod="v0">
+				<param t="O" n="obj">
+				</param>
+			</method>
+			<method n="TSystem.Collections.IList.IndexOf" id="100663830" rt="n" mod="v0">
+				<param t="O" n="obj">
+				</param>
+			</method>
+			<method n="TSystem.Collections.IList.Insert" id="100663831" rt="v" mod="v0">
+				<param t="n" n="index">
+				</param>
+				<param t="O" n="value">
+				</param>
+			</method>
+			<method n="TSystem.Collections.IList.Remove" id="100663832" rt="v" mod="v0">
+				<param t="O" n="value">
+				</param>
+			</method>
+			<method n="TClone" id="100663833" rt="O" mod="vP">
+			</method>
+			<prop n="Count" id="385876043" t="n" r="True" w="False" mod="vP">
+			</prop>
+			<prop n="IsFixedSize" id="385876044" t="b" r="True" w="False" mod="vP">
+			</prop>
+			<prop n="IsReadOnly" id="385876045" t="b" r="True" w="False" mod="vP">
+			</prop>
+			<prop n="IsSynchronized" id="385876046" t="b" r="True" w="False" mod="vP">
+			</prop>
+			<prop n="System.Collections.ICollection.SyncRoot" id="385876047" t="O" r="True" w="False" mod="v0">
+			</prop>
+			<prop n="[]Item" id="385876048" t="TFlobbster.Windows.Forms.PropertySpec" r="True" w="True" mod="P">
+				<param t="n" n="index">
+				</param>
+			</prop>
+			<prop n="[]System.Collections.IList.Item" id="385876049" t="O" r="True" w="True" mod="v0">
+				<param t="n" n="index">
+				</param>
+			</prop>
+		</type>
+		<type n="TFlobbster.Windows.Forms.PropertyBag+TPropertySpecDescriptor" ns="Flobbster.Windows.Forms" id="33554509" mod="0" t="cl">
+			<base-t n="TSystem.ComponentModel.PropertyDescriptor" id="33554568"/>
+			<field n="bag" id="67109192" t="TFlobbster.Windows.Forms.PropertyBag" mod="0">
+			</field>
+			<field n="item" id="67109193" t="TFlobbster.Windows.Forms.PropertySpec" mod="0">
+			</field>
+			<constr id="100663834" mod="P">
+				<param t="TFlobbster.Windows.Forms.PropertySpec" n="item">
+				</param>
+				<param t="TFlobbster.Windows.Forms.PropertyBag" n="bag">
+				</param>
+				<param t="X" n="name">
+				</param>
+				<param t="A1aSystem.Attribute;" n="attrs">
+				</param>
+			</constr>
+			<method n="TCanResetValue" id="100663838" rt="b" mod="oP">
+				<param t="O" n="component">
+				</param>
+			</method>
+			<method n="TGetValue" id="100663839" rt="O" mod="oP">
+				<param t="O" n="component">
+				</param>
+			</method>
+			<method n="TResetValue" id="100663840" rt="v" mod="oP">
+				<param t="O" n="component">
+				</param>
+			</method>
+			<method n="TSetValue" id="100663841" rt="v" mod="oP">
+				<param t="O" n="component">
+				</param>
+				<param t="O" n="value">
+				</param>
+			</method>
+			<method n="TShouldSerializeValue" id="100663842" rt="b" mod="oP">
+				<param t="O" n="component">
+				</param>
+			</method>
+			<prop n="ComponentType" id="385876050" t="t" r="True" w="False" mod="oP">
+			</prop>
+			<prop n="IsReadOnly" id="385876051" t="b" r="True" w="False" mod="oP">
+			</prop>
+			<prop n="PropertyType" id="385876052" t="t" r="True" w="False" mod="oP">
+			</prop>
+		</type>
+		<field n="defaultProperty" id="67109187" t="X" mod="p">
+		</field>
+		<field n="properties" id="67109188" t="TFlobbster.Windows.Forms.PropertyBag+TPropertySpecCollection" mod="p">
+		</field>
+		<field n="GetValue" id="67109189" t="TFlobbster.Windows.Forms.PropertySpecEventHandler" mod="0">
+		</field>
+		<field n="SetValue" id="67109190" t="TFlobbster.Windows.Forms.PropertySpecEventHandler" mod="0">
+		</field>
+		<constr id="100663780" mod="P">
+		</constr>
+		<method n="Tadd_GetValue" id="100663784" rt="v" mod="P">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_GetValue" id="100663785" rt="v" mod="P">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tadd_SetValue" id="100663786" rt="v" mod="P">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventHandler" n="value">
+			</param>
+		</method>
+		<method n="Tremove_SetValue" id="100663787" rt="v" mod="P">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventHandler" n="value">
+			</param>
+		</method>
+		<method n="TOnGetValue" id="100663788" rt="v" mod="vp">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnSetValue" id="100663789" rt="v" mod="vp">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetAttributes" id="100663790" rt="TSystem.ComponentModel.AttributeCollection" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetClassName" id="100663791" rt="X" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetComponentName" id="100663792" rt="X" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetConverter" id="100663793" rt="TSystem.ComponentModel.TypeConverter" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" id="100663794" rt="TSystem.ComponentModel.EventDescriptor" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" id="100663795" rt="TSystem.ComponentModel.PropertyDescriptor" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetEditor" id="100663796" rt="O" mod="v0">
+			<param t="t" n="editorBaseType">
+			</param>
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetEvents" id="100663797" rt="TSystem.ComponentModel.EventDescriptorCollection" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetEvents" id="100663798" rt="TSystem.ComponentModel.EventDescriptorCollection" mod="v0">
+			<param t="A1aSystem.Attribute;" n="attributes">
+			</param>
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetProperties" id="100663799" rt="TSystem.ComponentModel.PropertyDescriptorCollection" mod="v0">
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetProperties" id="100663800" rt="TSystem.ComponentModel.PropertyDescriptorCollection" mod="v0">
+			<param t="A1aSystem.Attribute;" n="attributes">
+			</param>
+		</method>
+		<method n="TSystem.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner" id="100663801" rt="O" mod="v0">
+			<param t="TSystem.ComponentModel.PropertyDescriptor" n="pd">
+			</param>
+		</method>
+		<event n="GetValue" id="335544330" t="TFlobbster.Windows.Forms.PropertySpecEventHandler" mod="P">
+		</event>
+		<event n="SetValue" id="335544331" t="TFlobbster.Windows.Forms.PropertySpecEventHandler" mod="P">
+		</event>
+		<prop n="DefaultProperty" id="385876041" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Properties" id="385876042" t="TFlobbster.Windows.Forms.PropertyBag+TPropertySpecCollection" r="True" w="False" mod="P">
+		</prop>
+	</type>
+	<type n="TPropertyTable" ns="Flobbster.Windows.Forms" id="33554510" mod="P" t="cl">
+		<attrs>
+			<attr t="aSystem.Reflection.DefaultMemberAttribute" constr="100673552">
+				<args>
+					<arg t="X" v="Item"/>
+				</args>
+			</attr>
+		</attrs>
+		<base-t n="TFlobbster.Windows.Forms.PropertyBag" id="33554507"/>
+		<base-i n="TSystem.ICloneable" id="33554452"/>
+		<field n="propValues" id="67109194" t="G2XOSystem.Collections.Generic.Dictionary" mod="r0">
+		</field>
+		<constr id="100663843" mod="P">
+		</constr>
+		<method n="TOnGetValue" id="100663846" rt="v" mod="op">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnSetValue" id="100663847" rt="v" mod="op">
+			<param t="TFlobbster.Windows.Forms.PropertySpecEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TClone" id="100663848" rt="O" mod="vP">
+		</method>
+		<prop n="[]Item" id="385876053" t="O" r="True" w="True" mod="P">
+			<param t="X" n="key">
+			</param>
+		</prop>
+	</type>
+	<type n="TModifyRegistry" ns="Utility.ModifyRegistry" id="33554511" mod="P" t="cl">
+		<field n="showError" id="67109195" t="b" mod="0">
+		</field>
+		<field n="subKey" id="67109196" t="X" mod="0">
+		</field>
+		<field n="baseRegistryKey" id="67109197" t="TMicrosoft.Win32.RegistryKey" mod="0">
+		</field>
+		<method n="TRead" id="100663855" rt="X" mod="P">
+			<param t="X" n="KeyName">
+			</param>
+		</method>
+		<method n="TWrite" id="100663856" rt="b" mod="P">
+			<param t="X" n="KeyName">
+			</param>
+			<param t="O" n="Value">
+			</param>
+		</method>
+		<method n="TDeleteKey" id="100663857" rt="b" mod="P">
+			<param t="X" n="KeyName">
+			</param>
+		</method>
+		<method n="TDeleteSubKeyTree" id="100663858" rt="b" mod="P">
+		</method>
+		<method n="TSubKeyCount" id="100663859" rt="n" mod="P">
+		</method>
+		<method n="TValueCount" id="100663860" rt="n" mod="P">
+		</method>
+		<method n="TShowErrorMessage" id="100663861" rt="v" mod="0">
+			<param t="TSystem.Exception" n="e">
+			</param>
+			<param t="X" n="Title">
+			</param>
+		</method>
+		<constr id="100663862" mod="P">
+		</constr>
+		<prop n="ShowError" id="385876054" t="b" r="True" w="True" mod="P">
+		</prop>
+		<prop n="SubKey" id="385876055" t="X" r="True" w="True" mod="P">
+		</prop>
+		<prop n="BaseRegistryKey" id="385876056" t="TMicrosoft.Win32.RegistryKey" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TBinaryReaderBE" ns="GreenZoneUtil.Util" id="33554512" mod="P" t="cl">
+		<base-t n="TSystem.IO.BinaryReader" id="33556197"/>
+		<field n="a16" id="67109198" t="A1y" mod="0">
+		</field>
+		<field n="a32" id="67109199" t="A1y" mod="0">
+		</field>
+		<field n="a64" id="67109200" t="A1y" mod="0">
+		</field>
+		<constr id="100663863" mod="P">
+			<param t="TSystem.IO.Stream" n="stream">
+			</param>
+		</constr>
+		<method n="TReadInt32" id="100663864" rt="n" mod="oP">
+		</method>
+		<method n="TReadInt16" id="100663865" rt="s" mod="oP">
+		</method>
+		<method n="TReadInt64" id="100663866" rt="l" mod="oP">
+		</method>
+		<method n="TReadUInt32" id="100663867" rt="N" mod="oP">
+		</method>
+		<method n="TReadSingle" id="100663868" rt="f" mod="oP">
+		</method>
+		<method n="TReadDouble" id="100663869" rt="d" mod="oP">
+		</method>
+	</type>
+	<type n="TToolStripDropDownButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554513" mod="P" t="cl">
+		<base-t n="G1TSystem.Windows.Forms.ToolStripDropDownButton;GreenZoneUtil.Gui.ViewController.ToolStripDDItemVCBinder" id="33554484"/>
+		<constr id="100663870" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripDropDownButton" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TToolStripMenuVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554514" mod="P" t="cl">
+		<base-t n="G1TSystem.Windows.Forms.ToolStripMenuItem;GreenZoneUtil.Gui.ViewController.ToolStripDDItemVCBinder" id="33554484"/>
+		<constr id="100663871" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripMenuItem" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ComboController" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TSplitContainerEx" ns="GreenZoneUtil.Gui" id="33554515" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.SplitContainer" id="33555992"/>
+		<field n="imgw" id="67109201" t="n" const="50" mod="s0">
+		</field>
+		<field n="imgh" id="67109202" t="n" const="6" mod="s0">
+		</field>
+		<field n="collapseButtons" id="67109203" t="TGreenZoneUtil.Gui.CollapseButtons" mod="0">
+		</field>
+		<field n="panel1NormalSize" id="67109204" t="n" mod="0">
+		</field>
+		<field n="panel2NormalSize" id="67109205" t="n" mod="0">
+		</field>
+		<field n="panel1CollapsedByClient" id="67109206" t="b" mod="0">
+		</field>
+		<field n="panel2CollapsedByClient" id="67109207" t="b" mod="0">
+		</field>
+		<field n="leftGap" id="67109208" t="n" mod="0">
+		</field>
+		<field n="rightGap" id="67109209" t="n" mod="0">
+		</field>
+		<constr id="100663872" mod="P">
+		</constr>
+		<method n="TOnMouseMove" id="100663891" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseLeave" id="100663892" rt="v" mod="op">
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnMouseDown" id="100663893" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.MouseEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnPaint" id="100663894" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.PaintEventArgs" n="e">
+			</param>
+		</method>
+		<method n="TOnSizeChanged" id="100663895" rt="v" mod="op">
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TCalcRects" id="100663896" rt="v" mod="0">
+			<param t="TSystem.Drawing.Rectangle" n="r1" p="Out">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OutAttribute" constr="100678643">
+					</attr>
+				</attrs>
+			</param>
+			<param t="TSystem.Drawing.Rectangle" n="r2" p="Out">
+				<attrs>
+					<attr t="aSystem.Runtime.InteropServices.OutAttribute" constr="100678643">
+					</attr>
+				</attrs>
+			</param>
+		</method>
+		<prop n="DividedLength" id="385876057" t="n" r="True" w="False" mod="P">
+		</prop>
+		<prop n="AnotherLength" id="385876058" t="n" r="True" w="False" mod="P">
+		</prop>
+		<prop n="IsSplitterFixed" id="385876059" t="b" r="True" w="True" mod="P">
+		</prop>
+		<prop n="CollapseButtons" id="385876060" t="TGreenZoneUtil.Gui.CollapseButtons" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Panel1NormalSize" id="385876061" t="n" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Panel2NormalSize" id="385876062" t="n" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Panel1CollapsedByClient" id="385876063" t="b" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Panel2CollapsedByClient" id="385876064" t="b" r="True" w="True" mod="P">
+		</prop>
+		<prop n="LeftGap" id="385876065" t="n" r="True" w="True" mod="P">
+		</prop>
+		<prop n="RightGap" id="385876066" t="n" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TCollapseButtons" ns="GreenZoneUtil.Gui" id="33554516" mod="eP" t="en">
+		<attrs>
+			<attr t="aSystem.FlagsAttribute" constr="100666440">
+			</attr>
+		</attrs>
+		<base n="n" id="33554686"/>
+		<item n="None" v="0"/>
+		<item n="Panel1" v="1"/>
+		<item n="Panel2" v="2"/>
+		<item n="Both" v="3"/>
+	</type>
+	<type n="TNonselButton" ns="GreenZoneUtil.Gui" id="33554517" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.Button" id="33555035"/>
+		<constr id="100663897" mod="P">
+		</constr>
+	</type>
+	<type n="TContextMenuStripWTitle" ns="GreenZoneUtil.Gui" id="33554518" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.ContextMenuStrip" id="33555119"/>
+		<field n="titleLabel" id="67109215" t="TGreenZoneUtil.Gui.ContextMenuHeader" mod="0">
+		</field>
+		<field n="image" id="67109216" t="TSystem.Drawing.Image" mod="0">
+		</field>
+		<constr id="100663898" mod="P">
+		</constr>
+		<constr id="100663899" mod="P">
+			<param t="X" n="text">
+			</param>
+		</constr>
+		<method n="TOnItemClicked" id="100663906" rt="v" mod="op">
+			<param t="TSystem.Windows.Forms.ToolStripItemClickedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="TitleLabel" id="385876067" t="TGreenZoneUtil.Gui.ContextMenuHeader" r="True" w="True" mod="P">
+		</prop>
+		<prop n="Text" id="385876068" t="X" r="True" w="True" mod="oP">
+		</prop>
+		<prop n="Image" id="385876069" t="TSystem.Drawing.Image" r="True" w="True" mod="P">
+		</prop>
+	</type>
+	<type n="TContextMenuHeader" ns="GreenZoneUtil.Gui" id="33554519" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.ToolStripMenuItem" id="33555626"/>
+		<constr id="100663907" mod="P">
+		</constr>
+		<method n="TCreateDefaultDropDown" id="100663908" rt="TSystem.Windows.Forms.ToolStripDropDown" mod="op">
+		</method>
+		<prop n="DismissWhenClicked" id="385876070" t="b" r="True" w="False" mod="op">
+		</prop>
+	</type>
+	<type n="TProgressTrackBarVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554520" mod="P" t="cl">
+		<base-t n="G2TGreenZoneUtil.Gui.ProgressTrackBar;TGreenZoneUtil.ViewController.ProgressTrackController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663910" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TGreenZoneUtil.Gui.ProgressTrackBar" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ProgressTrackController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_TextChanged" id="100663911" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_CursorValueChanged" id="100663912" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ValueChanged" id="100663913" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_MaximumChanged" id="100663914" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TextChanged" id="100663915" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_TickPositionChanged" id="100663916" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.ComponentModel.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_ProgressValueChanged" id="100663917" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.ComponentModel.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TSimpleControlVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554521" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Control;TGreenZoneUtil.ViewController.Controller;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663918" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Control" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.Controller" n="controller">
+			</param>
+		</constr>
+	</type>
+	<type n="TToolStripMenuCheckVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554522" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.ToolStripMenuItem;TGreenZoneUtil.ViewController.ToggleButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder2" id="33554449"/>
+		<constr id="100663919" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.ToolStripMenuItem" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ToggleButtonController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_CheckedChanged" id="100663922" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<prop n="Image" id="385876071" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TButtonVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554523" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.Button;TGreenZoneUtil.ViewController.ButtonController;GreenZoneUtil.Gui.ViewController.BaseButtonVCBinder" id="33554457"/>
+		<constr id="100663923" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.Button" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ButtonController" n="controller">
+			</param>
+		</constr>
+		<prop n="Image" id="385876072" t="TSystem.Drawing.Image" r="True" w="True" mod="oP">
+		</prop>
+	</type>
+	<type n="TWormSplitContainerVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554524" mod="aP" t="cl">
+		<base-t n="G2TGreenZoneUtil.Gui.WormSplitContainer;TGreenZoneUtil.ViewController.MultiSplitController;GreenZoneUtil.Gui.ViewController.ControlVCBinder1" id="33554437"/>
+		<constr id="100663926" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TGreenZoneUtil.Gui.WormSplitContainer" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.MultiSplitController" n="controller">
+			</param>
+		</constr>
+		<method n="TAddChild" id="100663927" rt="v" mod="ap">
+			<param t="TGreenZoneUtil.ViewController.Controller" n="child1">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlAdded" id="100663928" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlRemoved" id="100663929" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ChildControlRemovedFrom" id="100663930" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.ListChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_ControlsChanged" id="100663931" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+	<type n="TFileDialogVCBinder" ns="GreenZoneUtil.Gui.ViewController" id="33554525" mod="P" t="cl">
+		<base-t n="G2TSystem.Windows.Forms.FileDialog;TGreenZoneUtil.ViewController.FileDialogController;GreenZoneUtil.Gui.ViewController.FormVCBinder2" id="33554481"/>
+		<constr id="100663932" mod="P">
+			<param t="TGreenZoneUtil.Gui.ViewController.WinFormsMVContext" n="context">
+			</param>
+			<param t="TSystem.Windows.Forms.FileDialog" n="control">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.FileDialogController" n="controller">
+			</param>
+		</constr>
+		<method n="Tcontroller_SelectedPathChanged" id="100663933" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontroller_FilterChanged" id="100663934" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TGreenZoneUtil.ViewController.PropertyChangedEventArgs" n="e">
+			</param>
+		</method>
+		<method n="Tcontrol_FileOk" id="100663935" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.ComponentModel.CancelEventArgs" n="e">
+			</param>
+		</method>
+	</type>
+</assembly>

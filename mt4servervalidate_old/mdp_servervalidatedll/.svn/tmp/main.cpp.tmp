@@ -1,0 +1,446 @@
+/*=============================================================================
+ServerValidate
+=============================================================================*/
+
+// This dll handles the communication to the web interface
+//
+//
+
+
+//#define CURL_STATICLIB
+//#define WIN32_LEAN_AND_MEAN
+
+#include "stdafx.h"
+#include "SmartLog.h"
+
+<<<<<<< .mine
+#include <algorithm>
+#include <vector>
+=======
+#define WIN32_LEAN_AND_MEAN
+
+#include <string>
+
+#include <windows.h>
+>>>>>>> .r24
+#include "xmlParser.h"
+#include "convert.h"
+#include "CURLRetriever.h"
+#include "HTTPRspCodeString.h"
+#include "HTTPRspCodeClassString.h"
+#include "HTTPRspCodeDescription.h"
+#include "GenComputerString.h"
+#include <string>
+#include <sstream>
+
+#define Max(a,b) (((a)>=(b))?(a):(b))
+#define Min(a,b) (((a)<=(b))?(a):(b))
+
+int statuscode[] = {0};
+int validated[] = {0};
+
+double MathMax(double a,double b) {
+    return Max(a,b);
+}
+double MathMin(double a,double b) {
+    return Min(a,b);
+}
+
+#define MT4_EXPFUNC __declspec(dllexport)
+
+LogSeverity LOG_SEVERITY = SEV_DEBUG_2;
+
+#define export extern "C" __declspec( dllexport )
+
+
+
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+	static bool isValidate;
+
+    //+------------------------------------------------------------------+
+    //|                                                                  |
+    //+------------------------------------------------------------------+
+
+void initLog() {
+	CLogFlags flags;
+	__smartlog.SetFilePath("c:\\milliondollarpips.log");
+	__smartlog.GetFlags(flags);
+	flags.m_bLineFlag = true;
+	flags.m_bFileFlag = true;
+	__smartlog.SetFlags(flags);
+}
+
+
+#ifdef NO_VALIDATE_ZSF_ONLY
+	MT4_EXPFUNC
+#endif
+	void  __stdcall ValidateUser(const char *server, const char *username, const int metatraderid, const int debug, int validated[], int statusCode[], char* statusText)
+    {
+		isValidate = false;
+
+        std::string aOpenRequest;
+        std::string requestResult;
+        //std::string macAddr = GetMACAddr();
+		std::string compID;
+		try {
+			compID = GetComputerString(25);
+		} catch (std::wstring *exception) {
+			compID = "12345";
+			delete exception;
+		}
+
+        CURLRetriever::InitializeCURL();
+
+        aOpenRequest = server;
+        aOpenRequest += "/checkStatus.php?username=";
+
+        aOpenRequest += username;
+        aOpenRequest += "&compid=";
+        aOpenRequest += compID;
+        aOpenRequest += "&mt4acctid=";
+        aOpenRequest += stringify(metatraderid);
+
+        CURLRetriever urlRetriever;
+		if (debug == 1)
+			MessageBox(GetActiveWindow(),aOpenRequest.c_str(),"Request",MB_OK);
+
+        HRESULT hResult = urlRetriever.Initialize(aOpenRequest.c_str());
+
+        LONG lResponseCode = 0;
+        std::string sRetrievedContent;
+        std::string sRetrievingErrorDescription;
+        unsigned int codeClass;
+        int retries = 0;
+        do
+        {
+
+
+            hResult = urlRetriever.Retrieve(lResponseCode, sRetrievedContent, sRetrievingErrorDescription);
+            codeClass = lResponseCode / 100;
+            retries++;
+        }
+        while (codeClass == 5 && retries < 10);
+
+        if (codeClass > 2)
+        {
+            HTTPRspCodeDescription codeDescr;
+            std::string codeStringText = "Communications problem with server.  Description: ";
+            codeStringText += codeDescr.getInfo( lResponseCode );
+            //strcpy(statusText,codeStringText.c_str());
+        }
+
+
+
+        if (hResult != S_OK)
+        {
+            std::string codeStringText = "Communications problem with server.  Description: ";
+            codeStringText += sRetrievingErrorDescription.c_str();
+            //strcpy(statusText,codeStringText.c_str());
+        }
+
+        urlRetriever.Uninitialize();
+        CURLRetriever::UninitializeCURL();
+
+		if (debug == 1)
+			MessageBox(GetActiveWindow(),sRetrievedContent.c_str(),"Response",MB_OK);
+
+        XMLNode xMainNode=XMLNode::parseString(sRetrievedContent.c_str(),"validateStatus");
+
+        XMLNode xStatusCodeNode=xMainNode.getChildNode("status");
+
+        if (xStatusCodeNode.getText() != NULL)
+        {
+            statusCode[0] = convertToInt(xStatusCodeNode.getText());
+			if (statusCode[0]== 1)
+				isValidate = true;
+			else
+				isValidate = false;
+        }
+        else
+        {
+            statusCode[0] = 0;
+			isValidate = false;
+        }
+
+
+        XMLNode xStatusTextNode=xMainNode.getChildNode("statustext");
+
+        if (xStatusTextNode.getText() != NULL)
+        {
+            strcpy(statusText,xStatusTextNode.getText());
+        }
+        else
+        {
+            strcpy(statusText," ");
+        }
+
+
+        XMLNode xValidatedNode=xMainNode.getChildNode("validated");
+
+        if (xValidatedNode.getText() != NULL)
+        {
+            validated[0] = convertToInt(xValidatedNode.getText());
+        }
+        else
+        {
+            validated[0] = 0;
+        }
+
+		aOpenRequest.resize(0);
+        std::string().swap(aOpenRequest);
+
+        sRetrievedContent.resize(0);
+        std::string().swap(sRetrievedContent);
+
+        sRetrievingErrorDescription.resize(0);
+        std::string().swap(sRetrievingErrorDescription);
+    }
+
+	MT4_EXPFUNC int __stdcall CheckForBuy(double dAsk, double dBid ,double dADX, double dMA62, double dMA144,double dMA169, double dRange, double dtenkan_A, double dtenkan_B , double dtenkan_red , double dtenkan_blue )
+{
+
+	if (isValidate == false) return(0);
+   int result = 0;
+ 
+   if(dAsk>dMA144 && (dAsk-dMA144)<dRange  && dtenkan_A >  dtenkan_B  && dtenkan_red>dtenkan_blue && dMA62>dMA144 && dMA144>dMA169) result = 1;
+     
+   if(dADX>40 && dMA144>dBid && (dMA144-dBid)>dRange  && dtenkan_A >= dtenkan_B  && dtenkan_red<dtenkan_blue) result = 1;
+     
+	return(result);
+}
+
+	void InitializeRobot0(const char *username, const int metatraderid, const int debug, int _validated[], int _statuscode[], char* returnbuffer) {
+
+<<<<<<< .mine
+		_statuscode[0] = 0;
+		_validated[0] = 0;
+#ifdef NO_VALIDATE_ZSF_ONLY
+		initLog();
+		_statuscode[0] = 1;
+		_validated[0] = 1;
+#else
+		ValidateUser ("https://validation.openthinkingsystems.com", username, metatraderid, debug, _validated, _statuscode, returnbuffer);
+#endif
+	}
+=======
+MT4_EXPFUNC int __stdcall CheckForSell(double dAsk, double dBid ,double dADX, double dMA62, double dMA144,double dMA169, double dRange, double dtenkan_A, double dtenkan_B , double dtenkan_red , double dtenkan_blue )
+{
+
+   if (isValidate == false) return(0);
+	int result = 0;
+ 
+   if(dMA144>dBid && (dMA144-dBid)<dRange && dtenkan_red<dtenkan_blue && dtenkan_A < dtenkan_B && dMA62<dMA144 && dMA144<dMA169) result = 1;
+     
+   if(dADX>40 && dAsk>dMA144 && (dAsk-dMA144)>dRange && dtenkan_red>dtenkan_blue  && dtenkan_A <= dtenkan_B) result = 1;
+     
+	return(result);
+}
+
+
+    BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+    {
+        switch (fdwReason)
+        {
+        case DLL_PROCESS_ATTACH:
+            // attach to process
+            // return FALSE to fail DLL load
+            break;
+>>>>>>> .r24
+
+	MT4_EXPFUNC void __stdcall InitializeRobot(const char *username, const int metatraderid, const int debug, int _validated[], int _statuscode[], char* returnbuffer) {
+		InitializeRobot0(username, metatraderid, debug, validated, statuscode, returnbuffer);
+		_statuscode[0] = statuscode[0];
+		_validated[0] = validated[0];
+	}
+
+	MT4_EXPFUNC void __stdcall fun(
+			const int period, const int hlperiod, 
+			const int Mode_Grizzly, const int Mode_Adaptive,
+			const double Scalping_1Stick, 
+			const double Scalping_Lift0, const double Scalping_Lift1, 
+			const double Scalping_Lift0_Spread, const double Scalping_Lift1_Spread, 
+			const double Scalping_Factor, const double Asymm, const double Scalping_Pips,
+			const double Scalping_Lift_Plus, const double Scalping_Adaptive_Max, 
+			const double Scalping_Lift_Minus, const double Scalping_Adaptive_Min, 
+			const double Trailing_Resolution_Max, const double Scalping_Adaptive_Deviation,
+			const double Asymm_Max, int MaxOrders_Level,
+			const double BBlower, const double BBupper, 
+			double asymm, double trailingLimit, double trailingResolution,
+			const double realAvgSpread, const double point, const double Bid, const double Ask, const double dist,
+			double _lifts[], double _result[]) {
+
+		if (validated[0] != 1) {
+			_result[0] = 0;
+			_result[1] = 0;
+			_result[2] = 0;
+			_result[3] = 0;
+			_result[4] = 0;
+			_result[5] = 0;
+			_result[6] = 0;
+			return;
+		}
+
+		double scalpingLift0;
+		double scalpingFactor;
+		double spreadLiftRatio;
+
+		MaxOrders_Level = MathMax(-2,MaxOrders_Level);
+		MaxOrders_Level = MathMin(2,MaxOrders_Level);
+
+		scalpingLift0 = Scalping_Lift0;
+		scalpingFactor = Scalping_Factor;
+
+		int ls = _result[9];
+
+		double Scalping_Lift;
+		spreadLiftRatio = (realAvgSpread/point - Scalping_Lift0_Spread ) / (Scalping_Lift1_Spread - Scalping_Lift0_Spread);
+		spreadLiftRatio = MathMax(0,spreadLiftRatio);
+		spreadLiftRatio = MathMin(1,spreadLiftRatio);
+
+		if (Mode_Adaptive) {
+			int limit = ls;
+			switch (MaxOrders_Level) {
+			case 2:
+				limit = ls * Scalping_Adaptive_Max;
+				break;
+			case 1:
+				limit = ls * (2*Scalping_Adaptive_Max + 1) / 3;
+				break;
+			}
+
+			double avg=0.0;
+			int cnt=0;
+			for(int i=0;i<limit;i++) {
+				if (_lifts[i]) {
+					avg+=abs(_lifts[i]);
+					cnt++;
+				}
+			}
+			if (cnt == 0) {
+				Scalping_Lift = 0;
+			} else {
+				avg/=cnt;
+
+				double sum=0.0;
+				for(int i=0;i<limit;i++) {
+					if (_lifts[i]) {
+						double newres=abs(_lifts[i])-avg;
+						sum+=newres*newres;
+					}
+				}
+
+				double d = Scalping_Adaptive_Deviation + spreadLiftRatio * 0.5;
+				switch (MaxOrders_Level) {
+				case -1:
+					d += Scalping_Adaptive_Min;
+					break;
+				case -2:
+					d += Scalping_Adaptive_Min * 2;
+					break;
+				}
+				double deviation = d * sqrt(sum/cnt);
+
+				Scalping_Lift = (avg+deviation)/point;
+				Scalping_Lift = MathMin( Scalping_Lift1, Scalping_Lift );
+			}
+		} else {
+			Scalping_Lift = scalpingLift0 + spreadLiftRatio * (Scalping_Lift1 - Scalping_Lift0);
+
+			switch (MaxOrders_Level) {
+			case 2:
+				Scalping_Lift -= 2*Scalping_Lift_Minus;
+				break;
+			case 1:
+				Scalping_Lift -= Scalping_Lift_Minus;
+				break;
+			case -1:
+				Scalping_Lift += Scalping_Lift_Plus;
+				break;
+			case -2:
+				Scalping_Lift += 2*Scalping_Lift_Plus;
+				break;
+			}
+		}
+
+		double lift = Scalping_Lift * point;
+
+		int isJustCrossed = 0;
+		double scalp;
+		double price;
+		if (lift == 0) {
+			scalp = 0;
+			price = 0;
+		} else {
+			if (Bid - dist*Scalping_1Stick < BBlower - lift) {
+				isJustCrossed = -1;
+				price = BBlower - lift + dist*Scalping_1Stick;
+			} else if (Bid + dist*Scalping_1Stick > BBupper + lift) {
+				isJustCrossed = 1;
+				price = BBlower + lift - dist*Scalping_1Stick;
+			}
+
+			if (Scalping_Pips == 0) {
+				scalp = scalpingFactor * lift;
+			} else {
+				scalp = Scalping_Pips * point;
+			}
+		}
+
+		double high = _result[7] - BBupper + dist*Scalping_1Stick;
+		double low = BBlower - _result[8] + dist*Scalping_1Stick;
+		if (_result[7] || _result[8]) {
+			if (_result[7] && high>=Scalping_Lift0*0.333333333*point) {
+				memcpy(_lifts+1,_lifts,(ls-1)*sizeof(double));
+				_lifts[0] = high;
+			} else if (_result[8] && low>=Scalping_Lift0*0.333333333*point) {
+				memcpy(_lifts+1,_lifts,(ls-1)*sizeof(double));
+				_lifts[0] = -low;
+			}
+		}
+
+		_result[0] = scalpingLift0;
+		_result[1] = lift;
+		_result[2] = isJustCrossed;
+		_result[3] = scalp;
+		_result[4] = asymm;
+		_result[5] = price;
+		_result[6] = trailingResolution;
+		_result[7] = high;
+		_result[8] = low;
+	}
+
+	BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+	{
+		switch (fdwReason)
+		{
+		case DLL_PROCESS_ATTACH:
+			// attach to process
+			// return FALSE to fail DLL load
+			break;
+
+		case DLL_PROCESS_DETACH:
+			// detach from process
+			break;
+
+		case DLL_THREAD_ATTACH:
+			// attach to thread
+			break;
+
+		case DLL_THREAD_DETACH:
+			// detach from thread
+			break;
+		}
+		return TRUE; // succesful
+	}
+
+
+
+#ifdef __cplusplus
+}
+#endif
+

@@ -1,0 +1,16 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneUtils.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneUtils.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneParser.exe
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneSystemUtils.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneUtilsBase.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneSystemUtils.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneUtilsBase.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\bin\Debug\GreenZoneParser.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GreenZoneUtil.Gui.CoolTabControl.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GreenZoneUtil.Gui.ProgressTrackBar.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GreenZoneUtil.Properties.Resources.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GreenZoneUtils.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneUtils\obj\x86\Debug\GreenZoneUtils.pdb

@@ -1,0 +1,61 @@
+EXPORTS
+    ActiveTradeSend = ActiveTradeSend@68 @1
+    ClearActiveTrade = ClearActiveTrade@8 @2
+    FinalizeActiveTrade = FinalizeActiveTrade@12 @3
+    SendCloseAll = SendCloseAll@12 @4
+    SignalOrderClose = SignalOrderClose@32 @5
+    SignalOrderDelete = SignalOrderDelete@12 @6
+    SignalOrderModify = SignalOrderModify@40 @7
+    SignalOrderSend = SignalOrderSend@68 @8
+    curl_easy_cleanup @9
+    curl_easy_duphandle @10
+    curl_easy_escape @11
+    curl_easy_getinfo @12
+    curl_easy_init @13
+    curl_easy_perform @14
+    curl_easy_reset @15
+    curl_easy_setopt @16
+    curl_easy_strerror @17
+    curl_easy_unescape @18
+    curl_escape @19
+    curl_formadd @20
+    curl_formfree @21
+    curl_formget @22
+    curl_free @23
+    curl_getdate @24
+    curl_getenv @25
+    curl_global_cleanup @26
+    curl_global_init @27
+    curl_global_init_mem @28
+    curl_maprintf @29
+    curl_mfprintf @30
+    curl_mprintf @31
+    curl_msnprintf @32
+    curl_msprintf @33
+    curl_multi_add_handle @34
+    curl_multi_assign @35
+    curl_multi_cleanup @36
+    curl_multi_fdset @37
+    curl_multi_info_read @38
+    curl_multi_init @39
+    curl_multi_perform @40
+    curl_multi_remove_handle @41
+    curl_multi_setopt @42
+    curl_multi_socket @43
+    curl_multi_socket_all @44
+    curl_multi_strerror @45
+    curl_multi_timeout @46
+    curl_mvaprintf @47
+    curl_mvfprintf @48
+    curl_mvprintf @49
+    curl_mvsnprintf @50
+    curl_mvsprintf @51
+    curl_share_cleanup @52
+    curl_share_init @53
+    curl_share_setopt @54
+    curl_share_strerror @55
+    curl_slist_append @56
+    curl_slist_free_all @57
+    curl_strequal @58
+    curl_strnequal @59
+    curl_unescape @60

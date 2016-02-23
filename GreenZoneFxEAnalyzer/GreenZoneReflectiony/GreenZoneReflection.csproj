@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE1E58C4-06C3-4679-BD54-C85012D51E09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GreenZoneReflection</RootNamespace>
+    <AssemblyName>GreenZoneReflection</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MyClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflect\EmptyEnumeration.cs" />
+    <Compile Include="Reflect\INode.cs" />
+    <Compile Include="Reflect\IParser.cs" />
+    <Compile Include="Reflect\RefArrayType.cs" />
+    <Compile Include="Reflect\ReflAttribute.cs" />
+    <Compile Include="Reflect\ReflAttributeArg.cs" />
+    <Compile Include="Reflect\ReflBaseNode.cs" />
+    <Compile Include="Reflect\ReflCallableType.cs" />
+    <Compile Include="Reflect\ReflClassType.cs" />
+    <Compile Include="Reflect\ReflConstructor.cs" />
+    <Compile Include="Reflect\ReflDefType.cs" />
+    <Compile Include="Reflect\ReflDelegateType.cs" />
+    <Compile Include="Reflect\ReflEnumConstant.cs" />
+    <Compile Include="Reflect\ReflEnumType.cs" />
+    <Compile Include="Reflect\ReflEvent.cs" />
+    <Compile Include="Reflect\ReflEventAdd.cs" />
+    <Compile Include="Reflect\ReflEventRemove.cs" />
+    <Compile Include="Reflect\ReflField.cs" />
+    <Compile Include="Reflect\ReflGenericTypeArg.cs" />
+    <Compile Include="Reflect\ReflIndexerGet.cs" />
+    <Compile Include="Reflect\ReflIndexerProperty.cs" />
+    <Compile Include="Reflect\ReflIndexerSet.cs" />
+    <Compile Include="Reflect\ReflInterfaceType.cs" />
+    <Compile Include="Reflect\ReflMember.cs" />
+    <Compile Include="Reflect\ReflMethod.cs" />
+    <Compile Include="Reflect\ReflMethodArgDefinition.cs" />
+    <Compile Include="Reflect\ReflMethodBase.cs" />
+    <Compile Include="Reflect\ReflMethodBaseGen.cs" />
+    <Compile Include="Reflect\ReflModifier.cs" />
+    <Compile Include="Reflect\ReflObjType.cs" />
+    <Compile Include="Reflect\ReflPointerType.cs" />
+    <Compile Include="Reflect\ReflPrimitiveType.cs" />
+    <Compile Include="Reflect\ReflProperty.cs" />
+    <Compile Include="Reflect\ReflPropertyGet.cs" />
+    <Compile Include="Reflect\ReflPropertySet.cs" />
+    <Compile Include="Reflect\ReflStructType.cs" />
+    <Compile Include="Reflect\ReflType.cs" />
+    <Compile Include="Reflect\ReflTypeArgDefinition.cs" />
+    <Compile Include="Reflect\ReflTypeArgRule.cs" />
+    <Compile Include="Reflect\ReflTypeId.cs" />
+    <Compile Include="Reflect\Details\ReflMethodArg.cs" />
+    <Compile Include="Reflect\Details\ReflTypeArg.cs" />
+    <Compile Include="Reflect\Resolve\GzEngineFormatter.cs" />
+    <Compile Include="Reflect\Resolve\LazyTypeResolver.cs" />
+    <Compile Include="Reflect\Resolve\ParserBuf.cs" />
+    <Compile Include="Reflect\Resolve\PureReflResolver.cs" />
+    <Compile Include="Reflect\Resolve\Resolver.cs" />
+    <Compile Include="Reflect\Resolve\TypeNameBuilder.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MonoDevelop.Core, Version=2.6.0.0, Culture=neutral">
+      <Package>monodevelop</Package>
+    </Reference>
+  </ItemGroup>
+</Project>

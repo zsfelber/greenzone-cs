@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{813CA4F8-7D52-4FB7-A05A-A799F6B4CBB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneParser</RootNamespace>
+    <AssemblyName>GreenZoneParser</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompilerTesterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompilerTesterForm.Designer.cs">
+      <DependentUpon>CompilerTesterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reflect\ReflGenericTypeArg.cs" />
+    <Compile Include="Reflect\ReflPointerType.cs" />
+    <Compile Include="Reflect\RefArrayType.cs" />
+    <Compile Include="Reflect\ReflPrimitiveType.cs" />
+    <Compile Include="Reflect\ReflBaseNode.cs" />
+    <Compile Include="Reflect\ReflTypeId.cs" />
+    <Compile Include="Reflect\Resolve\GzEngineFormatter.cs" />
+    <Compile Include="Reflect\Resolve\LazyTypeResolver.cs" />
+    <Compile Include="Reflect\Resolve\PureReflResolver.cs" />
+    <Compile Include="Reflect\Resolve\ParserBuf.cs" />
+    <Compile Include="Reflect\Resolve\TypeNameBuilder.cs" />
+    <Compile Include="TesterGuiBinder.cs" />
+    <Compile Include="Parsers\BaseNode.cs" />
+    <Compile Include="ParseTesterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParseTesterForm.Designer.cs">
+      <DependentUpon>ParseTesterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lexer\WhiteSpaceTokenRule.cs" />
+    <Compile Include="Lexer\IdentifierTokenRule.cs" />
+    <Compile Include="Cs\CsParser.cs" />
+    <Compile Include="Parsers\OperationAbortedException.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqOrderingExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqWhereExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqLetExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqContinuationExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqGroupByExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqSelectExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqFootExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqOrderByExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqJoinExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqHeadExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqFromExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Linq\LinqExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\BinaryShiftOperationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\AtomicExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\TypeSpecifierNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\DefaultExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\VarDeclArgumentNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ContinueStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\CheckedStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\UncheckedStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\IndexerDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\PropertySetDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\PropertyGetDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\StatementId.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\ArrayAccessExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\CheckedNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\TypeofNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\UncheckedNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\FieldAccessExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\MethodExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\ArrayInitializerNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\CaseStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\ConstructorDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\BaseMethodStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\DestructorDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\BinaryOperationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\CastExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\ArgumentNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\ArrayCreationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\UserTypeSpecifierNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\SystemTypeSpecifierNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\IdentifierNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\ObjectCreationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\ParenExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\TernaryOperationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Expression\UnaryOperationNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\EmptyStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\EnumConstantNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ThrowStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ReturnStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\FinallyStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\PropertyDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\BreakStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\ExpressionNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\ResolvedType.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\EventDeclStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\InterfaceDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\CatchStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\TryStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\SubStatement\ForEachSubStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\SubStatement\For1or3SubStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\FieldDeclStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ElseStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\DoStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\FixedStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\UsingBlockStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\LockStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\IfStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\SwitchStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\WhileStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ForEachStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\ForStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\KeyWord\UsingDeclStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Member\MethodDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\ClassDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\VarDeclStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\UnknownStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\NamespaceDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\DelegateDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\StructDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\RefTypeDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\EnumDefStatementNode.cs" />
+    <Compile Include="Parsers\Cs\ModifierNode.cs" />
+    <Compile Include="Parsers\Cs\NormalNode.cs" />
+    <Compile Include="Parsers\Cs\AttributeNode.cs" />
+    <Compile Include="Parsers\Cs\ControlNode.cs" />
+    <Compile Include="Parsers\Cs\MainBlockNode.cs" />
+    <Compile Include="Parsers\Cs\BlockNode.cs" />
+    <Compile Include="Parsers\Cs\StatementNode.cs" />
+    <Compile Include="Parsers\Cs\BaseCsNode.cs" />
+    <Compile Include="Parsers\Cs\Statements\Typedef\TypeDefStatementNode.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflect\ReflAttributeArg.cs" />
+    <Compile Include="Reflect\ReflAttribute.cs" />
+    <Compile Include="Reflect\ReflMethodBaseGen.cs" />
+    <Compile Include="Reflect\ReflIndexerGet.cs" />
+    <Compile Include="Reflect\ReflIndexerSet.cs" />
+    <Compile Include="Reflect\ReflIndexerProperty.cs" />
+    <Compile Include="Reflect\ReflMethodArgDefinition.cs" />
+    <Compile Include="Reflect\ReflModifier.cs" />
+    <Compile Include="Reflect\ReflTypeArgDefinition.cs" />
+    <Compile Include="Reflect\Details\ReflMethodArg.cs" />
+    <Compile Include="Reflect\ReflCallableType.cs" />
+    <Compile Include="Reflect\ReflEnumConstant.cs" />
+    <Compile Include="Reflect\ReflEventRemove.cs" />
+    <Compile Include="Reflect\ReflEventAdd.cs" />
+    <Compile Include="Reflect\ReflEvent.cs" />
+    <Compile Include="Reflect\ReflTypeArgRule.cs" />
+    <Compile Include="Reflect\Details\ReflTypeArg.cs" />
+    <Compile Include="Reflect\ReflDefType.cs" />
+    <Compile Include="Reflect\ReflEnumType.cs" />
+    <Compile Include="Reflect\ReflDelegateType.cs" />
+    <Compile Include="Reflect\ReflInterfaceType.cs" />
+    <Compile Include="Reflect\ReflObjType.cs" />
+    <Compile Include="Reflect\ReflClassType.cs" />
+    <Compile Include="Reflect\ReflStructType.cs" />
+    <Compile Include="Reflect\ReflPropertySet.cs" />
+    <Compile Include="Reflect\ReflPropertyGet.cs" />
+    <Compile Include="Reflect\ReflProperty.cs" />
+    <Compile Include="Reflect\ReflConstructor.cs" />
+    <Compile Include="Reflect\ReflMethod.cs" />
+    <Compile Include="Reflect\ReflMethodBase.cs" />
+    <Compile Include="Reflect\ReflField.cs" />
+    <Compile Include="Reflect\ReflMember.cs" />
+    <Compile Include="Reflect\ReflType.cs" />
+    <Compile Include="Reflect\Resolve\Resolver.cs" />
+    <Compile Include="Xml\XmlParser.cs" />
+    <Compile Include="Xml\XmlTokenizer.cs" />
+    <Compile Include="Parsers\Xml\XmlNode.cs" />
+    <Compile Include="Parsers\Xml\XmlTag.cs" />
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cs\CsTokenizer.cs" />
+    <Compile Include="Lexer\CharLiteralTokenRule.cs" />
+    <Compile Include="Lexer\HexLiteralTokenRule.cs" />
+    <Compile Include="Lexer\SingleLineCommentTokenRule.cs" />
+    <Compile Include="Lexer\MultiLineCommentTokenRule.cs" />
+    <Compile Include="Lexer\NumberLiteralTokenRule.cs" />
+    <Compile Include="Lexer\StringLiteralTokenRule.cs" />
+    <Compile Include="Lexer\SimpleTokenRule.cs" />
+    <Compile Include="Lexer\Tokens.cs" />
+    <Compile Include="Lexer\TokenRule.cs" />
+    <Compile Include="BaseParser.cs" />
+    <Compile Include="BaseTokenizer.cs" />
+    <EmbeddedResource Include="CompilerTesterForm.resx">
+      <DependentUpon>CompilerTesterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParseTesterForm.resx">
+      <DependentUpon>ParseTesterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Parsers\Gui\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Parsers\Cs\Statements\Linq\Grammar.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GreenZoneFxBuildTasks\GreenZoneSystemUtils\GreenZoneSystemUtils.csproj">
+      <Project>{7FF311B6-5B1F-4572-9F2B-D4215127F09C}</Project>
+      <Name>GreenZoneSystemUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

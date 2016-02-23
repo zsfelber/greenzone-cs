@@ -1,0 +1,3 @@
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneReflection/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneReflection/bin/Debug/VeryBasic.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneReflection/bin/Debug/VeryBasic.dll.mdb

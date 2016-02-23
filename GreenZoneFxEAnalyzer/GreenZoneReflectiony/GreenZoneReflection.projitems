@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{8A352320-D4E2-42D3-AAD3-2448DD849015}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GreenZoneReflection</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Details\ReflMethodArg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Details\ReflTypeArg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\RefArrayType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflAttributeArg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflBaseNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflCallableType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflClassType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflConstructor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflDefType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflDelegateType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflEnumConstant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflEnumType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflEventAdd.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflEventRemove.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflGenericTypeArg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflIndexerGet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflIndexerProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflIndexerSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflInterfaceType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflMethod.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflMethodArgDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflMethodBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflMethodBaseGen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflModifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflObjType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflPointerType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflPrimitiveType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflPropertyGet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflPropertySet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflStructType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflTypeArgDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflTypeArgRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\ReflTypeId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\GzEngineFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\LazyTypeResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\ParserBuf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\PureReflResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\Resolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflect\Resolve\TypeNameBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Reflect\" />
+  </ItemGroup>
+</Project>

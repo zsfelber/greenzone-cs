@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23C5BA7C-9F57-4854-AF4E-595D0F76C07F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneFxEngine</RootNamespace>
+    <AssemblyName>GreenZoneFxEAnalyzer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>http://localhost/GreenZoneFxEAnalyzer/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gui\ChartGroupPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ChartGroupPanel.Designer.cs">
+      <DependentUpon>ChartGroupPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\AddExpertDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\AddExpertDialog.Designer.cs">
+      <DependentUpon>AddExpertDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\Chart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\Chart.Designer.cs">
+      <DependentUpon>Chart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ChartPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ChartPanel.Designer.cs">
+      <DependentUpon>ChartPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\AddScriptDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\AddScriptDialog.Designer.cs">
+      <DependentUpon>AddScriptDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\ChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\ChartSectionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\ChartSectionPanel.Designer.cs">
+      <DependentUpon>ChartSectionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\ChartChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\OrderChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\OrderChart.Designer.cs">
+      <DependentUpon>OrderChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\NormalChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\NormalChart.Designer.cs">
+      <DependentUpon>NormalChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\OrderChartSectionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\OrderChartSectionPanel.Designer.cs">
+      <DependentUpon>OrderChartSectionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\OrderChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\IndicatorChartSectionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\IndicatorChartSectionPanel.Designer.cs">
+      <DependentUpon>IndicatorChartSectionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\NormalChartSectionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\NormalChartSectionPanel.Designer.cs">
+      <DependentUpon>NormalChartSectionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Chart\NormalChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\IndicatorChartPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\Model.cs" />
+    <Compile Include="Gui\Chart\ChartDrawer.cs" />
+    <Compile Include="Gui\Chart\TimeLabelPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Chart\PriceLabelPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\IForm1TabPanel.cs" />
+    <Compile Include="Gui\OrdersOverviewPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OrdersOverviewPanel.Designer.cs">
+      <DependentUpon>OrdersOverviewPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Orders\OrdersToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Orders\OrdersToolbar.Designer.cs">
+      <DependentUpon>OrdersToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Orders\OrdersGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\OptionsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\OptionsPanel.Designer.cs">
+      <DependentUpon>OptionsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\IndicatorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\IndicatorPanel.Designer.cs">
+      <DependentUpon>IndicatorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\IndicatorRuntimeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\IndicatorRuntimeDialog.Designer.cs">
+      <DependentUpon>IndicatorRuntimeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\OrdersTablePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OrdersTablePanel.Designer.cs">
+      <DependentUpon>OrdersTablePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ScriptRunnerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ScriptRunnerPanel.Designer.cs">
+      <DependentUpon>ScriptRunnerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\EATesterPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\EATesterPanel.Designer.cs">
+      <DependentUpon>EATesterPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\ExpertPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\IndicatorPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\ExpertRuntimeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\ExpertRuntimeDialog.Designer.cs">
+      <DependentUpon>ExpertRuntimeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\ExecPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\ExecPropertiesPanel.Designer.cs">
+      <DependentUpon>ExecPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4ScriptInfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4ScriptInfoPanel.Designer.cs">
+      <DependentUpon>Mt4ScriptInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4ExpertInfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4ExpertInfoPanel.Designer.cs">
+      <DependentUpon>Mt4ExpertInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4IndicatorInfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\Mt4IndicatorInfoPanel.Designer.cs">
+      <DependentUpon>Mt4IndicatorInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\EnvironmentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\EnvironmentDialog.Designer.cs">
+      <DependentUpon>EnvironmentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\EnvironmentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\EnvironmentPanel.Designer.cs">
+      <DependentUpon>EnvironmentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\ScriptPropertiesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\ScriptRuntimeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\ScriptRuntimeDialog.Designer.cs">
+      <DependentUpon>ScriptRuntimeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Properties\SymbolPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Properties\SymbolPanel.Designer.cs">
+      <DependentUpon>SymbolPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gui\ChartGroupPanel.resx">
+      <DependentUpon>ChartGroupPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\AddExpertDialog.resx">
+      <DependentUpon>AddExpertDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Chart\Chart.resx">
+      <DependentUpon>Chart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ChartPanel.resx">
+      <DependentUpon>ChartPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\AddScriptDialog.resx">
+      <DependentUpon>AddScriptDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Chart\ChartSectionPanel.resx">
+      <DependentUpon>ChartSectionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Chart\OrderChart.resx">
+      <DependentUpon>OrderChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Chart\NormalChart.resx">
+      <DependentUpon>NormalChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Chart\OrderChartSectionPanel.resx">
+      <DependentUpon>OrderChartSectionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OrdersOverviewPanel.resx">
+      <DependentUpon>OrdersOverviewPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Orders\OrdersToolbar.resx">
+      <DependentUpon>OrdersToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\OptionsPanel.resx">
+      <DependentUpon>OptionsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\IndicatorPanel.resx">
+      <DependentUpon>IndicatorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\IndicatorRuntimeDialog.resx">
+      <DependentUpon>IndicatorRuntimeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OrdersTablePanel.resx">
+      <DependentUpon>OrdersTablePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ScriptRunnerPanel.resx">
+      <DependentUpon>ScriptRunnerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\EATesterPanel.resx">
+      <DependentUpon>EATesterPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\ExpertRuntimeDialog.resx">
+      <DependentUpon>ExpertRuntimeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\ExecPropertiesPanel.resx">
+      <DependentUpon>ExecPropertiesPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\Mt4ScriptInfoPanel.resx">
+      <DependentUpon>Mt4ScriptInfoPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\Mt4ExpertInfoPanel.resx">
+      <DependentUpon>Mt4ExpertInfoPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\Mt4IndicatorInfoPanel.resx">
+      <DependentUpon>Mt4IndicatorInfoPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\EnvironmentDialog.resx">
+      <DependentUpon>EnvironmentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\EnvironmentPanel.resx">
+      <DependentUpon>EnvironmentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Gui\Properties\ScriptRuntimeDialog.resx">
+      <DependentUpon>ScriptRuntimeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Properties\SymbolPanel.resx">
+      <DependentUpon>SymbolPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\GreenZoneFxEAnalyzer.Trading.HistoryOrderEtc.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <None Include="Resources\downthumb.png" />
+    <Content Include="Resources\treenode_bot_20.png" />
+    <Content Include="Resources\treenode_bot_21.png" />
+    <Content Include="Resources\treenode_bot_32.png" />
+    <Content Include="Resources\treenode_mid_20.png" />
+    <Content Include="Resources\treenode_mid_21.png" />
+    <Content Include="Resources\treenode_mid_32.png" />
+    <None Include="Resources\properties_16xMD.png" />
+    <None Include="Resources\ZoomToFitH_zsf.png" />
+    <None Include="Resources\ZoomToFit.png" />
+    <None Include="Resources\ZoomToWidth.png" />
+    <None Include="Resources\zoom_16xMD.png" />
+    <None Include="Resources\ZoomOut_15x15.png" />
+    <None Include="Resources\CursorBar_16xLG.png" />
+    <None Include="Resources\CursorBarB_16xLG.png" />
+    <None Include="Resources\CursorBar_32xLG.png" />
+    <None Include="Resources\CursorBar_br_32xLG.png" />
+    <None Include="Resources\action_add_16xMD.png" />
+    <None Include="Resources\action_Cancel_16xSM.png" />
+    <None Include="Resources\Close_16xMD.png" />
+    <None Include="Resources\Close_16xSM.png" />
+    <None Include="Resources\toggle_16xLG.png" />
+    <None Include="Resources\Close_16xLG.png" />
+    <None Include="Resources\Error_red_12x11.png" />
+    <None Include="Resources\Error_red_8736_9x9.png" />
+    <None Include="Resources\empty.png" />
+    <None Include="Resources\Warning_yellow_7231_12x11.png" />
+    <None Include="Resources\Symbols_Play_32xLG.png" />
+    <EmbeddedResource Include="Resources\Clearallrequests_8816.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssistantDialogLib\AssistantDialogLib.csproj">
+      <Project>{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}</Project>
+      <Name>AssistantDialogLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvironmentAssistant\EnvironmentAssistant.csproj">
+      <Project>{5B700CF7-F0CC-4AF1-B565-9ED7F40302C5}</Project>
+      <Name>EnvironmentAssistant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneFxEngine\GreenZoneFxEngine.csproj">
+      <Project>{92AEA47F-0639-4396-B676-76D88B38C815}</Project>
+      <Name>GreenZoneFxEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneUtils\GreenZoneUtils.csproj">
+      <Project>{507242C0-88E3-4FED-B7E8-BF64C80F00BE}</Project>
+      <Name>GreenZoneUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LZMA\LZMA.csproj">
+      <Project>{71497619-E95D-44EC-9ADA-B8719D71DC0E}</Project>
+      <Name>LZMA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

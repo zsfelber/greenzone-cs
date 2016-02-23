@@ -1,0 +1,11 @@
+E:\downloads\WizardDialog\WizardDialogLib\bin\Release\SMS.Windows.Forms.dll
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\ResolveAssemblyReference.cache
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\SMS.Windows.Forms.ExteriorWizardPage.resources
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\SMS.Windows.Forms.InteriorWizardPage.resources
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\SMS.Windows.Forms.WizardForm.resources
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\SMS.Windows.Forms.WizardPage.resources
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\SMS.Windows.Forms.dll
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\GenerateResource.read.1.tlog
+E:\downloads\WizardDialog\WizardDialogLib\obj\Release\GenerateResource.write.1.tlog

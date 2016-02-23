@@ -1,0 +1,45 @@
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.Properties.Resources.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.csproj.GenerateResource.Cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Debug\GOLD Engine.dll
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.frmMain.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Debug\GOLD Engine.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.frmMain.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.Properties.Resources.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.csproj.GenerateResource.Cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.exe
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Debug\GOLD Engine.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\ResolveAssemblyReference.cache
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.frmMain.resources
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.Properties.Resources.resources
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.exe
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\Parse_Tree_C_Sharp.frmMain.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\C_Sharp.Properties.Resources.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe.config
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\GenerateResource.read.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\obj\Debug\GenerateResource.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\bin\Debug\ParserEngine.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\Parse Tree C-Sharp\bin\Debug\ParserEngine.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneParser\Parse Tree C-Sharp\bin\Debug\Parse Tree C-Sharp.exe.config
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneParser\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.exe
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneParser\Parse Tree C-Sharp\obj\Debug\Parse Tree C-Sharp.pdb

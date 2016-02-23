@@ -1,0 +1,16 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\experts\files\Big.csv
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\UnitTests.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\UnitTests.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneFxEAnalyzer.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneFxEngine.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneUtils.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\EnvironmentAssistant.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\AssistantDialogLib.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneFxEAnalyzer.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneFxEngine.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\GreenZoneUtils.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\obj\Release\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\obj\Release\UnitTests.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\obj\Release\UnitTests.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\LZMA.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\bin\Release\LZMA.pdb

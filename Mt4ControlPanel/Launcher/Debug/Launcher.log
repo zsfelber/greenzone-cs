@@ -1,0 +1,36 @@
+﻿Build started 9/22/2013 2:36:40 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Launcher\Launcher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanel /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Launcher.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanel /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Launcher.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanel.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Launcher.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Launcher.cpp
+     1>Launcher.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Launcher.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Launcher.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Launcher.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Launcher.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Launcher.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ..\Debug\Mt4ControlPanel.lib
+         Launcher.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Launcher.exe
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Launcher.exe;#1" /manifest Debug\Launcher.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Launcher.unsuccessfulbuild".
+         Touching "Debug\Launcher.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Launcher\Launcher.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.81

@@ -1,0 +1,23 @@
+﻿Build started 1/29/2013 9:03:53 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\mdpanalyzer.vcxproj" on node 2 (build target(s)).
+     1>ResolveAssemblyReferences:
+         Primary reference "zsfTraderLib".
+             Could not find dependent files. Expected file "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\zsfTraderLib.dll" does not exist.
+             Could not find dependent files. The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+             Resolved file path is "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\zsfTraderLib.dll".
+             Reference found at search path location "".
+             Found related file "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\zsfTraderLib.pdb".
+       InitializeBuildStatus:
+         Creating "Debug\EAnalyzer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\BasicUtil /I..\zsfTraderLib /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DLL_EXPORT /D _DEBUG /D _WINDLL /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\EAnalyzer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\BasicUtil.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil_CS\bin\Debug\BasicUtil_CS.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Debug\EAnalyzer_CS.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\zsfTraderLib.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\ZsfTraderLib_CS\bin\Debug\ZsfTraderLib_CS.dll /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+     1>Stdafx.cpp : fatal error C1192: #using failed on 'F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Debug\zsfTraderLib.dll'
+                 'The system cannot find the file specified.'
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\mdpanalyzer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.14

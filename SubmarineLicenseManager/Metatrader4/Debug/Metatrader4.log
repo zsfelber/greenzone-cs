@@ -1,0 +1,40 @@
+﻿Build started 12/8/2012 10:35:37 AM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Metatrader4\Metatrader4.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Metatrader4.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Metatrader4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\MainDllBase /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\FxSubmarineMt4Dbg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\MainDllBase /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ..\MainDllBase\MainDllBase.cpp AssemblyInfo.cpp Metatrader4.cpp /clr:nostdlib 
+         MainDllBase.cpp
+         AssemblyInfo.cpp
+         Metatrader4.cpp
+         Generating Code...
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\MainDllBase /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "L:\Documents and Settings\en\Local Settings\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.dll" /INCREMENTAL /NOLOGO /DEF:"module-definition.def" /MANIFEST /ManifestFile:"Debug\FxSubmarineMt4Dbg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\MainDllBase.obj
+         Debug\AssemblyInfo.obj
+         Debug\Metatrader4.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\MainDllBase.lib
+            Creating library F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.lib and object F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.exp
+         Metatrader4.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Debug\FxSubmarineMt4Dbg.dll;#2" /manifest Debug\FxSubmarineMt4Dbg.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Metatrader4.unsuccessfulbuild".
+         Touching "Debug\Metatrader4.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\Metatrader4\Metatrader4.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.09

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D36B5073-02EB-4B32-9F4E-18E10803D2AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneFxBaseGen</RootNamespace>
+    <AssemblyName>GreenZoneFxBaseGen</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GreenZoneFxEngine\Trading\ArraySeriesManagerCacheBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ChartCursorRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ChartGroupRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ChartGroupSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ChartRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ChartSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ClientChartCursorRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ClientChartGroupRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ClientChartRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\EAnalyzerOptionsBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\EnvironmentRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\EnvironmentSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ExecRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ExecSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ExpertRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ExpertSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\HistoryOrderBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\HistoryOrderEtcBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\IndicatorRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\IndicatorSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\NormalSeriesManagerCacheBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\OrderBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\OrderFilterBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\OrdersHistoryViewBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\OrdersTableBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\PeriodTimeSeriesRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ScriptRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\ScriptSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\SeriesManagerCacheBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\SeriesManagerRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\SymbolContextBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\SymbolRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\SymbolSessionBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\TickTimeSeriesRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\TimeSeriesRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\TradeOrderBase.cs" />
+    <Compile Include="GreenZoneFxEngine\Trading\UserRuntimeBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\AddExpertControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\AddScriptControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\DukascopyPage0ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\DukascopyPage1ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\DukascopyPage2ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\DukascopyPage3ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\ImportMetatraderPage1ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\ImportMetatraderPage2ControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\SelectEnvTypePageControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Assistant\StartPageControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\ChartGroupControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\ChartViewControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\ChartChartControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\ChartChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\ChartControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\ChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\ChartSectionPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\CursorChartControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\CursorChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\CursorChartSectionPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\IndicatorChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\IndicatorChartSectionPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\NormalChartControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\NormalChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\NormalChartSectionPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\OrderChartControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\OrderChartPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\OrderChartSectionPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\PriceLabelPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Chart\TimeLabelPaneControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\EATesterControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\EnvironmentAssistantControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\EnvironmentSettingsControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\MainWindowControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\MainWinTabPageControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\NavigatorControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\OrdersOverviewControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\OrdersTableControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\OrdersTabPageControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Orders\OrdersGridControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Orders\OrdersToolbarControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\EnvironmentPropsControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ExecPropertiesControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ExpertDialogControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ExpertInfoControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ExpertPropertiesControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\IndicatorDialogControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\IndicatorInfoControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\IndicatorPanelControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\IndicatorPropertiesControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ProgramOptionsControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ScriptDialogControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ScriptInfoControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\ScriptPropertiesControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\Properties\SymbolPropertiesControllerBase.cs" />
+    <Compile Include="GreenZoneFxEngine\ViewController\ScriptRunnerControllerBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\GreenZoneUtilsBase\GreenZoneUtilsBase.csproj">
+      <Project>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</Project>
+      <Name>GreenZoneUtilsBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneFxBase\GreenZoneFxBase.csproj">
+      <Project>{934E7038-CA1F-4700-81BB-E6929602644B}</Project>
+      <Name>GreenZoneFxBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

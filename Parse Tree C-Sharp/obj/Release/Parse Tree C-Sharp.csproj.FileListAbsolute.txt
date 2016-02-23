@@ -1,0 +1,29 @@
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.frmMain.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.Properties.Resources.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.csproj.GenerateResource.Cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Release\GOLD Engine.dll
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\bin\Release\GOLD Engine.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\Parse Tree C-Sharp\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.frmMain.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.Properties.Resources.resources
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.csproj.GenerateResource.Cache
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.exe
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\bin\Release\GOLD Engine.pdb
+C:\Users\Devin\Documents\Visual Basic NET\GOLD Projects\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.exe
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.exe
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Release\Parse Tree C-Sharp.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\bin\Release\GOLD Engine.pdb
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\ResolveAssemblyReference.cache
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.frmMain.resources
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\Parse_Tree_C_Sharp.Properties.Resources.resources
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\downloads\GOLD Bnf parser\Parse-Tree-C-Sharp\Parse Tree C-Sharp\obj\Release\GenerateResource-ResGen.write.1.tlog

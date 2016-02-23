@@ -1,0 +1,9 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\bin\Release\AssistantDialogLib.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\SMS.Windows.Forms.ExteriorAssistantPage.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\SMS.Windows.Forms.InteriorAssistantPage.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\SMS.Windows.Forms.AssistantForm.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\SMS.Windows.Forms.AssistantPage.resources
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\GenerateResource.read.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\GenerateResource.write.1.tlog
+F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\AssistantDialogLib\obj\Release\AssistantDialogLib.dll

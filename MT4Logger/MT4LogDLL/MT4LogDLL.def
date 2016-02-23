@@ -1,0 +1,5 @@
+LIBRARY "MT4Logger"
+
+EXPORTS
+InitializeLogger
+PrintLog

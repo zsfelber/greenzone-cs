@@ -1,0 +1,8 @@
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtil.Gui.CharMapDialog.resources
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilBase.Properties.Resources.resources
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilsBase.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtil.Gui.CharMapDialog.resources
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilBase.Properties.Resources.resources
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilsBase.dll

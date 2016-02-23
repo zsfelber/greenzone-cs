@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92AEA47F-0639-4396-B676-76D88B38C815}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenZoneFxEngine</RootNamespace>
+    <AssemblyName>GreenZoneFxEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Etc\EngineUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewController\AddExpertController.cs" />
+    <Compile Include="ViewController\AddScriptController.cs" />
+    <Compile Include="ViewController\Assistant\DukascopyPage0Controller.cs" />
+    <Compile Include="ViewController\Assistant\DukascopyPage1Controller.cs" />
+    <Compile Include="ViewController\Assistant\DukascopyPage2Controller.cs" />
+    <Compile Include="ViewController\Assistant\DukascopyPage3Controller.cs" />
+    <Compile Include="ViewController\Assistant\ImportMetatraderPage1Controller.cs" />
+    <Compile Include="ViewController\Assistant\ImportMetatraderPage2Controller.cs" />
+    <Compile Include="ViewController\Assistant\SelectEnvTypePageController.cs" />
+    <Compile Include="ViewController\Assistant\StartPageController.cs" />
+    <Compile Include="ViewController\ChartGroupController.cs" />
+    <Compile Include="ViewController\ChartViewController.cs" />
+    <Compile Include="ViewController\Chart\CursorChartController.cs" />
+    <Compile Include="ViewController\Chart\CursorChartPaneController.cs" />
+    <Compile Include="ViewController\Chart\CursorChartSectionPanelController.cs" />
+    <Compile Include="ViewController\Chart\IndicatorChartPaneController.cs" />
+    <Compile Include="ViewController\Chart\IndicatorChartSectionPanelController.cs" />
+    <Compile Include="ViewController\Chart\NormalChartController.cs" />
+    <Compile Include="ViewController\Chart\NormalChartPaneController.cs" />
+    <Compile Include="ViewController\Chart\NormalChartSectionPanelController.cs" />
+    <Compile Include="ViewController\Chart\OrderChartController.cs" />
+    <Compile Include="ViewController\Chart\OrderChartPaneController.cs" />
+    <Compile Include="ViewController\Chart\OrderChartSectionPanelController.cs" />
+    <Compile Include="ViewController\Chart\PriceLabelPaneController.cs" />
+    <Compile Include="ViewController\Chart\TimeLabelPaneController.cs" />
+    <Compile Include="ViewController\EATesterController.cs" />
+    <Compile Include="ViewController\EnvironmentAssistantController.cs" />
+    <Compile Include="ViewController\EnvironmentSettingsController.cs" />
+    <Compile Include="ViewController\IOrdersTabPageE.cs" />
+    <Compile Include="ViewController\MainWindowController.cs" />
+    <Compile Include="ViewController\NavigatorController.cs" />
+    <Compile Include="ViewController\OrdersOverviewController.cs" />
+    <Compile Include="ViewController\OrdersTableController.cs" />
+    <Compile Include="ViewController\Orders\OrdersGridController.cs" />
+    <Compile Include="ViewController\Orders\OrdersToolbarController.cs" />
+    <Compile Include="ViewController\Properties\EnvironmentPropsController.cs" />
+    <Compile Include="ViewController\Properties\ExecPropertiesController.cs" />
+    <Compile Include="ViewController\Properties\ExpertDialogController.cs" />
+    <Compile Include="ViewController\Properties\ExpertInfoController.cs" />
+    <Compile Include="ViewController\Properties\ExpertPropertiesController.cs" />
+    <Compile Include="ViewController\Properties\IndicatorDialogController.cs" />
+    <Compile Include="ViewController\Properties\IndicatorInfoController.cs" />
+    <Compile Include="ViewController\Properties\IndicatorPanelController.cs" />
+    <Compile Include="ViewController\Properties\IndicatorPropertiesController.cs" />
+    <Compile Include="ViewController\Properties\ProgramOptionsController.cs" />
+    <Compile Include="ViewController\Properties\ScriptDialogController.cs" />
+    <Compile Include="ViewController\Properties\ScriptInfoController.cs" />
+    <Compile Include="ViewController\Properties\ScriptPropertiesController.cs" />
+    <Compile Include="ViewController\Properties\SymbolPropertiesController.cs" />
+    <Compile Include="ViewController\ScriptRunnerController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GreenZoneFxBaseGEx\GreenZoneFxBaseGEx.csproj">
+      <Project>{6510EB83-837B-417B-A8B6-A34E5102A011}</Project>
+      <Name>GreenZoneFxBaseGEx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneFxBase\GreenZoneFxBase.csproj">
+      <Project>{934E7038-CA1F-4700-81BB-E6929602644B}</Project>
+      <Name>GreenZoneFxBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneFxBuildTasks\GreenZoneSystemUtils\GreenZoneSystemUtils.csproj">
+      <Project>{7FF311B6-5B1F-4572-9F2B-D4215127F09C}</Project>
+      <Name>GreenZoneSystemUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneParser\GreenZoneParser\GreenZoneParser.csproj">
+      <Project>{813CA4F8-7D52-4FB7-A05A-A799F6B4CBB1}</Project>
+      <Name>GreenZoneParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneUtilsBase\GreenZoneUtilsBase.csproj">
+      <Project>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</Project>
+      <Name>GreenZoneUtilsBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneUtils\GreenZoneUtils.csproj">
+      <Project>{507242C0-88E3-4FED-B7E8-BF64C80F00BE}</Project>
+      <Name>GreenZoneUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LZMA\LZMA.csproj">
+      <Project>{71497619-E95D-44EC-9ADA-B8719D71DC0E}</Project>
+      <Name>LZMA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Trading\" />
+    <Folder Include="Types\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

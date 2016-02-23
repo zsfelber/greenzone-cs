@@ -1,0 +1,1137 @@
+﻿Build started 8/9/2012 2:00:37 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\mdpanalyzer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\EAnalyzer.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\BasicUtil /I..\zsfTraderLib /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _MBCS /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\EAnalyzer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil_CS\bin\Release\BasicUtil_CS.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\ZsfTraderLib_CS\bin\Release\ZsfTraderLib_CS.dll /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\BasicUtil /I..\zsfTraderLib /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _MBCS /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\EAnalyzer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil_CS\bin\Release\BasicUtil_CS.dll /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FUF:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\ZsfTraderLib_CS\bin\Release\ZsfTraderLib_CS.dll /analyze- /errorReport:prompt AssemblyInfo.cpp EAForm.cpp eanalyzer.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         EAForm.cpp
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'const double sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'double &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'const double sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'double &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'const int sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'const int sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'const sstring sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sstring &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'const sstring sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sstring &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=sstring
+                 ]
+         eanalyzer.cpp
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'const double sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'double &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'const double sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'double &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(72): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=double
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=double
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'const int sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'const int sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(73): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=int
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=int
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(60) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(59) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(58) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(57) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(Mutex *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(56) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,int,int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(55) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,const T *)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(54) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(53) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(52) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(51) : see declaration of 'sarray<T>::sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sarray<T>::~sarray(void)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(61) : see declaration of 'sarray<T>::~sarray'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'const sstring sarray<T>::item(int,int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(64) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sstring &sarray<T>::item(int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(63) : see declaration of 'sarray<T>::item'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'const sstring sarray<T>::operator [](int) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(66) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'sstring &sarray<T>::operator [](int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(65) : see declaration of 'sarray<T>::operator []'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'void sarray<T>::Resize(int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(67) : see declaration of 'sarray<T>::Resize'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'void sarray<T>::Copy(const sarray<T> &,int,int,int)' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(68) : see declaration of 'sarray<T>::Copy'
+                 with
+                 [
+                     T=sstring
+                 ]
+     1>F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(74): warning C4661: 'int sarray<T>::Size(void) const' : no suitable definition provided for explicit template instantiation request
+                 with
+                 [
+                     T=sstring
+                 ]
+                 F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Stypes.h(69) : see declaration of 'sarray<T>::Size'
+                 with
+                 [
+                     T=sstring
+                 ]
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.dll" /INCREMENTAL:NO /NOLOGO /DEF:"eanalyzer.def" /MANIFEST /ManifestFile:"Release\EAnalyzer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\app.res
+         Release\AssemblyInfo.obj
+         Release\EAForm.obj
+         Release\eanalyzer.obj
+         Release\Stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\BasicUtil.lib
+         F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\zsfTraderLib.lib
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\AssemblyInfo.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\LinkedList.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\NativeObject.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\posixtime.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\SmartLog.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\Stdafx.obj
+         F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\Stypes.obj
+         "F:\workspaces\general_web\ForexRobots\windows_dll\BasicUtil\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.lib and object F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.exp
+     1>LINK : warning LNK4227: metadata operation warning (000403FD) : 'product name' : overriding previous setting
+     1>LINK : warning LNK4227: metadata operation warning (000403FD) : 'title' : overriding previous setting
+         mdpanalyzer.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.dll;#2" /manifest Release\EAnalyzer.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer_CS.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\EAnalyzer_CS\bin\Release\EAnalyzer_CS.pdb" to "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer_CS.pdb".
+       PostBuildEvent:
+         copy app.xml "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\Release\EAnalyzer.dll.xml"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\EAnalyzer.unsuccessfulbuild".
+         Touching "Release\EAnalyzer.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\EAnalyzer\mdpanalyzer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.62

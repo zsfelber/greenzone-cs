@@ -1,0 +1,13 @@
+; MillionDollarPips.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MillionDollarPips"
+
+EXPORTS
+    ; Explicit exports can go here
+
+ValidateUser
+InitializeRobot
+InitializeRobot13
+DeinitializeRobot13
+fun
+fun13

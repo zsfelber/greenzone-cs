@@ -1,0 +1,163 @@
+﻿<assembly n="GreenZoneFxBuildTasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<type n="TForm1" ns="GreenZoneFxBuildTasks" id="33554434" mod="P" t="cl">
+		<base-t n="TSystem.Windows.Forms.Form" id="33555464"/>
+		<field n="components" id="67108865" t="TSystem.ComponentModel.IContainer" mod="0">
+		</field>
+		<field n="testParserButton" id="67108866" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<field n="testCsCompilerButton" id="67108867" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<field n="generateFxBase" id="67108868" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<field n="genReflButton" id="67108869" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<field n="debugButton" id="67108870" t="TSystem.Windows.Forms.Button" mod="0">
+		</field>
+		<method n="TDispose" id="100663297" rt="v" mod="op">
+			<param t="b" n="disposing">
+			</param>
+		</method>
+		<method n="TInitializeComponent" id="100663298" rt="v" mod="0">
+		</method>
+		<constr id="100663299" mod="P">
+		</constr>
+		<method n="TtestCsParserButton_Click" id="100663300" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TtestCsCompilerButton_Click" id="100663301" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TgenerateFxBase_Click" id="100663302" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TgenReflButton_Click" id="100663303" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TdebugButton_Click" id="100663304" rt="v" mod="0">
+			<param t="O" n="sender">
+			</param>
+			<param t="TSystem.EventArgs" n="e">
+			</param>
+		</method>
+		<method n="TGenericArgsInfo" id="100663305" rt="X" mod="0">
+			<param t="t" n="type">
+			</param>
+		</method>
+		<method n="TGenericArgsCnt" id="100663306" rt="n" mod="0">
+			<param t="t" n="type">
+			</param>
+		</method>
+	</type>
+	<type n="TProgram" ns="GreenZoneFxBuildTasks" id="33554435" mod="s" t="cl">
+		<method n="TAllocConsole" id="100663307" rt="b" mod="s0">
+			<attrs>
+				<attr t="aSystem.Runtime.InteropServices.DllImportAttribute" constr="100678650">
+					<args>
+						<arg t="X" v="Kernel32.dll"/>
+					</args>
+					<named-args>
+						<arg t="X" v="AllocConsole" p="EntryPoint"/>
+						<arg t="TSystem.Runtime.InteropServices.CharSet" v="1" p="CharSet"/>
+						<arg t="b" v="False" p="ExactSpelling"/>
+						<arg t="b" v="False" p="SetLastError"/>
+						<arg t="b" v="True" p="PreserveSig"/>
+						<arg t="TSystem.Runtime.InteropServices.CallingConvention" v="1" p="CallingConvention"/>
+						<arg t="b" v="False" p="BestFitMapping"/>
+						<arg t="b" v="False" p="ThrowOnUnmappableChar"/>
+					</named-args>
+				</attr>
+				<attr t="aSystem.Runtime.InteropServices.PreserveSigAttribute" constr="100678637">
+				</attr>
+			</attrs>
+		</method>
+		<method n="TMain" id="100663308" rt="v" mod="s0">
+			<attrs>
+				<attr t="aSystem.STAThreadAttribute" constr="100668152">
+				</attr>
+			</attrs>
+		</method>
+	</type>
+	<type n="G1ga;Aaa" ns="" id="33554436" mod="P" t="cl">
+		<type n="G1ga;Aaa+G2ga;gb;B" ns="" id="33554437" mod="P" t="cl">
+			<type n="G1ga;Aaa+G2ga;gb;B+G3ga;gb;gc;C" ns="" id="33554438" mod="P" t="cl">
+				<constr id="100663311" mod="P">
+				</constr>
+			</type>
+			<constr id="100663310" mod="P">
+			</constr>
+		</type>
+		<constr id="100663309" mod="P">
+		</constr>
+	</type>
+	<type n="TSettings" ns="GreenZoneFxBuildTasks.Properties" id="33554439" mod="e" t="cl">
+		<attrs>
+			<attr t="aSystem.CodeDom.Compiler.GeneratedCodeAttribute" constr="100667702">
+				<args>
+					<arg t="X" v="Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator"/>
+					<arg t="X" v="10.0.0.0"/>
+				</args>
+			</attr>
+			<attr t="aSystem.Runtime.CompilerServices.CompilerGeneratedAttribute" constr="100680591">
+			</attr>
+		</attrs>
+		<base-t n="TSystem.Configuration.ApplicationSettingsBase" id="33556288"/>
+		<field n="defaultInstance" id="67108871" t="TGreenZoneFxBuildTasks.Properties.Settings" mod="s0">
+		</field>
+		<constr id="100663313" mod="P">
+		</constr>
+		<constr id="100663314" mod="s0">
+		</constr>
+		<prop n="Default" id="385875969" t="TGreenZoneFxBuildTasks.Properties.Settings" r="True" w="False" mod="sP">
+		</prop>
+	</type>
+	<type n="TResources" ns="GreenZoneFxBuildTasks.Properties" id="33554440" mod="" t="cl">
+		<attrs>
+			<attr t="aSystem.Diagnostics.DebuggerNonUserCodeAttribute" constr="100672426">
+			</attr>
+			<attr t="aSystem.Runtime.CompilerServices.CompilerGeneratedAttribute" constr="100680591">
+			</attr>
+			<attr t="aSystem.CodeDom.Compiler.GeneratedCodeAttribute" constr="100667702">
+				<args>
+					<arg t="X" v="System.Resources.Tools.StronglyTypedResourceBuilder"/>
+					<arg t="X" v="4.0.0.0"/>
+				</args>
+			</attr>
+		</attrs>
+		<field n="resourceMan" id="67108872" t="TSystem.Resources.ResourceManager" mod="s0">
+		</field>
+		<field n="resourceCulture" id="67108873" t="TSystem.Globalization.CultureInfo" mod="s0">
+		</field>
+		<constr id="100663315" mod="i">
+		</constr>
+		<prop n="ResourceManager" id="385875970" t="TSystem.Resources.ResourceManager" r="True" w="False" mod="si">
+			<attrs>
+				<attr t="aSystem.ComponentModel.EditorBrowsableAttribute" constr="100665195">
+					<args>
+						<arg t="TSystem.ComponentModel.EditorBrowsableState" v="2"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+		<prop n="Culture" id="385875971" t="TSystem.Globalization.CultureInfo" r="True" w="True" mod="si">
+			<attrs>
+				<attr t="aSystem.ComponentModel.EditorBrowsableAttribute" constr="100665195">
+					<args>
+						<arg t="TSystem.ComponentModel.EditorBrowsableState" v="2"/>
+					</args>
+				</attr>
+			</attrs>
+		</prop>
+	</type>
+</assembly>

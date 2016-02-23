@@ -1,0 +1,67 @@
+﻿Build started 8/4/2012 2:49:08 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate\servervalidatedll\servervalidatedll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ServerValidateDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\CustomLibs\include /ZI /nologo /W3 /WX- /Od /Oy- /D CURL_STATICLIB /D _MBCS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractCodeInfo.cpp base64.cpp CURLRetriever.cpp disphelper.cpp GenComputerString.cpp HTTPRspCodeClassString.cpp HTTPRspCodeDescription.cpp HTTPRspCodeString.cpp main.cpp xmlParser.cpp
+         xmlParser.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(61): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(101): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(103): error C2664: 'XMLNode::parseString' : cannot convert parameter 1 from 'const char *' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(105): error C2664: 'XMLNode XMLNode::getChildNode(int) const' : cannot convert parameter 1 from 'const char [7]' to 'int'
+                 There is no context in which this conversion is possible
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(109): error C2665: 'convertToInt' : none of the 2 overloads could convert all the argument types
+                 f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\convert.h(72): could be 'int convertToInt(const std::string &)'
+                 f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\convert.h(81): or       'int convertToInt(const char *)'
+                 while trying to match the argument list '(const wchar_t *)'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(117): error C2664: 'XMLNode XMLNode::getChildNode(int) const' : cannot convert parameter 1 from 'const char [11]' to 'int'
+                 There is no context in which this conversion is possible
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(121): error C2664: 'strcpy' : cannot convert parameter 2 from 'const wchar_t *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(129): error C2664: 'XMLNode XMLNode::getChildNode(int) const' : cannot convert parameter 1 from 'const char [10]' to 'int'
+                 There is no context in which this conversion is possible
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(133): error C2665: 'convertToInt' : none of the 2 overloads could convert all the argument types
+                 f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\convert.h(72): could be 'int convertToInt(const std::string &)'
+                 f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\convert.h(81): or       'int convertToInt(const char *)'
+                 while trying to match the argument list '(const wchar_t *)'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\main.cpp(168): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         HTTPRspCodeString.cpp
+         HTTPRspCodeDescription.cpp
+         HTTPRspCodeClassString.cpp
+         GenComputerString.cpp
+         disphelper.cpp
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(899): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(911): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(914): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1123): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1151): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1156): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1162): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1177): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1205): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+     1>f:\workspaces\general_web\forexrobots\windows_dll\mt4servervalidate\servervalidatedll\disphelper.cpp(1213): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 l:\program files\microsoft visual studio 10.0\vc\include\stdio.h(488) : see declaration of '_snwprintf'
+         CURLRetriever.cpp
+         base64.cpp
+         AbstractCodeInfo.cpp
+         Generating Code...
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\mt4servervalidate\servervalidatedll\servervalidatedll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.46

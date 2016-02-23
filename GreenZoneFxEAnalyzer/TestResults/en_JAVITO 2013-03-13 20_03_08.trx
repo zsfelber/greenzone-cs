@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b43bd4ea-8946-4ece-9a5b-d74d227d2424" name="en@JAVITO 2013-03-13 20:03:08" runUser="JAVITO\en" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c2fb43d-b731-4a7e-9ecb-951d09d9071d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="en_JAVITO 2013-03-13 20_03_08">
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEAnalyzer\bin\Debug\GreenZoneFxEAnalyzer.dll" />
+      <DeploymentItem filename="F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\GreenZoneFxEngine\bin\Debug\GreenZoneFxEngine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-13T20:03:08.6406250+01:00" queuing="2013-03-13T20:03:14.1250000+01:00" start="2013-03-13T20:03:14.5937500+01:00" finish="2013-03-13T20:03:42.6718750+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="2" error="0" failed="1" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BinarySeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="624d876a-01b6-5ac5-df80-e8d9c50d4500">
+      <Execution id="f54793fd-f8c0-4264-93b0-ed91b8c03865" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="CsvRWTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="51176f26-fc54-5355-1438-b0cd8241af1f">
+      <Execution id="2d8a6ed5-18b6-4c5d-be9a-8b0d7d099fed" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvRWTest" />
+    </UnitTest>
+    <UnitTest name="datetime" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="3ece3637-02f2-b9a7-cf44-8cad9965f457">
+      <Execution id="10eac4da-549b-46f6-b44c-c561bfae2122" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TypesTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="datetime" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest1" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="a7785222-8bf0-85bd-0721-ed354a9eff36">
+      <Execution id="99aa24d3-9616-4331-a8c4-bad27ca8784d" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest1" />
+    </UnitTest>
+    <UnitTest name="CsvSeekAppendTest" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb">
+      <Execution id="a65fc112-ef5b-4f22-99a6-3ec32a863e45" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CsvSeekAppendTest" />
+    </UnitTest>
+    <UnitTest name="BinaryRWTest2" storage="f:\workspaces\general_web\forexrobots\windows_dll\greenzonefxeanalyzer\unittests\bin\debug\unittests.dll" id="4742e815-c122-f259-96af-62b1d64fba4c">
+      <Execution id="5c143d06-1c5d-42cc-b964-d4df6bf98082" />
+      <TestMethod codeBase="F:/workspaces/general_web/ForexRobots/windows_dll/GreenZoneFxEAnalyzer/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.Mt4FileUtilTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinaryRWTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" executionId="10eac4da-549b-46f6-b44c-c561bfae2122" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4742e815-c122-f259-96af-62b1d64fba4c" executionId="5c143d06-1c5d-42cc-b964-d4df6bf98082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51176f26-fc54-5355-1438-b0cd8241af1f" executionId="2d8a6ed5-18b6-4c5d-be9a-8b0d7d099fed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" executionId="f54793fd-f8c0-4264-93b0-ed91b8c03865" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7785222-8bf0-85bd-0721-ed354a9eff36" executionId="99aa24d3-9616-4331-a8c4-bad27ca8784d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" executionId="a65fc112-ef5b-4f22-99a6-3ec32a863e45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="10eac4da-549b-46f6-b44c-c561bfae2122" testId="3ece3637-02f2-b9a7-cf44-8cad9965f457" testName="datetime" computerName="JAVITO" duration="00:00:00.6999155" startTime="2013-03-13T20:03:14.6875000+01:00" endTime="2013-03-13T20:03:16.1875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10eac4da-549b-46f6-b44c-c561bfae2122">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3/13/2013 8:03:16 PM&gt;. Actual:&lt;3/13/2013 8:03:16 PM&gt;. d1 == d2</Message>
+          <StackTrace>   at UnitTests.TypesTest.datetime() in F:\workspaces\general_web\ForexRobots\windows_dll\GreenZoneFxEAnalyzer\UnitTests\TypesTest.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c143d06-1c5d-42cc-b964-d4df6bf98082" testId="4742e815-c122-f259-96af-62b1d64fba4c" testName="BinaryRWTest2" computerName="JAVITO" duration="00:00:21.0468750" startTime="2013-03-13T20:03:16.2031250+01:00" endTime="2013-03-13T20:03:37.2500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c143d06-1c5d-42cc-b964-d4df6bf98082">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d8a6ed5-18b6-4c5d-be9a-8b0d7d099fed" testId="51176f26-fc54-5355-1438-b0cd8241af1f" testName="CsvRWTest" computerName="JAVITO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d8a6ed5-18b6-4c5d-be9a-8b0d7d099fed">
+    </UnitTestResult>
+    <UnitTestResult executionId="f54793fd-f8c0-4264-93b0-ed91b8c03865" testId="624d876a-01b6-5ac5-df80-e8d9c50d4500" testName="BinarySeekAppendTest" computerName="JAVITO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f54793fd-f8c0-4264-93b0-ed91b8c03865">
+    </UnitTestResult>
+    <UnitTestResult executionId="99aa24d3-9616-4331-a8c4-bad27ca8784d" testId="a7785222-8bf0-85bd-0721-ed354a9eff36" testName="BinaryRWTest1" computerName="JAVITO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99aa24d3-9616-4331-a8c4-bad27ca8784d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a65fc112-ef5b-4f22-99a6-3ec32a863e45" testId="e201862c-f08e-f4c1-f1f5-9317e0ea1ebb" testName="CsvSeekAppendTest" computerName="JAVITO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a65fc112-ef5b-4f22-99a6-3ec32a863e45">
+    </UnitTestResult>
+  </Results>
+</TestRun>

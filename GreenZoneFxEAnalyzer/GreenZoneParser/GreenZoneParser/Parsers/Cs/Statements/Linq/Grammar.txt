@@ -1,0 +1,77 @@
+﻿http://en.csharp-online.net/CSharp_Enhancements_for_LINQ%E2%80%94Query_Expression_Grammar
+
+    query-expression:
+
+        from-clause query-body
+
+    from-clause:
+
+        from typeopt identifier in expression join-clausesopt
+
+    join-clauses:
+
+        join-clause
+        join-clauses join-clause
+
+    join-clause:
+
+        join typeopt identifier in expression on expression equals expression
+        join typeopt identifier in expression on expression equals expression into identifier
+
+    query-body:
+
+        from-let-where-clausesopt orderby-clauseopt select-or-group-clause query-continuationopt
+
+    from-let-where-clauses:
+
+        from-let-where-clause
+        from-let-where-clauses from-let-where-clause
+
+    from-let-where-clause:
+
+        from-clause
+        let-clause
+        where-clause
+
+    let-clause:
+
+        let identifier = expression
+
+    where-clause:
+
+        where boolean-expression
+
+    orderby-clause:
+
+        orderby orderings
+
+    orderings:
+
+        ordering
+        orderings, ordering
+
+    ordering:
+
+        expression ordering-directionopt
+
+    ordering-direction:
+
+        ascending
+        descending
+
+    select-or-group-clause:
+
+        select-clause
+        group-clause
+
+    select-clause:
+
+        select expression
+
+    group-clause:
+
+        group expression by expression
+
+    query-continuation:
+
+        into identifier join-clausesopt query-body

@@ -1,0 +1,10 @@
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\BaseServer.dll.config
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\BaseServer.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\BaseServer.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\Base.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\EntityFramework.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\Base.pdb
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\bin\Debug\EntityFramework.xml
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\obj\Debug\ResolveAssemblyReference.cache
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\obj\Debug\BaseServer.dll
+F:\workspaces\general_web\ForexRobots\windows_dll\SubmarineLicenseManager\BaseServer\obj\Debug\BaseServer.pdb

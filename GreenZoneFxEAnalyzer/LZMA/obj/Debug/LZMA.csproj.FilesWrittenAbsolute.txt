@@ -1,0 +1,5 @@
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/LZMA/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/LZMA/bin/Debug/LZMA.dll.mdb
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/LZMA/bin/Debug/LZMA.dll
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/LZMA/obj/Debug/LZMA.dll
+/ubu64/free_storage/windows_dll/GreenZoneFxEAnalyzer/LZMA/obj/Debug/LZMA.dll.mdb

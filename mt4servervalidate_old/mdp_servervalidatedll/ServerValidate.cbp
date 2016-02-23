@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ServerValidate" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="MinGW\ServerValidate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="..\curl-7.20.1\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lws2_32 -lwinmm -Wl,--kill-at" />
+					<Add library="C:\Tools\curl-7.19.6\curl-7.19.6\lib\LIB-Release\libvc6libcurl.a" />
+					<Add library="C:\MinGW\lib\libws2_32.a" />
+					<Add library="C:\MinGW\lib\libwinmm.a" />
+					<Add library="C:\MinGW\lib\libwldap32.a" />
+					<Add library="C:\Projects\openssl-0.9.8k\openssl-0.9.8k\out\libssl.a" />
+					<Add library="C:\Projects\openssl-0.9.8k\openssl-0.9.8k\out\libcrypto.a" />
+					<Add library="C:\Projects\openssl-0.9.8k\openssl-0.9.8k\out\libeay32.a" />
+					<Add library="C:\Projects\openssl-0.9.8k\openssl-0.9.8k\out\libssl32.a" />
+					<Add library="C:\MinGW\lib\libsnmpapi.a" />
+					<Add directory="C:\Tools\curl-7.19.6\curl-7.19.6\lib\LIB-Release" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="MinGW\ServerValidate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-march=i586" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add directory="..\curl-7.21.4\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\Tools\Libraries\curl-7.21.6\curl-7.21.6\lib\LIB-Release\libcurl.lib" />
+					<Add directory="C:\Tools\Libraries\curl-7.21.6\curl-7.21.6\include" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lws2_32 -lwinmm -lwldap32 -lsnmpapi -lgdi32 -lwsock32 -Wl,--kill-at -liphlpapi" />
+			<Add library="C:\MinGW\lib\libws2_32.a" />
+			<Add library="C:\MinGW\lib\libwinmm.a" />
+			<Add library="C:\MinGW\lib\libwldap32.a" />
+			<Add library="C:\MinGW\lib\libsnmpapi.a" />
+			<Add library="C:\MinGW\lib\libgdi32.a" />
+			<Add library="C:\MinGW\lib\libole32.a" />
+			<Add library="C:\MinGW\lib\liboleaut32.a" />
+			<Add library="C:\MinGW\lib\libuuid.a" />
+		</Linker>
+		<Unit filename="AbstractCodeInfo.cpp" />
+		<Unit filename="AbstractCodeInfo.h" />
+		<Unit filename="CURLRetriever.cpp" />
+		<Unit filename="CURLRetriever.h" />
+		<Unit filename="GenComputerString.cpp" />
+		<Unit filename="GenComputerString.h" />
+		<Unit filename="HTTPRspCodeClassString.cpp" />
+		<Unit filename="HTTPRspCodeClassString.h" />
+		<Unit filename="HTTPRspCodeDescription.cpp" />
+		<Unit filename="HTTPRspCodeDescription.h" />
+		<Unit filename="HTTPRspCodeString.cpp" />
+		<Unit filename="HTTPRspCodeString.h" />
+		<Unit filename="base64.cpp" />
+		<Unit filename="base64.h" />
+		<Unit filename="convert.h" />
+		<Unit filename="disphelper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="disphelper.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="xmlParser.cpp" />
+		<Unit filename="xmlParser.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

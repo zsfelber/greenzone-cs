@@ -1,0 +1,36 @@
+﻿Build started 9/22/2013 2:36:40 PM.
+     1>Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanelBridge\Mt4ControlPanelBridge.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Mt4ControlPanelBridge.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Mt4ControlPanelBridge.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Mt4ControlPanelBridge.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.dll /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"L:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Mt4ControlPanelBridge.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Mt4ControlPanelBridge.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         L:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelBridge.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Mt4ControlPanelBridge.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelBridge.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Mt4ControlPanelBridge.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Mt4ControlPanelBridge.vcxproj -> F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelBridge.dll
+       Manifest:
+         L:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelBridge.dll;#2" /manifest Debug\Mt4ControlPanelBridge.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.dll" to "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelGui.dll".
+         Copying file from "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Gui\bin\Debug\Mt4ControlPanelGui.pdb" to "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Debug\Mt4ControlPanelGui.pdb".
+       FinalizeBuildStatus:
+         Deleting file "Debug\Mt4ControlPanelBridge.unsuccessfulbuild".
+         Touching "Debug\Mt4ControlPanelBridge.lastbuildstate".
+     1>Done Building Project "F:\workspaces\general_web\ForexRobots\windows_dll\Mt4ControlPanel\Mt4ControlPanelBridge\Mt4ControlPanelBridge.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.98
