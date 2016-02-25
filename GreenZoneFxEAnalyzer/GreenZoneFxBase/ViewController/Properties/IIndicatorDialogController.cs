@@ -51,7 +51,7 @@ namespace GreenZoneFxEngine.ViewController.Properties
             set;
         }
 
-        [GreenRmiField(GreenRmiFieldType.Readonly)]
+		[GreenRmiField(GreenRmiFieldType.Readonly)]
         ButtonController RemoveButton
         {
             get;

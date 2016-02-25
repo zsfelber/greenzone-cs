@@ -387,6 +387,11 @@ namespace GreenZoneFxEngine.Trading
         void ApplyFilters(IHistoryOrderEtc newOrder = null);
     }
 
+	[GreenRmi]
+	public interface IServerOrdersHistoryView : IOrdersHistoryView
+	{
+	}
+
 
     [GreenRmi]
     public interface IOrder : IRmiBase, IParams

@@ -12,7 +12,7 @@ namespace GreenZoneParser.Reflect
     public class ReflIndexerSet : ReflMethodBase
     {
         internal ReflIndexerSet(Resolver resolver, IParser parser, INode parseNode, int id, ReflObjType declaringType, ReflIndexerProperty parent, ReflModifier modifiers, ReflAttribute[] attributes)
-			: base(resolver, parser, parseNode, id, declaringType, "set", modifiers, attributes, GreenZoneUtils.AddToArray(parent.IndexerArgs, new ReflMethodArgDefinition(resolver, parser, parseNode, parent.PropertyType, "value", ReflMethodArgType.Value)))
+			: base(resolver, parser, parseNode, id, declaringType, "set", modifiers, attributes, GreenZoneSysUtilsBase.AddToArray(parent.IndexerArgs, new ReflMethodArgDefinition(resolver, parser, parseNode, parent.PropertyType, "value", ReflMethodArgType.Value)))
         {
             this.parent = parent;
         }

@@ -6,7 +6,7 @@ using System.Collections;
 
 namespace GreenZoneFxEngine.Util
 {
-
+	// TODO the public interface , hide unsafe hacking classes
     public interface ISeriesArr
     {
         void SetLengthAndDetachChildren(int value);
@@ -22,7 +22,7 @@ namespace GreenZoneFxEngine.Util
     }
 
     
-    
+    // TODO move to c# helper utils binding layer
     
     public unsafe class Memory
     {

@@ -342,7 +342,7 @@ namespace GreenZoneParser.Reflect
 			string constant = null;
 			try {
 				if (memberNode.GetRawConstantValue () != null) {
-					constant = GreenZoneUtils.EscapeXml (memberNode.GetRawConstantValue ());
+					constant = GreenZoneSysUtilsBase.EscapeXml (memberNode.GetRawConstantValue ());
 				}
 			} catch (InvalidOperationException) {
 			}
@@ -429,11 +429,11 @@ namespace GreenZoneParser.Reflect
 
 				int i = 0;
 				foreach (var a in attr.ConstructorArguments) {
-					new ReflAttributeArg (resolver, null, null, rattr, i, GreenZoneUtils.EscapeXml (a.Value));
+					new ReflAttributeArg (resolver, null, null, rattr, i, GreenZoneSysUtilsBase.EscapeXml (a.Value));
 					i++;
 				}
 				foreach (var a in attr.NamedArguments) {
-					new ReflAttributeArg (resolver, null, null, rattr, a.MemberInfo.Name, GreenZoneUtils.EscapeXml (a.TypedValue.Value));
+					new ReflAttributeArg (resolver, null, null, rattr, a.MemberInfo.Name, GreenZoneSysUtilsBase.EscapeXml (a.TypedValue.Value));
 				}
 
 			}
@@ -621,7 +621,7 @@ namespace GreenZoneParser.Reflect
 		public static IEnumerable<Type> GetBaseInterfaces (Type type)
 		{
 			var allInterfaces = type.GetInterfaces ();
-			var allBaseTypes = type.BaseType == null ? allInterfaces : GreenZoneUtils.AddToArray (allInterfaces, type.BaseType);
+			var allBaseTypes = type.BaseType == null ? allInterfaces : GreenZoneSysUtilsBase.AddToArray (allInterfaces, type.BaseType);
 			var result = allInterfaces.Except
                     (allBaseTypes.SelectMany (t => t.GetInterfaces ()));
 			return result;

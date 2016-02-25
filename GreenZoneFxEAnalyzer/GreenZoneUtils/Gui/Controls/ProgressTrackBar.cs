@@ -12,6 +12,7 @@ using System.Drawing.Drawing2D;
 
 namespace GreenZoneUtil.Gui
 {
+	// TODO similar, an even better one : mono icon+title with effect+errors/warnings icon,+progress bar
     [DefaultProperty("MaxValue")]
     [DefaultEvent("TickPositionChanged")]
     public class ProgressTrackBar : UserControl

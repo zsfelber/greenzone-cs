@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Globalization;
+using GreenZoneUtil.StdTypes;
 
 namespace GreenZoneParser.Reflect
 {
@@ -45,7 +46,7 @@ namespace GreenZoneParser.Reflect
             if (type.Equals(typeof(Color)))
             {
                 int i = Convert.ToInt32(value);
-                result = Color.FromArgb(i);
+                result = new Color(i);
             }
             else if (typeof(Enum).IsAssignableFrom(type))
             {

@@ -6,8 +6,8 @@ using GreenZoneUtil.Util;
 
 using System.Windows.Forms;
 using GreenZoneUtil.GreenRmi;
-using System.Reflection;
 using System.Runtime.Serialization;
+using GreenZoneParser.Reflect;
 
 namespace GreenZoneUtil.ViewController
 {

@@ -66,7 +66,6 @@
     <Compile Include="Util\IParams.cs" />
     <Compile Include="Util\ListItem.cs" />
     <Compile Include="Util\Property.cs" />
-    <Compile Include="Util\Utils.cs" />
     <Compile Include="ViewController\AssistantFormController.cs" />
     <Compile Include="ViewController\AssistantPageController.cs" />
     <Compile Include="ViewController\BufferedPropertyGridController.cs" />
@@ -103,6 +102,7 @@
     <Compile Include="ViewController\ToggleButtonController.cs" />
     <Compile Include="ViewController\TreeController.cs" />
     <Compile Include="ViewController\TreeNodeController.cs" />
+    <Compile Include="Util\GreenZoneUtilsBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Gui\CharMapDialog.resx">
@@ -122,4 +122,14 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\GreenZoneReflection\GreenZoneReflection.csproj">
+      <Project>{F03E5BBA-C851-47DA-B31C-5B954FD896FD}</Project>
+      <Name>GreenZoneReflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Dropbox\ForexRobots\Fx6chambers\VeryBasic\VeryBasic.csproj">
+      <Project>{ED16C4F2-D32F-489D-9990-E9707EDD8C59}</Project>
+      <Name>VeryBasic</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

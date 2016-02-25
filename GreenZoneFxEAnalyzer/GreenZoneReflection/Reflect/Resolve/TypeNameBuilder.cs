@@ -151,6 +151,7 @@ namespace GreenZoneParser.Reflect
             return result.ToString();
         }
 
+        // TODO relocate, c# reflection tweaking
         public string GetTypeId(TypeNameItem type, bool isLeaf = true)
         {
             StringBuilder result = new StringBuilder();

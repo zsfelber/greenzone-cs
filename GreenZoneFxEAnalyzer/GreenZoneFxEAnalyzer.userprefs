@@ -1,15 +1,6 @@
 ﻿<Properties StartupItem="Launcher/Launcher.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GreenZoneReflection/Reflect/Resolve/Resolver.cs">
-    <Files>
-      <File FileName="GreenZoneReflection/Reflect/ReflObjType.cs" Line="120" Column="1" />
-      <File FileName="GreenZoneReflection/Reflect/ReflCallableType.cs" Line="7" Column="1" />
-      <File FileName="GreenZoneReflection/Reflect/ReflBaseNode.cs" Line="14" Column="38" />
-      <File FileName="GreenZoneReflection/Reflect/Resolve/GzEngineFormatter.cs" Line="6" Column="1" />
-      <File FileName="GreenZoneReflection/Reflect/Resolve/Resolver.cs" Line="14" Column="34" />
-      <File FileName="GreenZoneReflection/Reflect/Resolve/PureReflResolver.cs" Line="753" Column="43" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

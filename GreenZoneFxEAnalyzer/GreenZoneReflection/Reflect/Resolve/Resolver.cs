@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using GreenZoneUtil.Util;
+using System.Reflection;
 
 
 
 namespace GreenZoneParser.Reflect
 {
-    public class Resolver
+    public abstract class Resolver
     {
         readonly SortedDictionary<string, ReflType> types;
         public readonly ReadOnlyDictionary<string, ReflType> Types;
@@ -267,17 +268,7 @@ namespace GreenZoneParser.Reflect
             {
                 case "de":
                     ReflMethod invoke = null;
-                    foreach (var memberNode in defTypeInfo.UnparsedMembers)
-                    {
-                        object nmobj;
-                        memberNode.OpenTag.attributes.TryGetValue("n", out nmobj);
-
-                        if ("TInvoke".Equals(nmobj))
-                        {
-                            invoke = parseReflMethod(defTypeInfo, null, memberNode);
-                            break;
-                        }
-                    }
+					// TODO defTypeInfo.UnparsedMembers removed  -> invoke = parseReflMethod(defTypeInfo, memberNode)break
                     if (invoke == null)
                     {
                         throw new NotSupportedException();
@@ -354,18 +345,77 @@ namespace GreenZoneParser.Reflect
                         parentType.AddMember(type);
                     }
 
-                    ReflObjType objType = (ReflObjType)type;
-                    if (defTypeInfo.UnparsedMembers != null)
-                    {
-                        foreach (var memberNode in defTypeInfo.UnparsedMembers)
-                        {
-                            ReflMember member = parseReflMember(defTypeInfo, objType, memberNode);
-                            objType.AddMember(member);
-                        }
-                    }
+					// TODO defTypeInfo.UnparsedMembers removed  -> objType.AddMember(parseReflMember...)
                     break;
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+		protected abstract ReflMember parseReflMember (ReflObjType declaringType, MemberInfo memberNode);
+
+		protected abstract ReflMethod parseReflMethod (ReflObjType declaringType, MethodInfo memberNode);
+
+		protected abstract ReflConstructor parseReflConstr (ReflObjType declaringType, ConstructorInfo memberNode);
+
+		protected abstract ReflMember parseReflProp (ReflObjType declaringType, PropertyInfo memberNode);
+
+		protected abstract ReflField parseReflField (ReflObjType declaringType, FieldInfo memberNode);
+
+		protected abstract ReflEvent parseReflEvent (ReflObjType declaringType, EventInfo memberNode);
+
+		protected abstract ReflTypeArgDefinition[] parseReflGenericArgDefs (Type type);
+
+		protected abstract ReflTypeArgDefinition[] parseReflGenericArgDefs (MethodInfo minf);
+
+		protected abstract ReflTypeArgDefinition[] parseReflGenericArgDefs (Type[] gas);
+
+		protected abstract ReflAttribute[] parseReflAttributes (MemberInfo memberInfo);
+
+		protected abstract ReflAttribute[] parseReflAttributes (IEnumerable<CustomAttributeData> attrs);
+
+		protected abstract ReflMethodArgDefinition[] parseReflMethodParameters (MethodBase methodNode);
+
+		protected abstract ReflMethodArgDefinition[] parseReflMethodParameters (PropertyInfo propertyNode);
+
+		protected abstract ReflMethodArgDefinition[] parseReflMethodParameters (ParameterInfo[] parameters, bool isExtension);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         ReflTypeArgDefinition[] parseReflGenericArgDefs(ParseInfo parseInfo)
         {
@@ -570,7 +620,7 @@ namespace GreenZoneParser.Reflect
                 case 'A':
                     startPos = pos + 1;
                     length = -1;
-                    num = GreenZoneUtils.FindNumberBegin(typeCode, ref startPos, ref length);
+                    num = GreenZoneSysUtilsBase.FindNumberBegin(typeCode, ref startPos, ref length);
                     if (startPos == -1)
                     {
                         throw new NotSupportedException();
@@ -588,7 +638,7 @@ namespace GreenZoneParser.Reflect
                 case 'G':
                     startPos = pos + 1;
                     length = -1;
-                    num = GreenZoneUtils.FindNumberBegin(typeCode, ref startPos, ref length);
+                    num = GreenZoneSysUtilsBase.FindNumberBegin(typeCode, ref startPos, ref length);
                     if (startPos == -1)
                     {
                         throw new NotSupportedException();

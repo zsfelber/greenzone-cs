@@ -6,3 +6,10 @@
 /ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtil.Gui.CharMapDialog.resources
 /ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilBase.Properties.Resources.resources
 /ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilsBase.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/GreenZoneReflection.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/GreenZoneReflection.dll.mdb
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/VeryBasic.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/VeryBasic.dll.mdb
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/GreenZoneUtilsBase.dll.mdb
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/bin/Debug/GreenZoneUtilsBase.dll
+/ubu64/free_storage/greenzone-cs/GreenZoneFxEAnalyzer/GreenZoneUtilsBase/obj/Debug/GreenZoneUtilsBase.dll.mdb

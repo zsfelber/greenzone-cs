@@ -21,6 +21,7 @@ namespace GreenZoneUtil.Gui
         All = 15
     }
 
+	// TODO -> move to c# specific gui components
     //[ToolboxBitmap(typeof(DraggableTabControl))]
     /// <summary>
     /// Summary description for DraggableTabPage.

@@ -127,6 +127,18 @@
       <Project>{994EE7A0-E2B0-417D-A191-0E2B4868E798}</Project>
       <Name>GreenZoneUtilsBase</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GreenZoneReflection\GreenZoneReflection.csproj">
+      <Project>{F03E5BBA-C851-47DA-B31C-5B954FD896FD}</Project>
+      <Name>GreenZoneReflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Dropbox\ForexRobots\Fx6chambers\VeryBasic\VeryBasic.csproj">
+      <Project>{ED16C4F2-D32F-489D-9990-E9707EDD8C59}</Project>
+      <Name>VeryBasic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenZoneFxBuildTasks\GreenZoneSystemUtils\GreenZoneSystemUtils.csproj">
+      <Project>{7FF311B6-5B1F-4572-9F2B-D4215127F09C}</Project>
+      <Name>GreenZoneSystemUtils</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Types\" />

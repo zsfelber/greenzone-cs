@@ -9,10 +9,11 @@ using System.IO;
 
 namespace GreenZoneUtil.Util
 {
+	// TODO : not a basic but a gui helper type
     [Serializable]
     [Editor(typeof(WingdingsCharEditor), typeof(UITypeEditor))]
     [TypeConverter(typeof(ExpandableObjectConverter))]
-    public struct WingdingsChar : IWingdingsChar
+    public struct WingdingsChar
     {
         int charCode;
 
@@ -52,7 +53,7 @@ namespace GreenZoneUtil.Util
     [Serializable]
     [Editor(typeof(SelectableFileEditor), typeof(UITypeEditor))]
     [TypeConverter(typeof(ExpandableObjectConverter))]
-    public class SelectableFile : ISelectableFile
+    public class SelectableFile
     {
         FileInfo file;
 
@@ -101,7 +102,7 @@ namespace GreenZoneUtil.Util
     [Serializable]
     [Editor(typeof(SelectableDirEditor), typeof(UITypeEditor))]
     [TypeConverter(typeof(ExpandableObjectConverter))]
-    public class SelectableDir : ISelectableDir
+    public class SelectableDir
     {
         DirectoryInfo dir;
 
